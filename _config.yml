@@ -1,0 +1,11 @@
+exclude:
+  - "README.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - ".gitignore"
+  - ".editorconfig"
+
+defaults:
+  -
+    values:
+      layout: "default_ja"

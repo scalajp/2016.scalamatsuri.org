@@ -1,9 +1,16 @@
 ---
 ---
 
-// Offset for fixed top navbar
 body {
+  // Offset for fixed top navbar
   padding-top: 40px;
+}
+
+.footer {
+  border-top: 1px solid #eee;
+  margin-top: 40px;
+  padding: 30px 0;
+  color: #777;
 }
 
 .top-head {
@@ -13,9 +20,11 @@ body {
     margin: 60px 0;
     display: inline-block;
   }
+
   h1 {
     font-size: 63px;
   }
+
   p {
     margin-bottom: 15px;
     font-size: 21px;

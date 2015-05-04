@@ -4,12 +4,14 @@
 // Offset for fixed top navbar
 body {
   padding-top: 40px;
-  background-color: #eee;
 }
 
 .top-head {
+  text-align: center;
+
   .large-logo {
     margin: 60px 0;
+    display: inline-block;
   }
   h1 {
     font-size: 63px;

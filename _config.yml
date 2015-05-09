@@ -4,6 +4,7 @@ exclude:
   - "Gemfile.lock"
   - ".gitignore"
   - ".editorconfig"
+  - "vendor"
 
 defaults:
   -

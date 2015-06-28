@@ -174,7 +174,7 @@ input, select {
 }
 
 .mainVisInner .timeData span{
-	font-size:24px;	
+	font-size:24px;
 }
 
 
@@ -201,7 +201,7 @@ input, select {
 }
 
 .logoArea ul li img{
-	width:100%;	
+	width:100%;
 }
 
 .logoArea h2 img{
@@ -276,7 +276,7 @@ input, select {
 
 .sectionStyle2Inner .contArea p{
 	text-align:center;
-	font-size:14px;	
+	font-size:14px;
 	line-height:24px;
 	padding-bottom:35px;
 }
@@ -325,12 +325,12 @@ input, select {
 .isList article h3{
 	font-size:24px;
 	padding-top:20px;
-	padding-bottom:10px;	
+	padding-bottom:10px;
 	line-height:30px;
 }
 
 .isList article p{
-	font-size:12px;	
+	font-size:12px;
 	line-height:18px;
 }
 
@@ -343,7 +343,7 @@ input, select {
 }
 
 .sectionStyle4 h2{
-	color:#fff;	
+	color:#fff;
 }
 
 .sectionStyle4 .subTtlSm{
@@ -382,11 +382,11 @@ input, select {
 }
 
 .progrumTableArea .btnLeftPg img{
-	width:100%;	
+	width:100%;
 }
 
 .progrumTableArea .btnrightPg img{
-	width:100%;	
+	width:100%;
 }
 
 .sectionStyle5 .sectionHeadArea{
@@ -440,7 +440,7 @@ input, select {
 }
 
 .sectionStyle6 h2{
-	color:#fff;	
+	color:#fff;
 }
 
 .sectionStyle6 .subTtlSm{
@@ -457,7 +457,7 @@ input, select {
 }
 
 .sectionStyle2Inner .sectionHeadArea{
-	width:400px;	
+	width:400px;
 }
 
 .sectionHeadArea{
@@ -524,11 +524,11 @@ input, select {
 	color:#fff;
 	text-align:center;
 	padding-top:10px;
-	padding-bottom:10px;	
+	padding-bottom:10px;
 }
 
 .sectionStyle7Inner .ttlspBox1{
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 
 .sectionStyle7Inner ul li{
@@ -565,15 +565,19 @@ input, select {
 
 .mainFooter{
 	background:#393939;
-	font-size:10px;
-	text-align:center;
-	padding-top:20px;
-	padding-bottom:20px;
+	font-size:12px;
+	line-height: 16px;
+	text-align: center;
+	padding:20px;
 	color:#fff;
 }
 
-.mainFooter p a{
+.mainFooter a{
 	color:#fff;
+}
+
+.mainFooter ul{
+	margin-bottom: 10px;
 }
 
 .pdb10px{
@@ -586,7 +590,7 @@ input, select {
 	text-align:center;
 	font-size:14px;
 }
-		
+
 .pcVer{
 	display:block;
 }
@@ -607,7 +611,7 @@ input, select {
 }
 
 .smVer .sectionStyle7Inner ul{
-	margin-bottom:0px;	
+	margin-bottom:0px;
 }
 
 .smVer .sectionStyle7Inner .ttlspBox1{
@@ -735,33 +739,33 @@ input, select {
 }
 
 @media screen and (max-width: 1024px){
-	
+
 	.snsBtnArea{
 		width:100%;
 	}
-	
+
 	.logoArea h2{
 		width:100%;
 		overflow: hidden;
 	}
-	
+
 	.logoArea{
-		width:100%;	
+		width:100%;
 	}
-	
+
 	.logoArea h2 span.linelSpAreaTop{
 		width:30%;
 	}
-	
+
 	.logoArea h2 span.linerSpAreaTop{
 		width:30%;
 	}
-	
+
 	.logoArea h2 span.ttlSpAreaTop{
 		width:30%;
 		margin-left:-15%;
 	}
-	
+
 	.sectionStyle2Inner{
 		width:96%;
 		padding-top:40px;
@@ -769,36 +773,36 @@ input, select {
 		padding-right:2%;
 		padding-left:2%;
 	}
-	
+
 	.isList{
 		width:100%;
 	}
-	
+
 	.isList article{
 		width:23%;
 		padding-right:1%;
 		padding-left:1%;
 	}
-	
+
 	.isList article img{
 		width:100%;
 	}
-		
+
 }
 
 
 
 @media screen and (max-width: 882px){
-	
-	
+
+
 	.sectionStyle7Inner{
 		width:100%;
 	}
-	
+
 	.sectionStyle7Inner .ttlspBox1{
 		width:100%;
 	}
-	
+
 	.sectionStyle1Inner .txtBlock p{
 		width:96%;
 		margin:0 auto 0 auto;
@@ -807,27 +811,27 @@ input, select {
 }
 
 @media screen and (max-width: 860px){
-	
+
 	.progrumTableArea{
 		width:100%;
-	}	
-	
+	}
+
 }
 
 
 @media screen and (max-width: 760px){
-	
+
 	.ttlSubLCenter{
 		font-size:28px;
 		padding-top:10px;
 	}
-	
+
 	.sectionStyle5 .sectionHeadArea{
 		width:96%;
 		margin:0 auto 0 auto;
 	}
-	
-	
+
+
 	.sectionStyle6 .sectionHeadArea{
 		width:96%;
 		margin:0 auto 0 auto;
@@ -835,7 +839,7 @@ input, select {
 
 
 
-	
+
 	.sectionStyle4 .contTxtArea{
 		width:96%;
 		margin:0 auto 0 auto;
@@ -855,90 +859,90 @@ input, select {
 
 
 @media screen and (max-width: 560px){
-		
+
 		.mainVisInner h1 img{
 		width:90%;
 	}
-		
+
 		.sectionStyle5 h2{
 			position: relative;
 			height:76px;
 		}
-		
+
 		.sectionStyle6 h2{
 			position: relative;
 			height:76px;
 		}
-		
+
 		.sectionStyle5 .sectionHeadArea .ttlSubLLeft{
 			width:12%;
 		}
-		
+
 		.sectionStyle5 .sectionHeadArea .ttlSubLLeft img{
 			width:100%;
 		}
-		
+
 		.sectionStyle5 .sectionHeadArea .ttlSubLRight{
 			width:12%;
 		}
-		
+
 		.sectionStyle5 .sectionHeadArea .ttlSubLRight img{
 			width:100%;
 		}
-		
+
 		.sectionStyle5 .sectionHeadArea .ttlSubLCenter{
 			width:66%;
 			left:50%;
 			margin-left:-33%;
 		}
-		
+
 		.sectionStyle6 .sectionHeadArea .ttlSubLLeft{
 			width:12%;
 		}
-		
+
 		.sectionStyle6 .sectionHeadArea .ttlSubLLeft img{
 			width:100%;
 		}
-		
+
 		.sectionStyle6 .sectionHeadArea .ttlSubLRight{
 			width:12%;
 		}
-		
+
 		.sectionStyle6 .sectionHeadArea .ttlSubLRight img{
 			width:100%;
 		}
-		
+
 		.sectionStyle6 .sectionHeadArea .ttlSubLCenter{
 			width:66%;
 			left:50%;
 			margin-left:-33%;
 		}
-		
+
 		.sectionStyle3 .sectionHeadArea{
 			width:100%;
 		}
-		
+
 }
 
 @media screen and (max-width: 530px){
-		
+
 		.logoArea{
 			display:none;
 		}
-		
+
 		.mainVisInner{
 			background:none;
 			padding-bottom:60px;
 		}
-		
+
 		.smVer{
 			display:block;
 		}
-		
+
 		.pcVer{
 			display:none;
 		}
-		
+
 		.mainHeader{
 			padding-bottom:0px;
 			background:none;
@@ -947,7 +951,7 @@ input, select {
 			padding-right:1%;
 			width:97%;
 		}
-		
+
 		.mainHeader .gnavSmClick{
 			width:19px;
 			background-color: rgba( 0, 0, 0, 0.80 );
@@ -955,32 +959,32 @@ input, select {
 			line-height:0px;
 			font-size:0px;
 		}
-		
+
 		.mainHeader .gnavSmClick img{
-			width:100%;	
+			width:100%;
 		}
-		
+
 		.mainHeader .smVerGnav{
 			background-color: rgba( 0, 0, 0, 0.80 );
 		}
-		
+
 		.snsBtnArea{
 			padding-top:5px;
 		}
-		
+
 		.snsBtnArea li:first-child{
 			width:70px;
 		}
-		
+
 		.gnav p{
 			padding-bottom:15px;
 			 font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 		}
-		
+
 		.sectionStyle1Inner .sectionHeadArea{
 			padding-top:40px;
 		}
-		
+
 }
 
 @media screen and (max-width: 500px){
@@ -989,62 +993,62 @@ input, select {
 		width:96%;
 		margin:0 auto 0 auto;
 	}
-	
+
 	.sectionStyle4 .sectionHeadArea{
 		width:96%;
 		margin:0 auto 0 auto;
 	}
-	
+
 	.isList article{
 		width:46%;
 		padding-right:2%;
 		padding-left:2%;
 		padding-bottom:40px;
 	}
-	
+
 	.sectionStyle4{
 		margin-top:40px;
 	}
-	
+
 	.sectionStyle7 .sectionHeadArea{
 		width:96%;
 		margin:0 auto 0 auto;
 	}
-	
+
 }
 
 @media screen and (max-width: 425px){
-	
+
 	.sectionStyle2Inner .sectionHeadArea{
 		width:96%;
 	}
 
-	
+
 	.sectionStyle1Inner .sectionHeadArea{
 		width:96%;
 	}
-	
+
 	.sectionStyle6 .inqBox{
 		width:100%;
 	}
-	
+
 	.sectionHeadArea .ttlSubLLeft{
 		width:15%;
 	}
 
-	
+
 	.sectionHeadArea .ttlSubLLeft img{
 		width:100%;
 	}
-	
+
 	.sectionHeadArea .ttlSubLRight{
 		width:15%;
 	}
-	
+
 	.sectionHeadArea .ttlSubLRight img{
 		width:100%;
 	}
-	
+
 	.sectionStyle7Inner ul li{
 		width:46%;
 		padding-left:2%;
@@ -1052,9 +1056,9 @@ input, select {
 		padding-bottom:4%;
 		margin:0px;
 	}
-	
+
 	.snsBtnArea{
 		padding-bottom:20px;
 	}
-		
+
 }

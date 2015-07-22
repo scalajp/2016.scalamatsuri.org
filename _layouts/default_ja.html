@@ -11,10 +11,10 @@
     <!-- <meta name="author" content=""> -->
     <!-- <link rel="icon" href="../../favicon.ico"> -->
 
-    <title>ScalaMatsuri 2015</title>
+    <title>{{ page.title }} - ScalaMatsuri 2016</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/extra.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -23,39 +23,20 @@
     <![endif]-->
   </head>
   <body>
-    {{ content }}
-    <footer class="footer">
+    <nav class="navbar navbar-default">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <ul class="list-inline">
-              <!--
-              <li><a href="/code_of_conduct/">行動規範</a></li>
-              -->
-              <li><a href="https://github.com/scalajp/2015.scalamatsuri.org/">Github</a></li>
-            </ul>
-          </div>
-          <div class="col-sm-3">
-            <ul class="list-unstyled">
-              <li>過去の開催</li>
-              <li><a href="http://2014.scalamasturi.org">2014年</a></li>
-              <li><a href="http://2014.scalamasturi.org/2013/">2013年</a></li>
-            </ul>
-          </div>
-          <div class="col-sm-3">
-            <ul class="list-unstyled">
-              <li>Links</li>
-              <li><a href="http://scala-lang.org/">Scala公式ウェブサイト</a></li>
-              <li><a href="http://jp.scala-users.org/">日本Scalaユーザーズグループ</a></li>
-              <li><a href="http://scalajp.github.io/jsa/">Japan Scala Association</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12">&copy; 2015 ScalaMatsuri 事務局</div>
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">
+            ScalaMatsuri 2016
+          </a>
         </div>
       </div>
-    </footer>
+    </nav>
+    <div class="container">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+    {% include ga.html %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="/bootstrap/js/bootstrap.min.js"></script>
 </body>

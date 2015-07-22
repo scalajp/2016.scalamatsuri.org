@@ -82,6 +82,9 @@
     "@btn-danger-bg": "@brand-danger",
     "@btn-danger-border": "darken(@btn-danger-bg, 5%)",
     "@btn-link-disabled-color": "@gray-light",
+    "@btn-border-radius-base": "@border-radius-base",
+    "@btn-border-radius-large": "@border-radius-large",
+    "@btn-border-radius-small": "@border-radius-small",
     "@input-bg": "#fff",
     "@input-bg-disabled": "@gray-lighter",
     "@input-color": "@gray",
@@ -137,14 +140,14 @@
     "@container-md": "@container-desktop",
     "@container-large-desktop": "(1140px + @grid-gutter-width)",
     "@container-lg": "@container-large-desktop",
-    "@navbar-height": "40px",
+    "@navbar-height": "46px",
     "@navbar-margin-bottom": "@line-height-computed",
     "@navbar-border-radius": "@border-radius-base",
     "@navbar-padding-horizontal": "floor((@grid-gutter-width / 2))",
     "@navbar-padding-vertical": "((@navbar-height - @line-height-computed) / 2)",
     "@navbar-collapse-max-height": "340px",
     "@navbar-default-color": "#777",
-    "@navbar-default-bg": "#cf283b",
+    "@navbar-default-bg": "#000",
     "@navbar-default-border": "darken(@navbar-default-bg, 6.5%)",
     "@navbar-default-link-color": "#fff",
     "@navbar-default-link-hover-color": "#333",
@@ -213,6 +216,7 @@
     "@jumbotron-bg": "@gray-lighter",
     "@jumbotron-heading-color": "inherit",
     "@jumbotron-font-size": "ceil((@font-size-base * 1.5))",
+    "@jumbotron-heading-font-size": "ceil((@font-size-base * 4.5))",
     "@state-success-text": "#3c763d",
     "@state-success-bg": "#dff0d8",
     "@state-success-border": "darken(spin(@state-success-bg, -10), 5%)",
@@ -426,5 +430,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=2bfd1e642fb4207bdcbd"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=262be4a3c41ebc90563b"
 }

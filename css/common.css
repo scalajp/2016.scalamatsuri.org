@@ -504,7 +504,7 @@ input, select {
 	width:760px;
 }
 
-.sectionStyle7 .sectionHeadArea{
+.sectionStyle7 .sectionHeadArea, .sectionInquiry .sectionHeadArea {
 	width:500px;
 }
 
@@ -617,6 +617,13 @@ input, select {
 .smVer .sectionStyle7Inner .ttlspBox1{
 	background:#262626;
 	font-weight:normal;
+}
+
+.sectionInquiry .txtBlock {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	line-height: 28px;
 }
 
 .navLinks ul li{
@@ -1010,7 +1017,7 @@ input, select {
 		margin-top:40px;
 	}
 
-	.sectionStyle7 .sectionHeadArea{
+	.sectionStyle7 .sectionHeadArea, .sectionInquiry .sectionHeadArea {
 		width:96%;
 		margin:0 auto 0 auto;
 	}

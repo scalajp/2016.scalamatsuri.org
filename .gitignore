@@ -3,3 +3,6 @@ _site/
 
 /.bundle/
 /vendor/bundle
+
+.rbenv-gemsets
+.ruby-version

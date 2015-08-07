@@ -2,8 +2,27 @@
 ---
 
 
-// Copied from common.css
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 140px;
+  /* Space between body and footer */
+  padding-bottom: 40px;
+}
 .mainFooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 140px;
+  background-color: #f5f5f5;
+
+  // Copied from common.css
   background:#393939;
   font-size:12px;
   line-height: 16px;
@@ -19,4 +38,18 @@
     list-style:none;
     margin-bottom: 10px;
   }
+}
+
+.icon-mini {
+  height: 30px;
+  width: 30px;
+}
+
+.icon-medium {
+  height: 50px;
+  width: 50px;
+}
+
+.candidate-row {
+  margin-bottom: 4px;
 }

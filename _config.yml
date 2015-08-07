@@ -1,3 +1,5 @@
+production_url: http://scalamatsuri.org
+
 exclude:
   - "README.md"
   - "Gemfile"
@@ -10,3 +12,20 @@ defaults:
   -
     values:
       layout: "default_ja"
+  -
+    scope:
+      path: ""
+      type: candidates_ja
+    values:
+      layout: candidates_ja
+
+collections:
+  candidates_ja:
+    output: true
+    permalink: /ja/candidates/:path/
+  candidates_en:
+    output: true
+    permalink: /en/candidates/:path/
+
+safe: true
+lsi: false

@@ -70,7 +70,10 @@ layout: default_ja
 <div class="text-center">
   <a class="twitter-share-button"
     href="https://twitter.com/intent/tweet"
-    data-hashtags="ScalaMatsuri">Tweet</a>
+    data-via="{{ site.ja.twitter }}"
+    data-hashtags="ScalaMatsuri"
+    {% if page.twitter %}data-related="{{ page.twitter }}"{% endif %}>
+    Tweet</a>
 </div>
 
 <div class="text-center" style="margin-top: 30px;">

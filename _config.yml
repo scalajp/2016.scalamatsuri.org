@@ -1,5 +1,3 @@
-production_url: http://scalamatsuri.org
-
 exclude:
   - "README.md"
   - "Gemfile"
@@ -35,3 +33,10 @@ collections:
 
 safe: true
 lsi: false
+
+# Custom variables
+url: "http://scalamatsuri.org"
+ja:
+  twitter: scala_jp
+en:
+  twitter: scalamatsuri

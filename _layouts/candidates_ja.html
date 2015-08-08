@@ -7,6 +7,17 @@ layout: default_ja
   開催されるセッションは後日、参加者の投票により決定されます。
 </div>
 
+<div class="clearfix">
+{% capture enUrl %}{{ page.url | replace_first:'/ja/','/en/' }}{% endcapture %}
+{% for entry in site.candidates_en %}
+  {% if entry.url == enUrl %}
+    <span class="pull-right">
+      <a class="small" href="{{ entry.url }}">English</a>
+    </span>
+  {% endif %}
+{% endfor %}
+</div>
+
 <h1>{{ page.title }}</h1>
 
 {{content}}

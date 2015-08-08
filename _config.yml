@@ -18,6 +18,12 @@ defaults:
       type: candidates_ja
     values:
       layout: candidates_ja
+  -
+    scope:
+      path: ""
+      type: candidates_en
+    values:
+      layout: candidates_en
 
 collections:
   candidates_ja:

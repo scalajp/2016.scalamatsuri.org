@@ -11,10 +11,10 @@ title: Candidate sessions
   data-hashtags="ScalaMatsuri">Tweet</a>
 </div>
 
-<h2>40分</h2>
+<h2>40 minutes sessions</h2>
 <div class="shuffle">
 {% assign has40 = false %}
-{% for candidate in site.candidates_ja %}
+{% for candidate in site.candidates_en %}
   {% if candidate.length == 40 %}
   <div class="row candidate-row">
     <div class="col-sm-8">
@@ -36,10 +36,10 @@ title: Candidate sessions
   <div class="text-muted">No candidates yet</div>
 {% endunless %}
 
-<h2>15分</h2>
+<h2>15 minutes sessions</h2>
 <div class="shuffle">
 {% assign has15 = false %}
-{% for candidate in site.candidates_ja %}
+{% for candidate in site.candidates_en %}
   {% if candidate.length == 15 %}
   <div class="row candidate-row">
     <div class="col-sm-8">

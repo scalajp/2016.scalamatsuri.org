@@ -71,7 +71,7 @@ layout: default_en
     href="https://twitter.com/intent/tweet"
     data-via="{{ site.en.twitter }}"
     data-hashtags="ScalaMatsuri"
-    {% if page.twitter %}data-related="{{ page.twitter }}"{% endif %}>
+    data-related="{{ site.en.twitter }}{% if page.twitter %},{{ page.twitter }}"{% endif %}">
     Tweet</a>
 </div>
 

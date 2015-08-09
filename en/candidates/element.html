@@ -1,10 +1,24 @@
 ---
 ---
 <div class="row candidate-row">
-  <div class="col-sm-8">
+  <div class="col-sm-6">
     <a href="{{ include.candidate.url }}">{{ include.candidate.title }}</a>
   </div>
-  <div class="col-sm-4">
+  <div class="col-sm-3">
+    <small class="text-muted">
+      {% case include.candidate.audience %}
+      {% when "Beginner" %} Beginner
+      {% when "Intermediate" %} Intermediate
+      {% when "Advanced" %} Advanced
+      {% endcase %}
+
+      {% case include.candidate.language %}
+      {% when "Japanese" %} Japanese
+      {% when "English" %} English
+      {% endcase %}
+  </small>
+  </div>
+  <div class="col-sm-3">
     {% if include.candidate.icon %}
       <img src="{{ include.candidate.icon }}" class="icon-mini">
     {% endif %}

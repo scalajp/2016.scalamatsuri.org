@@ -2,12 +2,12 @@
 ---
 <div class="row candidate-row">
   <div class="col-sm-8">
-    <a href="{{ candidate.url }}">{{ candidate.title }}</a>
+    <a href="{{ include.candidate.url }}">{{ include.candidate.title }}</a>
   </div>
   <div class="col-sm-4">
-    {% if candidate.icon %}
-      <img src="{{ candidate.icon }}" class="icon-mini">
+    {% if include.candidate.icon %}
+      <img src="{{ include.candidate.icon }}" class="icon-mini">
     {% endif %}
-    {{ candidate.name }}
+    {{ include.candidate.name }}
   </div>
 </div>

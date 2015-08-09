@@ -19,7 +19,7 @@ layout: default_en
 {% assign has40 = false %}
 {% for candidate in site.candidates_en %}
   {% if candidate.length == 40 %}
-    {% include_relative element.html %}
+    {% include_relative element.html candidate=candidate %}
     {% assign has40 = true %}
   {% endif %}
 {% endfor %}
@@ -34,7 +34,7 @@ layout: default_en
 {% assign has15 = false %}
 {% for candidate in site.candidates_en %}
   {% if candidate.length == 15 %}
-    {% include_relative element.html %}
+    {% include_relative element.html candidate=candidate %}
     {% assign has15 = true %}
   {% endif %}
 {% endfor %}

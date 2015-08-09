@@ -25,16 +25,8 @@
     <![endif]-->
   </head>
   <body>
-    <nav class="navbar navbar-default">
-      <div class="container main-container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="/index_en.html">
-            ScalaMatsuri 2016
-          </a>
-        </div>
-      </div>
-    </nav>
-    <div class="container">
+    {% include header_en.html %}
+    <div class="container main-container">
       {{ content }}
     </div>
     {% include footer.html %}

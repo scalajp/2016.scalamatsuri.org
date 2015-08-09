@@ -1,0 +1,13 @@
+---
+---
+<div class="row candidate-row">
+  <div class="col-sm-8">
+    <a href="{{ include.candidate.url }}">{{ include.candidate.title }}</a>
+  </div>
+  <div class="col-sm-4">
+    {% if include.candidate.icon %}
+      <img src="{{ include.candidate.icon }}" class="icon-mini">
+    {% endif %}
+    {{ include.candidate.name }}
+  </div>
+</div>

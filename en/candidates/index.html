@@ -19,18 +19,8 @@ layout: default_en
 {% assign has40 = false %}
 {% for candidate in site.candidates_en %}
   {% if candidate.length == 40 %}
-  <div class="row candidate-row">
-    <div class="col-sm-8">
-      <a href="{{ candidate.url }}">{{ candidate.title }}</a>
-    </div>
-    <div class="col-sm-4">
-      {% if candidate.icon %}
-        <img src="{{ candidate.icon }}" class="icon-mini">
-      {% endif %}
-      {{ candidate.name }}
-    </div>
+    {% include_relative element.html %}
     {% assign has40 = true %}
-  </div>
   {% endif %}
 {% endfor %}
 </div>
@@ -44,18 +34,8 @@ layout: default_en
 {% assign has15 = false %}
 {% for candidate in site.candidates_en %}
   {% if candidate.length == 15 %}
-  <div class="row candidate-row">
-    <div class="col-sm-8">
-      <a href="{{ candidate.url }}">{{ candidate.title }}</a>
-    </div>
-    <div class="col-sm-4">
-      {% if candidate.icon %}
-        <img src="{{ candidate.icon }}" class="icon-mini">
-      {% endif %}
-      {{ candidate.name }}
-    </div>
+    {% include_relative element.html %}
     {% assign has15 = true %}
-  </div>
   {% endif %}
 {% endfor %}
 </div>

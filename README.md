@@ -54,4 +54,20 @@ front matter (ファイル先頭の `---` と `---` で囲まれた部分) に�
 * icon: アイコンのURL
 * organization: 所属組織
 
-本文にトークの概要を書きます。
+本文にトークの概要を書きます。以下はテンプレート:
+
+```
+---
+name: X
+title: X
+length: 40
+audience: Intermediate
+language: English
+twitter: X
+github: X
+icon: https://X.jpeg
+organization: X
+---
+<p>X
+</p>
+```

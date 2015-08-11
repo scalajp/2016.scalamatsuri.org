@@ -54,12 +54,14 @@ front matter (ファイル先頭の `---` と `---` で囲まれた部分) に�
 * icon: アイコンのURL
 * organization: 所属組織
 
+front matter は YAML 形式です。文字列中に `:` を含む場合は `""` でクォートします。
+
 本文にトークの概要を書きます。以下はテンプレート:
 
 ```
 ---
 name: X
-title: X
+title: "X"
 length: 40
 audience: Intermediate
 language: English

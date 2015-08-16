@@ -93,3 +93,15 @@ body {
 .candidate-row {
   margin-bottom: 4px;
 }
+
+ul.candidates {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul.sortable li {
+  border: 1px solid #CCCCCC;
+  border-left: 10px solid #000040;
+  cursor: move;
+}

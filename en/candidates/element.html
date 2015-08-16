@@ -1,6 +1,6 @@
 ---
 ---
-<div class="row candidate-row">
+<li class="row candidate-row" id="{{ include.candidate.url }}">
   <div class="col-sm-6">
     <a href="{{ include.candidate.url }}">{{ include.candidate.title }}</a>
   </div>
@@ -24,4 +24,4 @@
     {% endif %}
     {{ include.candidate.name }}
   </div>
-</div>
+</li>

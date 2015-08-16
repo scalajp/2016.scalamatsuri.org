@@ -3,6 +3,8 @@ title: Candidate sessions
 layout: default_en
 ---
 
+{% assign is_vote = false %}
+
 <div class="alert alert-info" role="alert">
   The following are the candidate sessions. Scala Matsuri selects sessions by participants voting later.
 </div>
@@ -15,7 +17,7 @@ layout: default_en
 </div>
 
 <h2>40 minutes sessions</h2>
-<div class="shuffle">
+<ul class="shuffle candidates" id="forty_list">
 {% assign has40 = false %}
 {% for candidate in site.candidates_en %}
   {% if candidate.length == 40 %}
@@ -23,14 +25,14 @@ layout: default_en
     {% assign has40 = true %}
   {% endif %}
 {% endfor %}
-</div>
+</ul>
 
 {% unless has40 %}
   <div class="text-muted">No candidates yet</div>
 {% endunless %}
 
 <h2>15 minutes sessions</h2>
-<div class="shuffle">
+<ul class="shuffle candidates" id="fifteen_list">
 {% assign has15 = false %}
 {% for candidate in site.candidates_en %}
   {% if candidate.length == 15 %}
@@ -38,12 +40,27 @@ layout: default_en
     {% assign has15 = true %}
   {% endif %}
 {% endfor %}
-</div>
+</ul>
 
 {% unless has15 %}
   <div class="text-muted">No candidates yet</div>
 {% endunless %}
 
+{% if is_vote == true %}
+<script>
+$(window).load(function() {
+  var forty_sortable = Sortable.create($('#forty_list').get(0));
+  $('#forty_list').addClass('sortable');
+  var fifteen_sortable = Sortable.create($('#fifteen_list').get(0));
+  $('#fifteen_list').addClass('sortable');
+});
+</script>
+
+<div class="text-center" style="margin-top: 30px;">
+<a class="btn btn-info btn-lg" href="#">Vote!</a>
+</div>
+{% else %}
 <div class="text-center" style="margin-top: 30px;">
 <a class="btn btn-info btn-lg" href="/en/cfp/">I also want to give a talk!</a>
 </div>
+{% endif %}

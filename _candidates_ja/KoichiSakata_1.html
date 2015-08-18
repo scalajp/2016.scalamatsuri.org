@@ -1,0 +1,14 @@
+---
+name: 阪田 浩一
+title: ScalaコードはJVMでどのように表現されているのか
+length: 15
+audience: Beginner
+language: Japanese
+twitter: jyukutyo
+github: jyukutyo
+icon: https://pbs.twimg.com/profile_images/2149424205/sakata2.png
+organization: フリュー株式会社
+---
+<p>ご存知のとおり、ScalaもJavaやその他のJVM言語と同様に、コンパイルによってプログラムをJVMのバイトコードに変換します。しかし、このバイトコードの命令はこうした他言語での利用を想定したものではなく、1つを除いてJavaのみを前提に考えられたものです。
+それでもこうして多くの言語の実行環境となっているのは、JVMの設計が（もちろん実装も）とても優れているからだと言い切れます。ここでは一度Scalaそのものから離れて、ScalaコードがコンパイルされJVM上で実行されるまでの部分に注目します。
+対象となる方はJVMやバイトコードについて（まったく/ほぼ）知らない方とします。まずJVMとその命令を簡単に紹介しますので、前提知識は不要です。それからScalaの代表的な構文がバイトコードでどのように表現されているかを一緒に見てみましょう！</p>

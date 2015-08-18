@@ -1,0 +1,18 @@
+# - href: "/#intro"
+#   title: 開催趣旨
+- href: "/#info"
+  title: 開催概要
+# - href: "/#gues"
+#   title: 招待講演者
+# - href: "/#prog"
+#   title: プログラム
+# - href: "/#inq"
+#   title: お申込み
+# - href: "/#sp"
+#   title: スポンサー
+- href: "/ja/cfp/"
+  title: セッション募集
+- href: "/ja/candidates/"
+  title: 応募セッション一覧
+- href: "/ja/sponsors/"
+  title: スポンサー募集

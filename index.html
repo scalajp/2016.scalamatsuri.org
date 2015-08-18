@@ -165,38 +165,32 @@ layout: null
 					日本最大級のカンファレンスが開催されます。</p>
 				<div class="logoArea">
 					<h2 class="clearfix">
-						&nbsp; <!-- <- スポンサーコメントイン時に消す
-						<span class="ttlSpAreaTop">プラチナ・スポンサー</span>
+						<span class="ttlSpAreaTop">将軍スポンサー</span>
 						<span class="linelSpAreaTop"><img src="img/common/ttl_main_line.png" alt="" /></span>
 						<span class="linerSpAreaTop"><img src="img/common/ttl_main_line.png" alt="" /></span>
-						-->
 					</h2>
 					<ul class="clearfix">
-						<li style="height: 78px;"></li><!-- <- スポンサーコメントイン時に消す
-						<li><a href="#"><img src="img/common/sp_logo1.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo2.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo3.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo4.png" alt="" /></a></li>
-						-->
+						{% for logo in site.data.logos.shogun %}
+						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
+						{% endfor %}
 					</ul>
 				</div>
 			</div>
 		</section>
-		<!--
+
 		<section class="sectionStyle7 smVer topBannerArea">
 			<div class="sectionStyle7Inner">
 				<article class="spBox">
 					<h3 class="ttlspBox1">Venue Sponsor</h3>
 					<ul class="clearfix">
-						<li><a href="#"><img src="img/common/sp_logo1.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo2.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo3.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo4.png" alt="" /></a></li>
+						{% for logo in site.data.logos.shogun %}
+						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
+						{% endfor %}
 					</ul>
 				</article>
 			</div>
 		</section>
-		-->
+
 
 <!--
 		<section class="sectionStyle1" id="intro">

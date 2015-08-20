@@ -73,3 +73,18 @@ organization: X
 <p>X
 </p>
 ```
+
+### スポンサーロゴ追加方法
+
+1. ロゴを 200x70px に加工し、 `img/logo/` 以下に保存します。
+2. `_data/logos.yml` の該当するプランに次の内容を追記します。
+
+* title: スポンサー名。`<img>` タグの `alt` 属性に指定されます。
+* href: リンク先
+* img: ロゴ画像URL
+
+```
+- title: Abc Company
+  href: "http://example.com"
+  img: "/ja/img/shogun_reserve.png"
+```

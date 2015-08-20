@@ -821,7 +821,6 @@ layout: null
 			</div>
 		</section>
 
-<!--
 		<section class="sectionStyle7" id="sp">
 			<header class="sectionHeadArea">
 				<h2 class="clearfix">
@@ -833,53 +832,47 @@ layout: null
 			</header>
 			<div class="sectionStyle7Inner">
 				<article class="spBox">
-					<h3 class="ttlspBox1">Venue Sponsor</h3>
+					<h3 class="ttlspBox1">将軍スポンサー</h3>
 					<ul class="clearfix">
-						<li><a href="#"><img src="img/common/sp_logo1.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo2.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo3.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo4.png" alt="" /></a></li>
+						{% for logo in site.data.logos.shogun %}
+						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
+						{% endfor %}
 					</ul>
 				</article>
 				<article class="spBox">
-					<h3 class="ttlspBox1 spLv2">Platinum Sponsor</h3>
+					<h3 class="ttlspBox1 spLv2">大名スポンサー</h3>
 					<ul class="clearfix">
-						<li><a href="#"><img src="img/common/sp_logo1.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo2.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo3.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo4.png" alt="" /></a></li>
+						{% for logo in site.data.logos.daimyo %}
+						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
+						{% endfor %}
 					</ul>
 				</article>
 				<article class="spBox">
-					<h3 class="ttlspBox1 spLv3">Gold Sponsor</h3>
+					<h3 class="ttlspBox1 spLv3">旗本スポンサー</h3>
 					<ul class="clearfix">
-						<li><a href="#"><img src="img/common/sp_logo1.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo2.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo3.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo4.png" alt="" /></a></li>
+						{% for logo in site.data.logos.hatamoto %}
+						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
+						{% endfor %}
 					</ul>
 				</article>
 				<article class="spBox">
-					<h3 class="ttlspBox1 spLv4">Silver Sponsor</h3>
+					<h3 class="ttlspBox1 spLv4">侍スポンサー</h3>
 					<ul class="clearfix">
-						<li><a href="#"><img src="img/common/sp_logo1.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo2.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo3.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo4.png" alt="" /></a></li>
+						{% for logo in site.data.logos.samurai %}
+						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
+						{% endfor %}
 					</ul>
 				</article>
 				<article class="spBox">
-					<h3 class="ttlspBox1 spLv5">Patron Sponsor</h3>
+					<h3 class="ttlspBox1 spLv5">忍者スポンサー</h3>
 					<ul class="clearfix">
-						<li><a href="#"><img src="img/common/sp_logo1.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo2.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo3.png" alt="" /></a></li>
-						<li><a href="#"><img src="img/common/sp_logo4.png" alt="" /></a></li>
+						{% for logo in site.data.logos.ninja %}
+						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
+						{% endfor %}
 					</ul>
 				</article>
 			</div>
 		</section>
--->
 
 	{% include footer.html %}
 

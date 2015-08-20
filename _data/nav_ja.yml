@@ -8,8 +8,8 @@
 #   title: プログラム
 # - href: "/#inq"
 #   title: お申込み
-# - href: "/#sp"
-#   title: スポンサー
+- href: "/#sp"
+  title: スポンサー
 - href: "/ja/cfp/"
   title: セッション募集
 - href: "/ja/candidates/"

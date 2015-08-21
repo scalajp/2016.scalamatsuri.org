@@ -88,5 +88,5 @@ organization: X
 ```
 - title: Abc Company
   href: "http://example.com"
-  img: "/ja/img/shogun_reserve.png"
+  img: "/img/logo/abc.png"
 ```

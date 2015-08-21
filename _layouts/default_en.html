@@ -25,7 +25,21 @@
     <![endif]-->
   </head>
   <body>
-    {% include header_en.html %}
+    <header class="pageHeader">
+      <nav class="gnav navbar">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/index_en.html">
+            ScalaMatsuri 2016
+          </a>
+        </div>
+        <ul class="clearfix">
+          {% for item in site.data.nav_en %}
+            <li><a href="{{ item.href }}">{{ item.title }}</a></li>
+          {% endfor %}
+          <li><a href="/">日本語</a></li>
+        </ul>
+      </nav>
+    </header>
     <div class="container main-container">
       {{ content }}
     </div>

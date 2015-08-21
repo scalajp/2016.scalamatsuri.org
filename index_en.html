@@ -109,19 +109,9 @@ layout: null
 			<nav class="gnav pcVer">
 				<ul class="clearfix">
 					<li><a href="#top">Top</a></li>
-					<!--
-					<li><a href="#intro">開催趣旨</a></li>
-					-->
-					<li><a href="#info">Event Info</a></li>
-
-          <li><a href="/en/cfp/">CFP</a></li>
-          <li><a href="/en/candidates/">Proposal List</a></li>
-<!--
-					<li><a href="#gues">招待講演者</a></li>
-					<li><a href="#prog">プログラム</a></li>
-					<li><a href="#inq">お申込み</a></li>
-					<li><a href="#sp">スポンサー</a></li>
-					-->
+					{% for item in site.data.nav_en %}
+						<li><a href="{{ item.href }}">{{ item.title }}</a></li>
+					{% endfor %}
 					<li><a href="/">日本語</a></li>
 				</ul>
 			</nav>
@@ -129,17 +119,9 @@ layout: null
 				<p class="gnavSmClick"><img src="img/common/icon_menu.png"></p>
 				<ul class="clearfix smVerGnav">
 					<li><a href="#top">Top</a></li>
-					<!--
-					<li><a href="#intro">開催趣旨</a></li>
-					-->
-					<li><a href="#info">Event Info</a></li>
-          <li><a href="/en/cfp/">CFP</a></li>
-<!--
-					<li><a href="#gues">招待講演者</a></li>
-					<li><a href="#prog">プログラム</a></li>
-					<li><a href="#inq">お申込み</a></li>
-					<li><a href="#sp">スポンサー</a></li>
-					-->
+					{% for item in site.data.nav_en %}
+						<li><a href="{{ item.href }}">{{ item.title }}</a></li>
+					{% endfor %}
 				</ul>
 			</nav>
 		</header>

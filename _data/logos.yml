@@ -16,6 +16,9 @@ daimyo:
   - title: TIS
     href: "https://www.tis.jp/service_solution/goreactive"
     img: "/img/logo/TIS.png"
+  - title: Tech to Value
+    href: "http://www.t2v.jp/"
+    img: "/img/logo/t2v.png"
 
 hatamoto:
 

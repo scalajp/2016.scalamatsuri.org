@@ -81,7 +81,9 @@ organization: X
 
 * title: スポンサー名。`<img>` タグの `alt` 属性に指定されます。
 * href: リンク先
-* img: ロゴ画像URL
+* img: ロゴ画像URL （どの階層のページでも利用できるように絶対パスで指定する)
+
+例
 
 ```
 - title: Abc Company

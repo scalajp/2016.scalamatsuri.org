@@ -4,7 +4,7 @@ shogun:
     img: "/img/logo/chatwork.png"
   - title: CyberAgent AdTech Studio
     href: "http://adtech.cyberagent.io/"
-    img: "img/sponsors/ca.png"
+    img: "/img/logo/ca.png"
   - title: Sponsor ScalaMatsuri 2016
     href: "/ja/sponsors/"
     img: "/ja/img/shogun_reserve.png"
@@ -15,16 +15,16 @@ shogun:
 daimyo:
   - title: TIS
     href: "https://www.tis.jp/service_solution/goreactive"
-    img: "/img/sponsors/TIS_logomark_hor.png"
+    img: "/img/logo/TIS.png"
 
 hatamoto:
 
 samurai:
    - title: Applicative
      href: "http://applicative.jp/"
-     img: "http://2013.scalamatsuri.org/assets/themes/twitter/img/sponsor/applicative.png"
+     img: "/img/logo/applicative.png"
 
 ninja:
    - title: daiksy
      href: "https://twitter.com/daiksy"
-     img: "https://avatars2.githubusercontent.com/u/568030?v=3&s=460"
+     img: "/img/logo/daiksy.png"

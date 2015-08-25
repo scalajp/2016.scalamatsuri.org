@@ -26,11 +26,11 @@ daimyo:
 hatamoto:
 
 samurai:
-   - title: Applicative
-     href: "http://applicative.jp/"
-     img: "/img/logo/applicative.png"
+  - title: Applicative
+    href: "http://applicative.jp/"
+    img: "/img/logo/applicative.png"
 
 ninja:
-   - title: daiksy
-     href: "https://twitter.com/daiksy"
-     img: "/img/logo/daiksy.png"
+  - title: daiksy
+    href: "https://twitter.com/daiksy"
+    img: "/img/logo/daiksy.png"

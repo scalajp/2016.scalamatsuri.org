@@ -29,6 +29,9 @@ samurai:
   - title: Applicative
     href: "http://applicative.jp/"
     img: "/img/logo/applicative.png"
+  - title: IzumoBASE
+    href: "http://www.izumobase.com"
+    img: "/img/logo/izumo.jpg"
 
 ninja:
   - title: daiksy

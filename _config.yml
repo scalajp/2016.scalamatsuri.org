@@ -7,21 +7,23 @@ exclude:
   - "vendor"
 
 defaults:
-  -
-    values:
+  - values:
       layout: "default_ja"
-  -
-    scope:
+  - scope:
       path: ""
       type: candidates_ja
     values:
       layout: candidates_ja
-  -
-    scope:
+  - scope:
       path: ""
       type: candidates_en
     values:
       layout: candidates_en
+  - scope:
+      path: ""
+      type: jobs
+    values:
+      layout: job
 
 collections:
   candidates_ja:
@@ -30,6 +32,9 @@ collections:
   candidates_en:
     output: true
     permalink: /en/candidates/:path/
+  jobs:
+    output: true
+    permalink: /jobs/:path/
 
 safe: true
 lsi: false
@@ -40,3 +45,9 @@ ja:
   twitter: scala_jp
 en:
   twitter: scalamatsuri
+plans:
+  - shogun
+  - daimyo
+  - hatamoto
+  - samurai
+  - ninja

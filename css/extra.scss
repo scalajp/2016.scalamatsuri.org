@@ -38,7 +38,6 @@ body {
       padding-left:5px;
       padding-right:5px;
       margin: 0px;
-      font-size:14px;
       a {
         color:#fff;
         text-decoration: none;
@@ -92,4 +91,10 @@ body {
 
 .candidate-row {
   margin-bottom: 4px;
+}
+
+.job {
+  .logo {
+    border: 1px solid #dedede;
+  }
 }

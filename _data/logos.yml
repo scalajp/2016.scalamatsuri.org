@@ -8,9 +8,9 @@ shogun:
   - title: Maverick
     href: "http://www.mvrck.co.jp/"
     img: "/img/logo/maverick.png"
-  - title: Sponsor ScalaMatsuri 2016
-    href: "/ja/sponsors/"
-    img: "/ja/img/shogun_reserve.png"
+  - title: Septeni Original
+    href: "http://www.septeni-original.co.jp/"
+    img: "/img/logo/septeni-original.jpg"
 
 daimyo:
   - title: TIS
@@ -26,11 +26,20 @@ daimyo:
 hatamoto:
 
 samurai:
-   - title: Applicative
-     href: "http://applicative.jp/"
-     img: "/img/logo/applicative.png"
+  - title: Applicative
+    href: "http://applicative.jp/"
+    img: "/img/logo/applicative.png"
+  - title: IzumoBASE
+    href: "http://www.izumobase.com"
+    img: "/img/logo/izumo.jpg"
 
 ninja:
-   - title: daiksy
-     href: "https://twitter.com/daiksy"
-     img: "/img/logo/daiksy.png"
+  - title: daiksy
+    href: "https://twitter.com/daiksy"
+    img: "/img/logo/daiksy.png"
+  - title: kuchitama
+    href: "https://twitter.com/kuchitama"
+    img: "/img/logo/kuchitama.png"
+  - title: tan_go238
+    href: "https://twitter.com/tan_go238"
+    img: "/img/logo/tan_go238.png"

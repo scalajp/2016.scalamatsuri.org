@@ -28,6 +28,7 @@ layout: null
     <link href="css/common.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script src="js/respond.src.js"></script>
+	<script src="js/shuffle.js"></script>
 
 	<script type="text/javascript">
 	if ((navigator.userAgent.indexOf('iPhone') > 0) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
@@ -169,7 +170,7 @@ layout: null
 						<span class="linelSpAreaTop"><img src="img/common/ttl_main_line.png" alt="" /></span>
 						<span class="linerSpAreaTop"><img src="img/common/ttl_main_line.png" alt="" /></span>
 					</h2>
-					<ul class="clearfix">
+					<ul class="clearfix shuffle">
 						{% for logo in site.data.logos.shogun %}
 						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
 						{% endfor %}
@@ -182,7 +183,7 @@ layout: null
 			<div class="sectionStyle7Inner">
 				<article class="spBox">
 					<h3 class="ttlspBox1">将軍スポンサー</h3>
-					<ul class="clearfix">
+					<ul class="clearfix shuffle">
 						{% for logo in site.data.logos.shogun %}
 						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
 						{% endfor %}
@@ -833,7 +834,7 @@ layout: null
 			<div class="sectionStyle7Inner">
 				<article class="spBox">
 					<h3 class="ttlspBox1">将軍スポンサー</h3>
-					<ul class="clearfix">
+					<ul class="clearfix shuffle">
 						{% for logo in site.data.logos.shogun %}
 						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
 						{% endfor %}
@@ -841,7 +842,7 @@ layout: null
 				</article>
 				<article class="spBox">
 					<h3 class="ttlspBox1 spLv2">大名スポンサー</h3>
-					<ul class="clearfix">
+					<ul class="clearfix shuffle">
 						{% for logo in site.data.logos.daimyo %}
 						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
 						{% endfor %}
@@ -849,7 +850,7 @@ layout: null
 				</article>
 				<article class="spBox">
 					<h3 class="ttlspBox1 spLv3">旗本スポンサー</h3>
-					<ul class="clearfix">
+					<ul class="clearfix shuffle">
 						{% for logo in site.data.logos.hatamoto %}
 						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
 						{% endfor %}
@@ -857,7 +858,7 @@ layout: null
 				</article>
 				<article class="spBox">
 					<h3 class="ttlspBox1 spLv4">侍スポンサー</h3>
-					<ul class="clearfix">
+					<ul class="clearfix shuffle">
 						{% for logo in site.data.logos.samurai %}
 						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
 						{% endfor %}
@@ -865,7 +866,7 @@ layout: null
 				</article>
 				<article class="spBox">
 					<h3 class="ttlspBox1 spLv5">忍者スポンサー</h3>
-					<ul class="clearfix">
+					<ul class="clearfix shuffle">
 						{% for logo in site.data.logos.ninja %}
 						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
 						{% endfor %}

@@ -17,7 +17,9 @@ layout: default_ja
 
   {% if page.link %}
   <div class="text-center">
-    <a class="btn btn-primary btn-lg text-center job-link-btn" href="{{ page.link }}">
+    <a class="btn btn-primary btn-lg text-center job-link-btn"
+      href="{{ page.link }}"
+      data-gaaction="click-job">
       {% if page.linkTitle %}
         {{ page.linkTitle }}
       {% else %}

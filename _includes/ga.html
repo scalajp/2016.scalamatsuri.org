@@ -8,8 +8,9 @@
 
   // Function to track outbound link
   // ref. https://support.google.com/analytics/answer/1136920?hl=ja
-  var trackOutboundLink = function(url) {
-    ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+  var trackOutboundLink = function(url, gaaction) {
+    var action = gaaction || 'click';
+    ga('send', 'event', 'outbound', action, url, {'hitCallback':
       function () {
         document.location = url;
       }
@@ -30,7 +31,8 @@
     $(document).on('click', 'a', function(event) {
       var href = $(event.currentTarget).attr('href');
       if (isOutbound(href)) {
-        trackOutboundLink(href);
+        var gaaction = $(event.currentTarget).data('gaaction');
+        trackOutboundLink(href, gaaction);
         event.preventDefault();
       }
     });

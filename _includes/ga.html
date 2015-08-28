@@ -5,4 +5,34 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-51559416-1', 'scalamatsuri.org');
   ga('send', 'pageview');
+
+  // Function to track outbound link
+  // ref. https://support.google.com/analytics/answer/1136920?hl=ja
+  var trackOutboundLink = function(url) {
+    ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+      function () {
+        document.location = url;
+      }
+    });
+  };
+
+  $(function() {
+    var isOutbound = function(url) {
+      return url != null &&
+        (
+          url.indexOf("http://") === 0 ||
+          url.indexOf("https://") === 0 ||
+          url.indexOf("ftp://") === 0
+        );
+    };
+
+    // Track all clicks of outbound link
+    $(document).on('click', 'a', function(event) {
+      var href = $(event.currentTarget).attr('href');
+      if (isOutbound(href)) {
+        trackOutboundLink(href);
+        event.preventDefault();
+      }
+    });
+  });
 </script>

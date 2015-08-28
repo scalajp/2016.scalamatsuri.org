@@ -97,4 +97,10 @@ body {
   .logo {
     border: 1px solid #dedede;
   }
+  .job-img-link:hover, .job-img-link:focus {
+    text-decoration: none;
+  }
+  .job-link-btn {
+    margin-top: 40px;
+  }
 }

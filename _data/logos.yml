@@ -38,6 +38,9 @@ samurai:
   - title: IzumoBASE
     href: "http://www.izumobase.com"
     img: "/img/logo/izumo.jpg"
+  - title: Samuraism
+    href: "http://samuraism.com/"
+    img: "/img/logo/samuraism.png"
 
 ninja:
   - title: daiksy

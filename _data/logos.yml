@@ -40,6 +40,9 @@ daimyo:
   - title: "Paidy"
     href: "https://paidy.com/"
     img: "/img/logo/paidy.png"
+  - title: "opt"
+    href: "http://www.opt.ne.jp/holding/"
+    img: "/img/logo/opt.jpg"
 
 hatamoto:
   - title: "BizReach"

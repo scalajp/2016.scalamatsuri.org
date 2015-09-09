@@ -42,6 +42,9 @@ daimyo:
     img: "/img/logo/paidy.png"
 
 hatamoto:
+  - title: "BizReach"
+    href: "https://jp.stanby.com/"
+    img: "/img/logo/bizreach.jpg"
 
 samurai:
   - title: Applicative

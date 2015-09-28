@@ -43,6 +43,9 @@ daimyo:
   - title: "opt"
     href: "https://open.talentio.com/1//c/opt-smc/requisitions/118"
     img: "/img/logo/opt.jpg"
+  - title: "voyage"
+    href: "http://culture.voyagegroup.com/"
+    img: "/img/logo/voyage.png"
 
 hatamoto:
   - title: "BizReach"

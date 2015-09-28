@@ -6,8 +6,8 @@
 #   title: 招待講演者
 # - href: "/#prog"
 #   title: プログラム
-# - href: "/#inq"
-#   title: お申込み
+- href: "/#tickets"
+  title: チケット
 - href: "/#sp"
   title: スポンサー
 - href: "/ja/cfp/"

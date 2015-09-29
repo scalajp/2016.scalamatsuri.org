@@ -1,6 +1,8 @@
 Scala Matsuri
 ===========================================================
 
+[![Build Status](https://travis-ci.org/scalajp/2016.scalamatsuri.org.svg?branch=gh-pages)](https://travis-ci.org/scalajp/2016.scalamatsuri.org)
+
 このレポジトリは ScalaMatsuri 2016 のウェブサイトです。
 
 ## scalamatsuri.org の更新

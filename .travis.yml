@@ -4,3 +4,6 @@ rvm:
   - 2.2.3
 script: ./script/test_build.sh
 sudo: false
+branches:
+  only:
+  - /^.*$/ # test every branches

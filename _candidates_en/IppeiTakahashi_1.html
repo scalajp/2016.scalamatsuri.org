@@ -11,7 +11,7 @@ organization: Recruit Marketing Partners Co., Ltd.
 ---
 <p>
 In our team, we use Play framework, Slick, and Scalaz on server side implementation for all of our new products.
-Slick after version 3.0 returns DB operation result by Future. And it can use Either for error handling. They are convenient, but they could be negative factor for code's readability. Monad and Monad transformer provided by Scalaz are useful for data operation wrapped by context(Future, Either etc..), and they aid high readable code what uses "for" operator.
+Since Slick 3.0, it produces the result of DB operation encapsulated in Future, and you may handle errors using Either. These features are convenient, while make the code less readable. Scalaz provides Monad and Monad transformer that are useful for operating data wrapped in the context such as Future and Either, and help us to make our code more readable through "for" expression.
 </p>
 <p>
 In this session, I will introduce practical techniques around designing and testing a product with functional code, using Play 2.4 and Slick 3.0 migration as the example, and walking through the code changes when introducing Scalaz.

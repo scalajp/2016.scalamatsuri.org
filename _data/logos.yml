@@ -46,6 +46,9 @@ daimyo:
   - title: "voyage"
     href: "http://culture.voyagegroup.com/"
     img: "/img/logo/voyage.png"
+  - title: "acaric"
+    href: "https://agent.acaric.jp/"
+    img: "/img/logo/acaric.png"
 
 hatamoto:
   - title: "BizReach"

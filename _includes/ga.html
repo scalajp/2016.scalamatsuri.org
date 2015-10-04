@@ -30,7 +30,7 @@
     // Track all clicks of outbound link
     $(document).on('click', 'a', function(event) {
       var href = $(event.currentTarget).attr('href');
-      if (isOutbound(href)) {
+      if (ga.loaded && isOutbound(href)) {
         var gaaction = $(event.currentTarget).data('gaaction');
         trackOutboundLink(href, gaaction);
         event.preventDefault();

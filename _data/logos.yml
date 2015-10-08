@@ -49,6 +49,9 @@ daimyo:
   - title: "acaric"
     href: "https://agent.acaric.jp/"
     img: "/img/logo/acaric.png"
+  - title: "nyle"
+    href: "http://nyle.co.jp/"
+    img: "/img/logo/nyle-logo_200_70.png"
 
 hatamoto:
   - title: "BizReach"

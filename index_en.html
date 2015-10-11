@@ -769,8 +769,16 @@ We are looking for topics that you think Scala community would be interested. We
 								<script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
 							</li>
 						</ul>
-
 			</div>
+			<div class="widgets">
+					<div class="widget">
+						{% include twitter_widget.html %}
+					</div>
+					<div class="widget">
+						{% include freewind.html rss="http://blog-en.scalamatsuri.org/feed"  %}
+					</div>
+			</div>
+
 		</section>
 
 

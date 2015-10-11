@@ -15,7 +15,7 @@ title: 応募セッション一覧
 </div>
 
 <h2>40分英語</h2>
-<div class="shuffle">
+<div class="shuffle-session">
 {% assign has_40en = false %}
 {% for candidate in site.candidates_ja %}
   {% if candidate.length == 40 and candidate.language == "English" %}
@@ -29,7 +29,7 @@ title: 応募セッション一覧
 {% endunless %}
 
 <h2>40分日本語</h2>
-<div class="shuffle">
+<div class="shuffle-session">
 {% assign has_40ja = false %}
 {% for candidate in site.candidates_ja %}
   {% if candidate.length == 40 and candidate.language != "English" %}
@@ -43,7 +43,7 @@ title: 応募セッション一覧
 {% endunless %}
 
 <h2>15分英語</h2>
-<div class="shuffle">
+<div class="shuffle-session">
 {% assign has15_en = false %}
 {% for candidate in site.candidates_ja %}
   {% if candidate.length == 15 and candidate.language == "English" %}
@@ -57,7 +57,7 @@ title: 応募セッション一覧
 {% endunless %}
 
 <h2>15分日本語</h2>
-<div class="shuffle">
+<div class="shuffle-session">
 {% assign has15_ja = false %}
 {% for candidate in site.candidates_ja %}
   {% if candidate.length == 15 and candidate.language != "English" %}

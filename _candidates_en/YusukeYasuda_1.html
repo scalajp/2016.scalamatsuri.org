@@ -1,0 +1,17 @@
+---
+name: Yusuke Yasuda
+title: Putting unelastic system on a life support with Akka Stream
+length: 15
+audience: Beginner
+language: Japanese
+twitter: TanUkkii007
+github: TanUkkii007
+icon: /img/icon/YusukeYasuda.jpg
+organization: TriFort
+---
+<p>
+Among the four elements required by Reactive Manifesto, the hardest one to achieve is <i>elasticity</i>. Elasticity implies adding resources to the system reacting to the load. However, the typical techniques named with elasticity such as sharding and replication are very difficult functionality. The Achilles heel of a Reactive System losing its responsiveness, likely would be your system's elasticity.
+</p>
+<p>
+When a system loses elasticity, cut off from the resource supply, there is one technology that can keep it stable under the constrained resource: Akka Stream. With Akka Stream's back pressure, the consumption of resources such as memory, threads, and connections can be well balanced. In this talk, I will illustrate how Akka Stream can extend the life of a system when it loses elacitity, comparing with the case without it.
+</p>

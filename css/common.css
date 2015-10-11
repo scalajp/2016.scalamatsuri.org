@@ -718,7 +718,7 @@ input, select {
 }
 
 .snsBtnAreaMiddle{
-	padding:0px 0px 80px 0px!important;
+	padding:0px 0px 40px 0px!important;
 	width:290px!important;
 	margin:0 auto 0 auto!important;
 }
@@ -747,6 +747,16 @@ input, select {
 	margin-top:5px;
 	display:inline-block;
 	border:#000 solid 1px;
+}
+
+.widgets {
+	text-align: center;
+	padding-bottom: 80px;
+}
+.widgets > .widget {
+	display: inline-block;
+	width: 360px;
+	margin: 0 10px;
 }
 
 @media screen and (max-width: 1024px){
@@ -1072,4 +1082,8 @@ input, select {
 		padding-bottom:20px;
 	}
 
+	.widgets {
+		text-align: center;
+		padding-bottom: 40px;
+	}
 }

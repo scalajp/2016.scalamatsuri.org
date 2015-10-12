@@ -10,3 +10,5 @@ echo "$OUTPUT"
 if [ "$JEKYLL_EXIT_CODE" -ne "0" ] || echo "$OUTPUT" | grep -iq error; then
     exit 1
 fi
+
+ruby script/check_candidates.rb || exit 1

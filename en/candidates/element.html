@@ -1,19 +1,33 @@
 ---
 ---
+{% capture file %}{{ include.candidate.url | replace_first:'/en/candidates/','' | replace:'/','.html' }}{% endcapture %}
 <div class="row candidate-row">
-  <div class="col-sm-6">
+  <div class="col-sm-8">
     <a href="{{ include.candidate.url }}">{{ include.candidate.title }}</a>
+    <div>
+      <small class="text-muted">
+        {% case include.candidate.audience %}
+        {% when "Beginner" %} Beginner
+        {% when "Intermediate" %} Intermediate
+        {% when "Advanced" %} Advanced
+        {% endcase %}
+      </small>
+      {% for tag in site.data.cfp_tags %}
+        {% if tag['file'] == file %}
+          {% if tag['tag1'] %}
+            <span class="cfp-tag label label-default">{{tag['tag1']}}</span>
+          {% endif %}
+          {% if tag['tag2'] %}
+            <span class="cfp-tag label label-default">{{tag['tag2']}}</span>
+          {% endif %}
+          {% if tag['tag3'] %}
+            <span class="cfp-tag label label-default">{{tag['tag3']}}</span>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
-  <div class="col-sm-3">
-    <small class="text-muted">
-      {% case include.candidate.audience %}
-      {% when "Beginner" %} Beginner
-      {% when "Intermediate" %} Intermediate
-      {% when "Advanced" %} Advanced
-      {% endcase %}
-  </small>
-  </div>
-  <div class="col-sm-3">
+  <div class="col-sm-4">
     {% if include.candidate.icon %}
       <img src="{{ include.candidate.icon }}" class="icon-mini">
     {% else %}

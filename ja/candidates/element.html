@@ -15,13 +15,13 @@
       {% for tag in site.data.cfp_tags %}
         {% if tag['file'] == file %}
           {% if tag['tag1'] %}
-            <span class="cfp-tag label label-default">{{tag['tag1']}}</span>
+            <span class="cfp-tag label label-default" data-tag="{{tag['tag1']}}">{{tag['tag1']}}</span>
           {% endif %}
           {% if tag['tag2'] %}
-            <span class="cfp-tag label label-default">{{tag['tag2']}}</span>
+            <span class="cfp-tag label label-default" data-tag="{{tag['tag2']}}">{{tag['tag2']}}</span>
           {% endif %}
           {% if tag['tag3'] %}
-            <span class="cfp-tag label label-default">{{tag['tag3']}}</span>
+            <span class="cfp-tag label label-default" data-tag="{{tag['tag3']}}">{{tag['tag3']}}</span>
           {% endif %}
         {% endif %}
       {% endfor %}

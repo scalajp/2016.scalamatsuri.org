@@ -1,0 +1,18 @@
+---
+name: Bill Venners
+title: ScalaTest 3.0 の新機能
+length: 40
+audience: Intermediate
+language: English
+twitter: bvenners
+github: bvenners
+icon: https://pbs.twimg.com/profile_images/352703909/twitter.jpg
+organization: Artima, Inc.
+---
+<p>
+  このセッションでは ScalaTest 3.0 の新機能をどのように使うのか、どのような経緯でこのような設計になったのかなどについてお伝えします。
+  また、Scala.js サポート、Assertion結果型、特に非同期テストについてお話します。
+  非同期テストは既にある Future に対してアサーションを map して、ScalaTest に対して Future[Assertion] を返すことができます。
+  Scala.js ではブロックするコードを書けないため、非同期テストが必要となります。
+  一方 JVM 上では、非同期テストによってノンブロッキングなテストを書けるようになり、ノンブロッキングな本番コードと一貫性が保てます。本番コードをノンブロッキングで書くのは Akka や Play などのフレームワークにより推奨されています。
+</p>

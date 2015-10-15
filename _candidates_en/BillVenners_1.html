@@ -1,0 +1,18 @@
+---
+name: Bill Venners
+title: What's New in ScalaTest 3.0
+length: 40
+audience: Intermediate
+language: English
+twitter: bvenners
+github: bvenners
+icon: https://pbs.twimg.com/profile_images/352703909/twitter.jpg
+organization: Artima, Inc.
+---
+<p>
+  In this talk I'll demonstrate new features of ScalaTest 3.0, show how you can take advantage of them, and tell the story of how we arrived at the design.
+  I'll show Scala.js support, the Assertion result type, and in particular: asynchronous tests.
+  Async tests allow you to map assertions onto an existing future, yielding a Future[Assertion] that you can return to ScalaTest.
+  Async tests are required for Scala.js, where you can't block.
+  On the JVM they allow you to write non-blocking tests that are consistent with non-blocking production code as encouraged by frameworks like Akka and Play.
+</p>

@@ -112,7 +112,7 @@ TaroLSaito_1.html,title: MessagePackとScalaでDBMSを作ろう,database,,,http:
 YoshitakaFujii_1.html,title: Scalaでドメイン駆動設計に真正面から取り組んだ話,case study,,,http://scalamatsuri.org/ja/candidates/YoshitakaFujii_1/,,,
 ujihisa_1.html,title: レガシーなアレをスムーズにScala化をしていく11の方法,case study,tips,,http://scalamatsuri.org/ja/candidates/ujihisa_1/,,,
 MitsukiOgasawara_1.html,title: Scalaと機械学習、Scalaで機械学習,machine learning,,,http://scalamatsuri.org/ja/candidates/MitsukiOgasawara_1/,,,https://github.com/scalajp/2016.scalamatsuri.org/blob/wip/MitsukiOgasawara_1/_candidates_ja/MitsukiOgasawara_1.html
-MathiasSulser_1.html,title: 実戦Scalaz-Stream: 既存のバッチシステムを置き換える,scalaz,,,http://scalamatsuri.org/ja/candidates/MathiasSulser_1/,,,https://github.com/scalajp/2016.scalamatsuri.org/blob/wip/MathiasSulser_1/_candidates_ja/MathiasSulser_1.html
+MathiasSulser_1.html,title: 実戦Scalaz-Stream: 既存のバッチシステムを置き換える,scalaz,stream,case study,http://scalamatsuri.org/ja/candidates/MathiasSulser_1/,,,https://github.com/scalajp/2016.scalamatsuri.org/blob/wip/MathiasSulser_1/_candidates_ja/MathiasSulser_1.html
 ShinjiTakao_1.html,title: Java VM を HeapStats で見守ろう,tips,,,http://scalamatsuri.org/ja/candidates/ShinjiTakao_1/,,,https://github.com/scalajp/2016.scalamatsuri.org/blob/wip/ShinjiTakao_1/_candidates_ja/ShinjiTakao_1.html
 YutaOkamoto_1.html,title: なぜリアクティブは重要か,reactive,,,http://scalamatsuri.org/ja/candidates/YutaOkamoto_1/,,,https://github.com/scalajp/2016.scalamatsuri.org/blob/wip/YutaOkamoto_1/_candidates_ja/YutaOkamoto_1.html
 BillVenners_1.html,title: ScalaTest 3.0 の新機能,testing,tools and libraries,,http://scalamatsuri.org/ja/candidates/BillVenners_1/,,,

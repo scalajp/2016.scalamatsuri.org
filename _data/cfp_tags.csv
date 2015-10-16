@@ -98,7 +98,7 @@ EugeneYokota_2.html,"title: ""Reactive Platform って何?""",reactive,,,http://
 EugeneYokota_3.html,title: -Yno-lub を用いた Scala の厳格化,compiler,,,http://scalamatsuri.org/ja/candidates/EugeneYokota_3/,,,
 JulienTruffaut_1.html,title: Van Laarhoven Lens,functional programming,,,http://scalamatsuri.org/ja/candidates/JulienTruffaut_1/,,,
 MarconiLanna_2.html,title: 簡にして強を得る Scala ワンライナー,tips,,,http://scalamatsuri.org/ja/candidates/MarconiLanna_2/,,,
-ShingoOmura_1.html,title: Introduction to Pony,comparison,,,http://scalamatsuri.org/ja/candidates/ShingoOmura_1/,,,
+ShingoOmura_1.html,title: Introduction to Pony,comparison,akka,,http://scalamatsuri.org/ja/candidates/ShingoOmura_1/,,,
 kazzna_1.html,title: Learn Option in 15 Minutes for Better-Java Users.,tips,,,http://scalamatsuri.org/ja/candidates/kazzna_1/,,,
 DavidSferruzza_1.html,title: Scala の型システムを使った実行時エラーの対処法,type system,,,http://scalamatsuri.org/ja/candidates/DavidSferruzza_1/,,,
 DavidSferruzza_2.html,title: Scala の型システムを使った実行時エラーの対処法,type system,,,http://scalamatsuri.org/ja/candidates/DavidSferruzza_2/,,,

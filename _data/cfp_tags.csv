@@ -34,7 +34,7 @@ KazuhiroSera_1.html,title: アジアから Scala OSS に貢献するというこ
 KazuhiroSera_2.html,title: ポリグロットディベロッパーのすすめ,education,,,http://scalamatsuri.org/ja/candidates/KazuhiroSera_2/,,,
 KazukiSato_1.html,"title: ""5+αのサービスをScalaでまとめてマイクロサービス化する話""",case study,,,http://scalamatsuri.org/ja/candidates/KazukiSato_1/,,,
 KoichiSakata_1.html,title: ScalaコードはJVMでどのように表現されているのか,jvm,,,http://scalamatsuri.org/ja/candidates/KoichiSakata_1/,,,
-KonradMalawski_1.html,title: Sink から Source へ ? Akka Streams の進化と実装,akka,streams,,http://scalamatsuri.org/ja/candidates/KonradMalawski_1/,,,
+KonradMalawski_1.html,title: Sink から Source へ ? Akka Streams の進化と実装,akka,stream,,http://scalamatsuri.org/ja/candidates/KonradMalawski_1/,,,
 KonradMalawski_2.html,title: The Zen of Akka,akka,distributed,,http://scalamatsuri.org/ja/candidates/KonradMalawski_2/,,,
 KosukeYabumoto_1.html,"title: ""ScalaにこだわらないScala""",better Java,compare,,http://scalamatsuri.org/ja/candidates/KosukeYabumoto_1/,,,
 KrzysztofOtrebski_1.html,title: 宇宙人侵略からプロのように地球を防衛するための Akka Cluster 活用方法,akka,,,http://scalamatsuri.org/ja/candidates/KrzysztofOtrebski_1/,,,

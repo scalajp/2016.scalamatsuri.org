@@ -1,93 +1,118 @@
-file,タイトル,tag1,tag2,tag3,URL
-AlexanderPodkhalyuzin_1.html,title: IntelliJ IDEA で Scala をマスターする,editor,development environment,,http://scalamatsuri.org/ja/candidates/AlexanderPodkhalyuzin_1/
-AlexanderPodkhalyuzin_2.html,title: Scala Plugin for IntelliJ IDEA の内部構造,editor,development environment,,http://scalamatsuri.org/ja/candidates/AlexanderPodkhalyuzin_2/
-AmandaLaucher_1.html,"title: ""型 vs テスト""",testing,type system,,http://scalamatsuri.org/ja/candidates/AmandaLaucher_1/
-AnatoliiKmetiuk_1.html,title: プロセス代数を用いたゲーム開発,mathematics,game,,http://scalamatsuri.org/ja/candidates/AnatoliiKmetiuk_1/
-CheonSeongduk_1.html,title: PredictionIO (Machine Learning Server in Scala）を用いた推薦エンジン事例紹介,machine learning,case study,,http://scalamatsuri.org/ja/candidates/CheonSeongduk_1/
-ChrisBirchall_1.html,title: Scalac の深みへダイブ,compiler,,,http://scalamatsuri.org/ja/candidates/ChrisBirchall_1/
-ChrisMyers_1.html,title: 純粋関数型 web アプリ,functional programming,,,http://scalamatsuri.org/ja/candidates/ChrisMyers_1/
-ChristopherHunt_1.html,title: リアクティブ・マイクロサービス,architecture,akka,play,http://scalamatsuri.org/ja/candidates/ChristopherHunt_1/
-ClementDelafargue_1.html,title: Scala初心者のための関数型パターン,functional programming,,,http://scalamatsuri.org/ja/candidates/ClementDelafargue_1/
-CyrilleArtho_1.html,"title: ""Modbat：ユニットテストにテストを書かせよう""",testing,tools and libraries,,http://scalamatsuri.org/ja/candidates/CyrilleArtho_1/
-DaisukeKasuya_1.html,title: はてなインターン in Scala,case study,,,http://scalamatsuri.org/ja/candidates/DaisukeKasuya_1/
-DeanWampler_1.html,title: Scala と Big Data がこんなに便利なわけがない,big data,,,http://scalamatsuri.org/ja/candidates/DeanWampler_1/
-DebasishGhosh_1.html,title: 関数型、代数的なドメイン・モデリングの方法,functional programming,,,http://scalamatsuri.org/ja/candidates/DebasishGhosh_1/
-DevonStewart_1.html,title: 純粋関数型スタックに移行するための実践的なステップ,functional programming,,,http://scalamatsuri.org/ja/candidates/DevonStewart_1/
-DmitryIvanov_1.html,"title: ""Scala における実用 CRDT 解明""",database,distributed,,http://scalamatsuri.org/ja/candidates/DmitryIvanov_1/
-EugeneYokota_1.html,title: 猫という考え方,functional programming,,,http://scalamatsuri.org/ja/candidates/EugeneYokota_1/
-FranPerez_1.html,title: 平静を保ってスパークせよ,big data,,,http://scalamatsuri.org/ja/candidates/FranPerez_1/
-GenkiIshibashi_1.html,"title: ""Scalaで始めるDIY~つくれ！スカラ号！~""",IoT,Makers,,http://scalamatsuri.org/ja/candidates/GenkiIshibashi_1/
-HuyDo_1.html,"title: ""Jruby vs Scala""",compare,,,http://scalamatsuri.org/ja/candidates/HuyDo_1/
-IppeiTakahashi_1.html,title: Play + Slick + Scalazによる、関数型サーバサイド開発,functional programming,play,tools and libraries,http://scalamatsuri.org/ja/candidates/IppeiTakahashi_1/
-JamesSullivan_1.html,"title: ""業務上の現実問題: Scalaを使ったバーティカルな Web クローリング""",case study,,,http://scalamatsuri.org/ja/candidates/JamesSullivan_1/
-JavierSiloniz_1.html,title: ブリッジを作る - オープンソースフレームワークを利用した iOS/OSX の Scala っぽい関数型のコード,functional programming,,,http://scalamatsuri.org/ja/candidates/JavierSiloniz_1/
-JonPretty_1.html,title: エラーを減らそう、転ばぬ先の依存型,language,type system,,http://scalamatsuri.org/ja/candidates/JonPretty_1/
-JonasBoner_1.html,title: 現在という幻想の向こうにある人生,reactive,distributed,,http://scalamatsuri.org/ja/candidates/JonasBoner_1/
-JonasBoner_2.html,title: 正常系の末に行き着く異常さ,system design,,reactive,http://scalamatsuri.org/ja/candidates/JonasBoner_2/
-JoostHeijkoop_1.html,title: Akka Persistence に Stamina を。正しいマイグレーション教えます。,akka,,,http://scalamatsuri.org/ja/candidates/JoostHeijkoop_1/
-JulienRichardFoy_1.html,title: Scala の教育方法と理由,education,,,http://scalamatsuri.org/ja/candidates/JulienRichardFoy_1/
-JulienRichardFoy_2.html,title: コードはドキュメントだ! プロトコルから JSON の構造を導出する方法,tips,,,http://scalamatsuri.org/ja/candidates/JulienRichardFoy_2/
-JunichiKato_1.html,title: sbt-awsプラグインを使って簡単デプロイ,sbt,,,http://scalamatsuri.org/ja/candidates/JunichiKato_1/
-JunichiNoda_1.html,title: ScalaとSparkで作るつぶやきビッグデータクローン,big data,spark,,http://scalamatsuri.org/ja/candidates/JunichiNoda_1/
-JunichiNoda_2.html,title: ScalaとSpark MLlibで作るTwitterリコメンデーション,machine learning,big data,spark,http://scalamatsuri.org/ja/candidates/JunichiNoda_2/
-KazuhiroSera_1.html,title: アジアから Scala OSS に貢献するということ,community,,,http://scalamatsuri.org/ja/candidates/KazuhiroSera_1/
-KazuhiroSera_2.html,title: ポリグロットディベロッパーのすすめ,education,,,http://scalamatsuri.org/ja/candidates/KazuhiroSera_2/
-KazukiSato_1.html,"title: ""5+αのサービスをScalaでまとめてマイクロサービス化する話""",case study,,,http://scalamatsuri.org/ja/candidates/KazukiSato_1/
-KoichiSakata_1.html,title: ScalaコードはJVMでどのように表現されているのか,jvm,,,http://scalamatsuri.org/ja/candidates/KoichiSakata_1/
-KonradMalawski_1.html,title: Sink から Source へ 〜 Akka Streams の進化と実装,akka,,,http://scalamatsuri.org/ja/candidates/KonradMalawski_1/
-KonradMalawski_2.html,title: The Zen of Akka,akka,,,http://scalamatsuri.org/ja/candidates/KonradMalawski_2/
-KosukeYabumoto_1.html,"title: ""ScalaにこだわらないScala""",better Java,compare,,http://scalamatsuri.org/ja/candidates/KosukeYabumoto_1/
-KrzysztofOtrebski_1.html,title: 宇宙人侵略からプロのように地球を防衛するための Akka Cluster 活用方法,akka,,,http://scalamatsuri.org/ja/candidates/KrzysztofOtrebski_1/
-KyoAgo_1.html,"title: ""Scalaの世界のJavaScript""",compare,,,http://scalamatsuri.org/ja/candidates/KyoAgo_1/
-LiHaoyi_1.html,title: Computational Art,algorithm (mathematics),computer graphics,,http://scalamatsuri.org/ja/candidates/LiHaoyi_1/
-LiHaoyi_2.html,title: Scala における簡単なファイル操作,tips,,,http://scalamatsuri.org/ja/candidates/LiHaoyi_2/
-LiHaoyi_3.html,"title: ""sbt: 4次元メタ・メタ・メタ・インタプリタですが、何か?""",sbt,,,http://scalamatsuri.org/ja/candidates/LiHaoyi_3/
-LongCao_1.html,title: Scala における関数型のエラー処理と蓄積,functional programming,,,http://scalamatsuri.org/ja/candidates/LongCao_1/
-ManabuNakamura_1.html,"title: ""Refactoring in Scala""",refactoring,,,http://scalamatsuri.org/ja/candidates/ManabuNakamura_1/
-MarconiLanna_1.html,title: 簡にして強を得る Scala ワンライナー,tips,,,http://scalamatsuri.org/ja/candidates/MarconiLanna_1/
-MasakiToyoshima_1.html,title: Akka-Streamを使った集計処理実装についての事例紹介,akka,case study,,http://scalamatsuri.org/ja/candidates/MasakiToyoshima_1/
-MateuszDymczyk_1.html,title: 実用分散機械学習入門講座,machine learning,big data,,http://scalamatsuri.org/ja/candidates/MateuszDymczyk_1/
-MelindaSeckington_1.html,title: 学び、反映させ、それを繰り返す,education,,,http://scalamatsuri.org/ja/candidates/MelindaSeckington_1/
-MelindaSeckington_2.html,title: 開発者のためのマーベル・ガイド,education,,,http://scalamatsuri.org/ja/candidates/MelindaSeckington_2/
-MichalPlachta_1.html,title: Akka Cluster によるシャーディング,akka,,,http://scalamatsuri.org/ja/candidates/MichalPlachta_1/
-MichihitoShigemura_1.html,title: Emacsを使って開発する話,editor,,,http://scalamatsuri.org/ja/candidates/MichihitoShigemura_1/
-MilesSabin_1.html,title: Codecs for free! - shapeless を用いた型クラス導出の実践,functional programming,,,http://scalamatsuri.org/ja/candidates/MilesSabin_1/
-NaokiAinoya_1.html,title: Dockerをベースとしたインフラ上でのPlay frameworkアプリケーション本番運用ノウハウ,case study,play,,http://scalamatsuri.org/ja/candidates/NaokiAinoya_1/
-NaokiAoyama_1.html,title: Optics Programming in Scala,functional programming,,,http://scalamatsuri.org/ja/candidates/NaokiAoyama_1/
-NaokiAoyama_2.html,"title: ""ScalaからScalaへ""",case study,,,http://scalamatsuri.org/ja/candidates/NaokiAoyama_2/
-NaoyaIto_1.html,title: Introduction to Elixir,tools and libraries,,,http://scalamatsuri.org/ja/candidates/NaoyaIto_1/
-PaulSzulc_1.html,"title: ""Scala 信仰を JVM バイトコードで解明する""",jvm,,,http://scalamatsuri.org/ja/candidates/PaulSzulc_1/
-Ponkotuy_1.html,title: Scala Collection 探訪,learning,language,,http://scalamatsuri.org/ja/candidates/Ponkotuy_1/
-QuentinADAM_1.html,"title: ""Scala ストリーム群雄割拠の時代: 今知りたい利点と現状の分析""",akka,stream,,http://scalamatsuri.org/ja/candidates/QuentinADAM_1/
-QuentinADAM_2.html,"title: ""不変性がもたらすスケーラビリティ: コードからインフラまで""",functional programming,,,http://scalamatsuri.org/ja/candidates/QuentinADAM_2/
-QuentinADAM_3.html,title: AMQP、Scala、Reactive Stream で作る実用 Akka Stream アプリケーション,akka,stream,,http://scalamatsuri.org/ja/candidates/QuentinADAM_3/
-QuentinADAM_4.html,"title: ""HTTP/2 がWebに革新をもたらす理由""",,,web standard,http://scalamatsuri.org/ja/candidates/QuentinADAM_4/
-QuentinADAM_5.html,title: NoSQLファンはPostgres SQLもきっと好きになるはず,database,,,http://scalamatsuri.org/ja/candidates/QuentinADAM_5/
-RaulRaja_1.html,title: 実用関数型アーキテクチャのパターン,learning,,,http://scalamatsuri.org/ja/candidates/RaulRaja_1/
-RyotaKuroki_1.html,"title: ""JavaerのためのScala入門""",compare,,,http://scalamatsuri.org/ja/candidates/RyotaKuroki_1/
-SanshiroYoshida_1.html,title: Logic Programming in Scala,learning,,,http://scalamatsuri.org/ja/candidates/SanshiroYoshida_1/
-ScalaWarriors_1.html,"title: ""ウィーアースカラウォリアーズ！""",education,,,http://scalamatsuri.org/ja/candidates/ScalaWarriors_1/
-SeitaroYuuki_1.html,"title: ""ドワンゴアカウントシステムを支えるScala技術""",case study,,,http://scalamatsuri.org/ja/candidates/SeitaroYuuki_1/
-ShigeoEsehara_1.html,title: Clojureから見たScala,compare,,,http://scalamatsuri.org/ja/candidates/ShigeoEsehara_1/
-ShuyaTsukamoto_1.html,title: 広告配信APIサーバを約1年間運用・監視した話(Spray + Akka actor + Kamon + Datadog),case study,,,http://scalamatsuri.org/ja/candidates/ShuyaTsukamoto_1/
-TaisukeOe_1.html,title: DeepLearning in Scala,machine learning,,,http://scalamatsuri.org/ja/candidates/TaisukeOe_1/
-TatsunoriTamaki_1.html,title: Implicitで型クラスを定義してアドホック多相を実現する方法について,functional programming,,,http://scalamatsuri.org/ja/candidates/TatsunoriTamaki_1/
-TeppeiTosa_1.html,title: Scala エンジニアのためだけの Spark GraphX,tools and libraries,spark,,http://scalamatsuri.org/ja/candidates/TeppeiTosa_1/
-TobiasSchlatter_1.html,title: Scala.js コンパイル・パイプライン,compiler,,,http://scalamatsuri.org/ja/candidates/TobiasSchlatter_1/
-Todesking_1.html,title: VimでのScala開発、その実際,editor,,,http://scalamatsuri.org/ja/candidates/Todesking_1/
-Todesking_2.html,"title: ""FRPによるサウンドプログラミング: Scalaで作るモジュラーシンセサイザー""",functional programming,,,http://scalamatsuri.org/ja/candidates/Todesking_2/
-TomerGabel_1.html,title: 楽しく役立つ Scala リファクタリング,refactoring,,,http://scalamatsuri.org/ja/candidates/TomerGabel_1/
-TomerGabel_2.html,"title: ""基本からの Scala: 型クラス""",functional programming,learning,type system,http://scalamatsuri.org/ja/candidates/TomerGabel_2/
-TomerGabel_3.html,title: Scala を導入するための 5 つの弾丸,,,,http://scalamatsuri.org/ja/candidates/TomerGabel_3/
-Uragami_1.html,"title: ""Groovyで分かった気になるラムダ計算""",compare,functional programming,,http://scalamatsuri.org/ja/candidates/Uragami_1/
-YaoLi_1.html,"title: ""Scala Forklift: SlickとGitを使った型安全なDBマイグレーション""",database,tools and libraries,,http://scalamatsuri.org/ja/candidates/YaoLi_1/
-YasuyukiSugitani_1.html,title: 会社をまるごとScala化する方法  〜Scalaに至るまで物語〜,case study,,,http://scalamatsuri.org/ja/candidates/YasuyukiSugitani_1/
-YoshimasaNiwa_1.html,title: iOS の世界にご招待 — Scala と Swift のイイ関係,compare,iOS,,http://scalamatsuri.org/ja/candidates/YoshimasaNiwa_1/
-YukiKatada_1.html,"title: ""Scala高速化チューニング""",performance,,,http://scalamatsuri.org/ja/candidates/YukiKatada_1/
-YukiNakayama_1.html,title: Functional Java vs Scala,compare,,,http://scalamatsuri.org/ja/candidates/YukiNakayama_1/
-YukiNakayama_2.html,title: ユニットテストを構成する要素について考える,testing,,,http://scalamatsuri.org/ja/candidates/YukiNakayama_2/
-YuriInoue_1.html,title: あなたのScalaを爆速にする７つの方法,performance,,,http://scalamatsuri.org/ja/candidates/YuriInoue_1/
-YuriInoue_2.html,title: Apache Spark SQL芸,big data,spark,tools and libraries,http://scalamatsuri.org/ja/candidates/YuriInoue_2/
-YusukeYasuda_1.html,title: 弾力性を失ったシステムをAkka Streamで延命する,akka,,,http://scalamatsuri.org/ja/candidates/YusukeYasuda_1/
-YutoSuzuki_1.html,"title: ""sbtプラグインの作り方""",sbt,,,http://scalamatsuri.org/ja/candidates/YutoSuzuki_1/
-ZachMcCoy_1.html,title: みんなの関数型プログラミング,functional programming,,,http://scalamatsuri.org/ja/candidates/ZachMcCoy_1/
+file,タイトル,tag1,tag2,tag3,URL,,,
+AlexanderPodkhalyuzin_1.html,title: IntelliJ IDEA で Scala をマスターする,editor,development environment,,http://scalamatsuri.org/ja/candidates/AlexanderPodkhalyuzin_1/,,,
+AlexanderPodkhalyuzin_2.html,title: Scala Plugin for IntelliJ IDEA の内部構造,editor,development environment,,http://scalamatsuri.org/ja/candidates/AlexanderPodkhalyuzin_2/,,,
+AmandaLaucher_1.html,"title: ""型 vs テスト""",testing,type system,,http://scalamatsuri.org/ja/candidates/AmandaLaucher_1/,,,
+AnatoliiKmetiuk_1.html,title: プロセス代数を用いたゲーム開発,mathematics,game,,http://scalamatsuri.org/ja/candidates/AnatoliiKmetiuk_1/,,,
+CheonSeongduk_1.html,title: PredictionIO (Machine Learning Server in Scala）を用いた推薦エンジン事例紹介,machine learning,case study,,http://scalamatsuri.org/ja/candidates/CheonSeongduk_1/,,,
+ChrisBirchall_1.html,title: Scalac の深みへダイブ,compiler,,,http://scalamatsuri.org/ja/candidates/ChrisBirchall_1/,,,
+ChrisMyers_1.html,title: 純粋関数型 web アプリ,functional programming,,,http://scalamatsuri.org/ja/candidates/ChrisMyers_1/,,,
+ChristopherHunt_1.html,title: リアクティブ・マイクロサービス,architecture,akka,play,http://scalamatsuri.org/ja/candidates/ChristopherHunt_1/,,,
+ClementDelafargue_1.html,title: Scala初心者のための関数型パターン,functional programming,,,http://scalamatsuri.org/ja/candidates/ClementDelafargue_1/,,,
+CyrilleArtho_1.html,"title: ""Modbat：ユニットテストにテストを書かせよう""",testing,tools and libraries,,http://scalamatsuri.org/ja/candidates/CyrilleArtho_1/,,,
+DaisukeKasuya_1.html,title: はてなインターン in Scala,case study,,,http://scalamatsuri.org/ja/candidates/DaisukeKasuya_1/,,,
+DeanWampler_1.html,title: Scala と Big Data がこんなに便利なわけがない,big data,,,http://scalamatsuri.org/ja/candidates/DeanWampler_1/,,,
+DebasishGhosh_1.html,title: 関数型、代数的なドメイン・モデリングの方法,functional programming,,,http://scalamatsuri.org/ja/candidates/DebasishGhosh_1/,,,
+DevonStewart_1.html,title: 純粋関数型スタックに移行するための実践的なステップ,functional programming,,,http://scalamatsuri.org/ja/candidates/DevonStewart_1/,,,
+DmitryIvanov_1.html,"title: ""Scala における実用 CRDT 解明""",database,distributed,,http://scalamatsuri.org/ja/candidates/DmitryIvanov_1/,,,
+EugeneYokota_1.html,title: 猫という考え方,functional programming,,,http://scalamatsuri.org/ja/candidates/EugeneYokota_1/,,,
+FranPerez_1.html,title: 平静を保ってスパークせよ,big data,,,http://scalamatsuri.org/ja/candidates/FranPerez_1/,,,
+GenkiIshibashi_1.html,"title: ""Scalaで始めるDIY~つくれ！スカラ号！~""",IoT,Makers,,http://scalamatsuri.org/ja/candidates/GenkiIshibashi_1/,,,
+HuyDo_1.html,"title: ""Jruby vs Scala""",compare,,,http://scalamatsuri.org/ja/candidates/HuyDo_1/,,,
+IppeiTakahashi_1.html,title: Play + Slick + Scalazによる、関数型サーバサイド開発,functional programming,play,tools and libraries,http://scalamatsuri.org/ja/candidates/IppeiTakahashi_1/,,,
+JamesSullivan_1.html,"title: ""業務上の現実問題: Scalaを使ったバーティカルな Web クローリング""",case study,,,http://scalamatsuri.org/ja/candidates/JamesSullivan_1/,,,
+JavierSiloniz_1.html,title: ブリッジを作る - オープンソースフレームワークを利用した iOS/OSX の Scala っぽい関数型のコード,functional programming,,,http://scalamatsuri.org/ja/candidates/JavierSiloniz_1/,,,
+JonPretty_1.html,title: エラーを減らそう、転ばぬ先の依存型,language,type system,,http://scalamatsuri.org/ja/candidates/JonPretty_1/,,,
+JonasBoner_1.html,title: 現在という幻想の向こうにある人生,reactive,distributed,,http://scalamatsuri.org/ja/candidates/JonasBoner_1/,,,
+JonasBoner_2.html,title: 正常系の末に行き着く異常さ,system design,,reactive,http://scalamatsuri.org/ja/candidates/JonasBoner_2/,,,
+JoostHeijkoop_1.html,title: Akka Persistence に Stamina を。正しいマイグレーション教えます。,akka,,,http://scalamatsuri.org/ja/candidates/JoostHeijkoop_1/,,,
+JulienRichardFoy_1.html,title: Scala の教育方法と理由,education,,,http://scalamatsuri.org/ja/candidates/JulienRichardFoy_1/,,,
+JulienRichardFoy_2.html,title: コードはドキュメントだ! プロトコルから JSON の構造を導出する方法,tips,,,http://scalamatsuri.org/ja/candidates/JulienRichardFoy_2/,,,
+JunichiKato_1.html,title: sbt-awsプラグインを使って簡単デプロイ,sbt,,,http://scalamatsuri.org/ja/candidates/JunichiKato_1/,,,
+JunichiNoda_1.html,title: ScalaとSparkで作るつぶやきビッグデータクローン,big data,spark,,http://scalamatsuri.org/ja/candidates/JunichiNoda_1/,,,
+JunichiNoda_2.html,title: ScalaとSpark MLlibで作るTwitterリコメンデーション,machine learning,big data,spark,http://scalamatsuri.org/ja/candidates/JunichiNoda_2/,,,
+KazuhiroSera_1.html,title: アジアから Scala OSS に貢献するということ,community,,,http://scalamatsuri.org/ja/candidates/KazuhiroSera_1/,,,
+KazuhiroSera_2.html,title: ポリグロットディベロッパーのすすめ,education,,,http://scalamatsuri.org/ja/candidates/KazuhiroSera_2/,,,
+KazukiSato_1.html,"title: ""5+αのサービスをScalaでまとめてマイクロサービス化する話""",case study,,,http://scalamatsuri.org/ja/candidates/KazukiSato_1/,,,
+KoichiSakata_1.html,title: ScalaコードはJVMでどのように表現されているのか,jvm,,,http://scalamatsuri.org/ja/candidates/KoichiSakata_1/,,,
+KonradMalawski_1.html,title: Sink から Source へ ? Akka Streams の進化と実装,akka,,,http://scalamatsuri.org/ja/candidates/KonradMalawski_1/,,,
+KonradMalawski_2.html,title: The Zen of Akka,akka,,,http://scalamatsuri.org/ja/candidates/KonradMalawski_2/,,,
+KosukeYabumoto_1.html,"title: ""ScalaにこだわらないScala""",better Java,compare,,http://scalamatsuri.org/ja/candidates/KosukeYabumoto_1/,,,
+KrzysztofOtrebski_1.html,title: 宇宙人侵略からプロのように地球を防衛するための Akka Cluster 活用方法,akka,,,http://scalamatsuri.org/ja/candidates/KrzysztofOtrebski_1/,,,
+KyoAgo_1.html,"title: ""Scalaの世界のJavaScript""",compare,,,http://scalamatsuri.org/ja/candidates/KyoAgo_1/,,,
+LiHaoyi_1.html,title: Computational Art,algorithm (mathematics),computer graphics,,http://scalamatsuri.org/ja/candidates/LiHaoyi_1/,,,
+LiHaoyi_2.html,title: Scala における簡単なファイル操作,tips,,,http://scalamatsuri.org/ja/candidates/LiHaoyi_2/,,,
+LiHaoyi_3.html,"title: ""sbt: 4次元メタ・メタ・メタ・インタプリタですが、何か?""",sbt,,,http://scalamatsuri.org/ja/candidates/LiHaoyi_3/,,,
+LongCao_1.html,title: Scala における関数型のエラー処理と蓄積,functional programming,,,http://scalamatsuri.org/ja/candidates/LongCao_1/,,,
+ManabuNakamura_1.html,"title: ""Refactoring in Scala""",refactoring,,,http://scalamatsuri.org/ja/candidates/ManabuNakamura_1/,,,
+MarconiLanna_1.html,title: 簡にして強を得る Scala ワンライナー,tips,,,http://scalamatsuri.org/ja/candidates/MarconiLanna_1/,,,
+MasakiToyoshima_1.html,title: Akka-Streamを使った集計処理実装についての事例紹介,akka,case study,,http://scalamatsuri.org/ja/candidates/MasakiToyoshima_1/,,,
+MateuszDymczyk_1.html,title: 実用分散機械学習入門講座,machine learning,big data,,http://scalamatsuri.org/ja/candidates/MateuszDymczyk_1/,,,
+MelindaSeckington_1.html,title: 学び、反映させ、それを繰り返す,education,,,http://scalamatsuri.org/ja/candidates/MelindaSeckington_1/,,,
+MelindaSeckington_2.html,title: 開発者のためのマーベル・ガイド,education,,,http://scalamatsuri.org/ja/candidates/MelindaSeckington_2/,,,
+MichalPlachta_1.html,title: Akka Cluster によるシャーディング,akka,,,http://scalamatsuri.org/ja/candidates/MichalPlachta_1/,,,
+MichihitoShigemura_1.html,title: Emacsを使って開発する話,editor,,,http://scalamatsuri.org/ja/candidates/MichihitoShigemura_1/,,,
+MilesSabin_1.html,title: Codecs for free! - shapeless を用いた型クラス導出の実践,functional programming,,,http://scalamatsuri.org/ja/candidates/MilesSabin_1/,,,
+NaokiAinoya_1.html,title: Dockerをベースとしたインフラ上でのPlay frameworkアプリケーション本番運用ノウハウ,case study,play,,http://scalamatsuri.org/ja/candidates/NaokiAinoya_1/,,,
+NaokiAoyama_1.html,title: Optics Programming in Scala,functional programming,,,http://scalamatsuri.org/ja/candidates/NaokiAoyama_1/,,,
+NaokiAoyama_2.html,"title: ""ScalaからScalaへ""",case study,,,http://scalamatsuri.org/ja/candidates/NaokiAoyama_2/,,,
+NaoyaIto_1.html,title: Introduction to Elixir,functional programming,language,compare,http://scalamatsuri.org/ja/candidates/NaoyaIto_1/,,,
+PaulSzulc_1.html,"title: ""Scala 信仰を JVM バイトコードで解明する""",jvm,,,http://scalamatsuri.org/ja/candidates/PaulSzulc_1/,,,
+Ponkotuy_1.html,title: Scala Collection 探訪,learning,language,,http://scalamatsuri.org/ja/candidates/Ponkotuy_1/,,,
+QuentinADAM_1.html,"title: ""Scala ストリーム群雄割拠の時代: 今知りたい利点と現状の分析""",akka,stream,,http://scalamatsuri.org/ja/candidates/QuentinADAM_1/,,,
+QuentinADAM_2.html,"title: ""不変性がもたらすスケーラビリティ: コードからインフラまで""",functional programming,,,http://scalamatsuri.org/ja/candidates/QuentinADAM_2/,,,
+QuentinADAM_3.html,title: AMQP、Scala、Reactive Stream で作る実用 Akka Stream アプリケーション,akka,stream,,http://scalamatsuri.org/ja/candidates/QuentinADAM_3/,,,
+QuentinADAM_4.html,"title: ""HTTP/2 がWebに革新をもたらす理由""",web standard,http/2,,http://scalamatsuri.org/ja/candidates/QuentinADAM_4/,,,
+QuentinADAM_5.html,title: NoSQLファンはPostgres SQLもきっと好きになるはず,database,,,http://scalamatsuri.org/ja/candidates/QuentinADAM_5/,,,
+RaulRaja_1.html,title: 実用関数型アーキテクチャのパターン,learning,,,http://scalamatsuri.org/ja/candidates/RaulRaja_1/,,,
+RyotaKuroki_1.html,"title: ""JavaerのためのScala入門""",compare,,,http://scalamatsuri.org/ja/candidates/RyotaKuroki_1/,,,
+SanshiroYoshida_1.html,title: Logic Programming in Scala,learning,,,http://scalamatsuri.org/ja/candidates/SanshiroYoshida_1/,,,
+ScalaWarriors_1.html,"title: ""ウィーアースカラウォリアーズ！""",education,,,http://scalamatsuri.org/ja/candidates/ScalaWarriors_1/,,,
+SeitaroYuuki_1.html,"title: ""ドワンゴアカウントシステムを支えるScala技術""",case study,,,http://scalamatsuri.org/ja/candidates/SeitaroYuuki_1/,,,
+ShigeoEsehara_1.html,title: Clojureから見たScala,compare,,,http://scalamatsuri.org/ja/candidates/ShigeoEsehara_1/,,,
+ShuyaTsukamoto_1.html,title: 広告配信APIサーバを約1年間運用・監視した話(Spray + Akka actor + Kamon + Datadog),case study,,,http://scalamatsuri.org/ja/candidates/ShuyaTsukamoto_1/,,,
+TaisukeOe_1.html,title: Scalaで始めるDeep Learning,machine learning,,,http://scalamatsuri.org/ja/candidates/TaisukeOe_1/,,,
+TatsunoriTamaki_1.html,title: Implicitで型クラスを定義してアドホック多相を実現する方法について,functional programming,,,http://scalamatsuri.org/ja/candidates/TatsunoriTamaki_1/,,,
+TeppeiTosa_1.html,title: Scala エンジニアのためだけの Spark GraphX,tools and libraries,spark,bigdata,http://scalamatsuri.org/ja/candidates/TeppeiTosa_1/,,,
+TobiasSchlatter_1.html,title: Scala.js コンパイル・パイプライン,compiler,scala.js,,http://scalamatsuri.org/ja/candidates/TobiasSchlatter_1/,,,
+Todesking_1.html,title: VimでのScala開発、その実際,editor,,,http://scalamatsuri.org/ja/candidates/Todesking_1/,,,
+Todesking_2.html,"title: ""FRPによるサウンドプログラミング: Scalaで作るモジュラーシンセサイザー""",functional programming,,,http://scalamatsuri.org/ja/candidates/Todesking_2/,,,
+TomerGabel_1.html,title: 楽しく役立つ Scala リファクタリング,refactoring,,,http://scalamatsuri.org/ja/candidates/TomerGabel_1/,,,
+TomerGabel_2.html,"title: ""基本からの Scala: 型クラス""",functional programming,learning,type system,http://scalamatsuri.org/ja/candidates/TomerGabel_2/,,,
+TomerGabel_3.html,title: Scala を導入するための 5 つの弾丸,functional programming,learning,education,http://scalamatsuri.org/ja/candidates/TomerGabel_3/,,,
+Uragami_1.html,"title: ""Groovyで分かった気になるラムダ計算""",compare,functional programming,,http://scalamatsuri.org/ja/candidates/Uragami_1/,,,
+YaoLi_1.html,"title: ""Scala Forklift: SlickとGitを使った型安全なDBマイグレーション""",database,tools and libraries,,http://scalamatsuri.org/ja/candidates/YaoLi_1/,,,
+YasuyukiSugitani_1.html,title: 会社をまるごとScala化する方法  ?Scalaに至るまで物語?,case study,,,http://scalamatsuri.org/ja/candidates/YasuyukiSugitani_1/,,,
+YoshimasaNiwa_1.html,title: iOS の世界にご招待 ? Scala と Swift のイイ関係,compare,iOS,,http://scalamatsuri.org/ja/candidates/YoshimasaNiwa_1/,,,
+YukiKatada_1.html,"title: ""Scala高速化チューニング""",performance,,,http://scalamatsuri.org/ja/candidates/YukiKatada_1/,,,
+YukiNakayama_1.html,title: Functional Java vs Scala,compare,,,http://scalamatsuri.org/ja/candidates/YukiNakayama_1/,,,
+YukiNakayama_2.html,title: ユニットテストを構成する要素について考える,testing,,,http://scalamatsuri.org/ja/candidates/YukiNakayama_2/,,,
+YuriInoue_1.html,title: あなたのScalaを爆速にする７つの方法,performance,,,http://scalamatsuri.org/ja/candidates/YuriInoue_1/,,,
+YuriInoue_2.html,title: Apache Spark SQL芸,big data,spark,tools and libraries,http://scalamatsuri.org/ja/candidates/YuriInoue_2/,,,
+YusukeYasuda_1.html,title: 弾力性を失ったシステムをAkka Streamで延命する,akka,,,http://scalamatsuri.org/ja/candidates/YusukeYasuda_1/,,,
+YutoSuzuki_1.html,"title: ""sbtプラグインの作り方""",sbt,,,http://scalamatsuri.org/ja/candidates/YutoSuzuki_1/,,,
+ZachMcCoy_1.html,title: みんなの関数型プログラミング,functional programming,,,http://scalamatsuri.org/ja/candidates/ZachMcCoy_1/,,,
+Armorik83_1.html,title: TypeScriptから見たScala.js,scala.js,compare,,http://scalamatsuri.org/ja/candidates/Armorik83_1/,,,
+DenisPapathanasiou_1.html,title: Scala + Graph Databases,database,,,http://scalamatsuri.org/ja/candidates/DenisPapathanasiou_1/,,,
+EduardoGonzalez_1.html,title: ScalaとSparkによる日本語テキストマイニング,spark,,,http://scalamatsuri.org/ja/candidates/EduardoGonzalez_1/,,,
+EugeneYokota_2.html,"title: ""Reactive Platform って何?""",reactive,,,http://scalamatsuri.org/ja/candidates/EugeneYokota_2/,,,
+EugeneYokota_3.html,title: -Yno-lub を用いた Scala の厳格化,compiler,,,http://scalamatsuri.org/ja/candidates/EugeneYokota_3/,,,
+JulienTruffaut_1.html,title: Van Laarhoven Lens,functional programming,,,http://scalamatsuri.org/ja/candidates/JulienTruffaut_1/,,,
+MarconiLanna_2.html,title: 簡にして強を得る Scala ワンライナー,tips,,,http://scalamatsuri.org/ja/candidates/MarconiLanna_2/,,,
+ShingoOmura_1.html,title: Introduction to Pony,compare,,,http://scalamatsuri.org/ja/candidates/ShingoOmura_1/,,,
+kazzna_1.html,title: Learn Option in 15 Minutes for Better-Java Users.,tips,,,http://scalamatsuri.org/ja/candidates/kazzna_1/,,,
+DavidSferruzza_1.html,title: Scala の型システムを使った実行時エラーの対処法,type system,,,http://scalamatsuri.org/ja/candidates/DavidSferruzza_1/,,,
+DavidSferruzza_2.html,title: Scala の型システムを使った実行時エラーの対処法,type system,,,http://scalamatsuri.org/ja/candidates/DavidSferruzza_2/,,,
+HuyDo_2.html,title: Scala on Rails,tips,,,http://scalamatsuri.org/ja/candidates/HuyDo_2/,,,
+KazukiNegoro_1.html,title: バッチを Akka Streams で再実装したら100倍速くなった話,akka,,,http://scalamatsuri.org/ja/candidates/KazukiNegoro_1/,,,
+KazukiSato_2.html,title: Akka Actorとsprayで作る、成長を続けるマイクロサービス,akka,,,http://scalamatsuri.org/ja/candidates/KazukiSato_2/,,,
+KenjiDoi_1.html,title: 結局、業務でつかってどうなの？～初心者集団のScala開発～,case study,,,http://scalamatsuri.org/ja/candidates/KenjiDoi_1/,,,
+ShigekazuTakei_1.html,title: ScalaにおけるIDL事情,tips,,,http://scalamatsuri.org/ja/candidates/ShigekazuTakei_1/,,,
+TakahashiToshiyuki_1.html,title: Playソースコード完全マスターへの道,play,,,http://scalamatsuri.org/ja/candidates/TakahashiToshiyuki_1/,,,
+TaroLSaito_1.html,title: MessagePackとScalaでDBMSを作ろう,database,,,http://scalamatsuri.org/ja/candidates/TaroLSaito_1/,,,
+YoshitakaFujii_1.html,title: Scalaでドメイン駆動設計に真正面から取り組んだ話,case study,,,http://scalamatsuri.org/ja/candidates/YoshitakaFujii_1/,,,
+ujihisa_1.html,title: レガシーなアレをスムーズにScala化をしていく11の方法,case study,tips,,http://scalamatsuri.org/ja/candidates/ujihisa_1/,,,
+MitsukiOgasawara_1.html,title: Scalaと機械学習、Scalaで機械学習,machine learning,,,http://scalamatsuri.org/ja/candidates/MitsukiOgasawara_1/,,,https://github.com/scalajp/2016.scalamatsuri.org/blob/wip/MitsukiOgasawara_1/_candidates_ja/MitsukiOgasawara_1.html
+MathiasSulser_1.html,title: 実戦Scalaz-Stream: 既存のバッチシステムを置き換える,scalaz,,,http://scalamatsuri.org/ja/candidates/MathiasSulser_1/,,,https://github.com/scalajp/2016.scalamatsuri.org/blob/wip/MathiasSulser_1/_candidates_ja/MathiasSulser_1.html
+ShinjiTakao_1.html,title: Java VM を HeapStats で見守ろう,tips,,,http://scalamatsuri.org/ja/candidates/ShinjiTakao_1/,,,https://github.com/scalajp/2016.scalamatsuri.org/blob/wip/ShinjiTakao_1/_candidates_ja/ShinjiTakao_1.html
+YutaOkamoto_1.html,title: なぜリアクティブは重要か,reactive,,,http://scalamatsuri.org/ja/candidates/YutaOkamoto_1/,,,https://github.com/scalajp/2016.scalamatsuri.org/blob/wip/YutaOkamoto_1/_candidates_ja/YutaOkamoto_1.html
+BillVenners_1.html,title: ScalaTest 3.0 の新機能,testing,,,http://scalamatsuri.org/ja/candidates/BillVenners_1/,,,

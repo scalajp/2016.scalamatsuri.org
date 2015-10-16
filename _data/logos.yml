@@ -57,6 +57,9 @@ hatamoto:
   - title: "BizReach"
     href: "https://jp.stanby.com/"
     img: "/img/logo/bizreach.jpg"
+  - title: "Givery"
+    href: "https://givery.co.jp/"
+    img: "/img/logo/givery.png"
 
 samurai:
   - title: Applicative

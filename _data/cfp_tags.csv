@@ -20,7 +20,7 @@ GenkiIshibashi_1.html,"title: ""Scalaで始めるDIY~つくれ！スカラ号！
 HuyDo_1.html,"title: ""Jruby vs Scala""",compare,,,http://scalamatsuri.org/ja/candidates/HuyDo_1/,,,
 IppeiTakahashi_1.html,title: Play + Slick + Scalazによる、関数型サーバサイド開発,functional programming,play,tools and libraries,http://scalamatsuri.org/ja/candidates/IppeiTakahashi_1/,,,
 JamesSullivan_1.html,"title: ""業務上の現実問題: Scalaを使ったバーティカルな Web クローリング""",case study,,,http://scalamatsuri.org/ja/candidates/JamesSullivan_1/,,,
-JavierSiloniz_1.html,title: ブリッジを作る - オープンソースフレームワークを利用した iOS/OSX の Scala っぽい関数型のコード,functional programming,,,http://scalamatsuri.org/ja/candidates/JavierSiloniz_1/,,,
+JavierSiloniz_1.html,title: ブリッジを作る - オープンソースフレームワークを利用した iOS/OSX の Scala っぽい関数型のコード,Scala and Swift,iOS,OSX,http://scalamatsuri.org/ja/candidates/JavierSiloniz_1/,,,
 JonPretty_1.html,title: エラーを減らそう、転ばぬ先の依存型,language,type system,,http://scalamatsuri.org/ja/candidates/JonPretty_1/,,,
 JonasBoner_1.html,title: 現在という幻想の向こうにある人生,reactive,distributed,,http://scalamatsuri.org/ja/candidates/JonasBoner_1/,,,
 JonasBoner_2.html,title: 正常系の末に行き着く異常さ,architecture,,reactive,http://scalamatsuri.org/ja/candidates/JonasBoner_2/,,,

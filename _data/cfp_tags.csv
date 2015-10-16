@@ -91,7 +91,7 @@ YuriInoue_2.html,title: Apache Spark SQL芸,big data,spark,tools and libraries,h
 YusukeYasuda_1.html,title: 弾力性を失ったシステムをAkka Streamで延命する,akka,,,http://scalamatsuri.org/ja/candidates/YusukeYasuda_1/,,,
 YutoSuzuki_1.html,"title: ""sbtプラグインの作り方""",sbt,,,http://scalamatsuri.org/ja/candidates/YutoSuzuki_1/,,,
 ZachMcCoy_1.html,title: みんなの関数型プログラミング,functional programming,,,http://scalamatsuri.org/ja/candidates/ZachMcCoy_1/,,,
-Armorik83_1.html,title: TypeScriptから見たScala.js,scala.js,compare,,http://scalamatsuri.org/ja/candidates/Armorik83_1/,,,
+Armorik83_1.html,title: TypeScriptから見たScala.js,scala.js,compare,language,http://scalamatsuri.org/ja/candidates/Armorik83_1/,,,
 DenisPapathanasiou_1.html,title: Scala + Graph Databases,database,,,http://scalamatsuri.org/ja/candidates/DenisPapathanasiou_1/,,,
 EduardoGonzalez_1.html,title: ScalaとSparkによる日本語テキストマイニング,spark,,,http://scalamatsuri.org/ja/candidates/EduardoGonzalez_1/,,,
 EugeneYokota_2.html,"title: ""Reactive Platform って何?""",reactive,,,http://scalamatsuri.org/ja/candidates/EugeneYokota_2/,,,

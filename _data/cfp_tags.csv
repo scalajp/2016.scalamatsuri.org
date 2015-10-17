@@ -66,7 +66,7 @@ QuentinADAM_5.html,title: NoSQLファンはPostgres SQLもきっと好きにな�
 RaulRaja_1.html,title: 実用関数型アーキテクチャのパターン,learning,,,http://scalamatsuri.org/ja/candidates/RaulRaja_1/,,,
 RyotaKuroki_1.html,"title: ""JavaerのためのScala入門""",comparison,,,http://scalamatsuri.org/ja/candidates/RyotaKuroki_1/,,,
 SanshiroYoshida_1.html,title: Logic Programming in Scala,learning,,,http://scalamatsuri.org/ja/candidates/SanshiroYoshida_1/,,,
-ScalaWarriors_1.html,"title: ""ウィーアースカラウォリアーズ！""",education,,,http://scalamatsuri.org/ja/candidates/ScalaWarriors_1/,,,
+ScalaWarriors_1.html,"title: ""ウィーアースカラウォリアーズ！""",education,play,scala.js,http://scalamatsuri.org/ja/candidates/ScalaWarriors_1/,,,
 SeitaroYuuki_1.html,"title: ""ドワンゴアカウントシステムを支えるScala技術""",case study,,,http://scalamatsuri.org/ja/candidates/SeitaroYuuki_1/,,,
 ShigeoEsehara_1.html,title: Clojureから見たScala,comparison,,,http://scalamatsuri.org/ja/candidates/ShigeoEsehara_1/,,,
 ShuyaTsukamoto_1.html,title: 広告配信APIサーバを約1年間運用・監視した話(Spray + Akka actor + Kamon + Datadog),case study,spray,,http://scalamatsuri.org/ja/candidates/ShuyaTsukamoto_1/,,,

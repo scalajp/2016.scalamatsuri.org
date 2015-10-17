@@ -15,7 +15,7 @@ DebasishGhosh_1.html,title: 関数型、代数的なドメイン・モデリン�
 DevonStewart_1.html,title: 純粋関数型スタックに移行するための実践的なステップ,functional programming,case study,play,http://scalamatsuri.org/ja/candidates/DevonStewart_1/,,,
 DmitryIvanov_1.html,"title: ""Scala における実用 CRDT 解明""",database,distributed,,http://scalamatsuri.org/ja/candidates/DmitryIvanov_1/,,,
 EugeneYokota_1.html,title: 猫という考え方,functional programming,,,http://scalamatsuri.org/ja/candidates/EugeneYokota_1/,,,
-FranPerez_1.html,title: 平静を保ってスパークせよ,big data,,,http://scalamatsuri.org/ja/candidates/FranPerez_1/,,,
+FranPerez_1.html,title: 平静を保ってスパークせよ,big data,spark,,http://scalamatsuri.org/ja/candidates/FranPerez_1/,,,
 GenkiIshibashi_1.html,"title: ""Scalaで始めるDIY~つくれ！スカラ号！~""",IoT,Makers,,http://scalamatsuri.org/ja/candidates/GenkiIshibashi_1/,,,
 HuyDo_1.html,"title: ""Jruby vs Scala""",comparison,,,http://scalamatsuri.org/ja/candidates/HuyDo_1/,,,
 IppeiTakahashi_1.html,title: Play + Slick + Scalazによる、関数型サーバサイド開発,functional programming,play,tools and libraries,http://scalamatsuri.org/ja/candidates/IppeiTakahashi_1/,,,

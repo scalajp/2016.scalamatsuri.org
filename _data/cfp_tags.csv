@@ -49,7 +49,7 @@ MasakiToyoshima_1.html,title: Akka-Streamを使った集計処理実装につい
 MateuszDymczyk_1.html,title: 実用分散機械学習入門講座,machine learning,big data,,http://scalamatsuri.org/ja/candidates/MateuszDymczyk_1/,,,
 MelindaSeckington_1.html,title: 学び、反映させ、それを繰り返す,team culture,learning,imposter syndrome,http://scalamatsuri.org/ja/candidates/MelindaSeckington_1/,,,
 MelindaSeckington_2.html,title: 開発者のためのマーベル・ガイド,personal development,communication,team culture,http://scalamatsuri.org/ja/candidates/MelindaSeckington_2/,,,
-MichalPlachta_1.html,title: Akka Cluster によるシャーディング,akka,,,http://scalamatsuri.org/ja/candidates/MichalPlachta_1/,,,
+MichalPlachta_1.html,title: Akka Cluster によるシャーディング,akka,scalability,live-coding,http://scalamatsuri.org/ja/candidates/MichalPlachta_1/,,,
 MichihitoShigemura_1.html,title: Emacsを使って開発する話,editor,,,http://scalamatsuri.org/ja/candidates/MichihitoShigemura_1/,,,
 MilesSabin_1.html,title: Codecs for free! - shapeless を用いた型クラス導出の実践,functional programming,,,http://scalamatsuri.org/ja/candidates/MilesSabin_1/,,,
 NaokiAinoya_1.html,title: Dockerをベースとしたインフラ上でのPlay frameworkアプリケーション本番運用ノウハウ,case study,play,,http://scalamatsuri.org/ja/candidates/NaokiAinoya_1/,,,

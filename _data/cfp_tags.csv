@@ -106,7 +106,7 @@ HuyDo_2.html,title: Scala on Rails,tips,,,http://scalamatsuri.org/ja/candidates/
 KazukiNegoro_1.html,title: バッチを Akka Streams で再実装したら100倍速くなった話,akka,,,http://scalamatsuri.org/ja/candidates/KazukiNegoro_1/,,,
 KazukiSato_2.html,title: Akka Actorとsprayで作る、成長を続けるマイクロサービス,akka,,,http://scalamatsuri.org/ja/candidates/KazukiSato_2/,,,
 KenjiDoi_1.html,title: 結局、業務でつかってどうなの？～初心者集団のScala開発～,case study,,,http://scalamatsuri.org/ja/candidates/KenjiDoi_1/,,,
-ShigekazuTakei_1.html,title: ScalaにおけるIDL事情,tips,,,http://scalamatsuri.org/ja/candidates/ShigekazuTakei_1/,,,
+ShigekazuTakei_1.html,title: ScalaにおけるIDL事情,case study,comparison,microservices,http://scalamatsuri.org/ja/candidates/ShigekazuTakei_1/,,,
 TakahashiToshiyuki_1.html,title: Playソースコード完全マスターへの道,play,,,http://scalamatsuri.org/ja/candidates/TakahashiToshiyuki_1/,,,
 TaroLSaito_1.html,title: MessagePackとScalaでDBMSを作ろう,database,,,http://scalamatsuri.org/ja/candidates/TaroLSaito_1/,,,
 YoshitakaFujii_1.html,title: Scalaでドメイン駆動設計に真正面から取り組んだ話,case study,,,http://scalamatsuri.org/ja/candidates/YoshitakaFujii_1/,,,

@@ -74,6 +74,9 @@ samurai:
   - title: Hatena
     href: "http://hatenacorp.jp/"
     img: "/img/logo/hatena.png"
+  - title: GitBucket
+    href: "https://github.com/gitbucket/gitbucket"
+    img: "/img/logo/gitbucket.png"
 
 ninja:
   - title: daiksy

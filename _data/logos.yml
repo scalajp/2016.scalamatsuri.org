@@ -71,6 +71,9 @@ samurai:
   - title: Samuraism
     href: "http://samuraism.com/"
     img: "/img/logo/samuraism.png"
+  - title: Hatena
+    href: "http://hatenacorp.jp/"
+    img: "/img/logo/hatena.png"
 
 ninja:
   - title: daiksy

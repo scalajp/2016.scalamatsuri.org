@@ -26,7 +26,7 @@ JonasBoner_1.html,title: 現在という幻想の向こうにある人生,reacti
 JonasBoner_2.html,title: 正常系の末に行き着く異常さ,architecture,,reactive,http://scalamatsuri.org/ja/candidates/JonasBoner_2/,,,
 JoostHeijkoop_1.html,title: Akka Persistence に Stamina を。正しいマイグレーション教えます。,akka,migrations,persistence,http://scalamatsuri.org/ja/candidates/JoostHeijkoop_1/,,,
 JulienRichardFoy_1.html,title: Scala の教育方法と理由,education,,,http://scalamatsuri.org/ja/candidates/JulienRichardFoy_1/,,,
-JulienRichardFoy_2.html,title: コードはドキュメントだ! プロトコルから JSON の構造を導出する方法,tips,,,http://scalamatsuri.org/ja/candidates/JulienRichardFoy_2/,,,
+JulienRichardFoy_2.html,title: コードはドキュメントだ! プロトコルから JSON の構造を導出する方法,code design,functional programming,expressive power,http://scalamatsuri.org/ja/candidates/JulienRichardFoy_2/,,,
 JunichiKato_1.html,title: sbt-awsプラグインを使って簡単デプロイ,sbt,,,http://scalamatsuri.org/ja/candidates/JunichiKato_1/,,,
 JunichiNoda_1.html,title: ScalaとSparkで作るつぶやきビッグデータクローン,big data,spark,,http://scalamatsuri.org/ja/candidates/JunichiNoda_1/,,,
 JunichiNoda_2.html,title: ScalaとSpark MLlibで作るTwitterリコメンデーション,machine learning,big data,spark,http://scalamatsuri.org/ja/candidates/JunichiNoda_2/,,,

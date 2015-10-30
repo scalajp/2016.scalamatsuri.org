@@ -60,6 +60,9 @@ hatamoto:
   - title: "Givery"
     href: "https://givery.co.jp/"
     img: "/img/logo/givery.png"
+  - title: MOTEX
+    href: "http://www.motex.co.jp/recruit/career"
+    img: "/img/logo/motex.jpg"
 
 samurai:
   - title: Applicative
@@ -77,9 +80,6 @@ samurai:
   - title: GitBucket
     href: "https://github.com/gitbucket/gitbucket"
     img: "/img/logo/gitbucket.png"
-  - title: MOTEX
-    href: "http://www.motex.co.jp/"
-    img: "/img/logo/motex.jpg"
 
 ninja:
   - title: daiksy

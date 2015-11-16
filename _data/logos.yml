@@ -63,6 +63,9 @@ hatamoto:
   - title: MOTEX
     href: "http://www.motex.co.jp/recruit/career"
     img: "/img/logo/motex.jpg"
+  - title: nextbeat
+    href: "http://www.nextbeat.co.jp/#nextbeat_top"
+    img: "/img/logo/nextbeat_200x70_logo.jpg"
 
 samurai:
   - title: Applicative

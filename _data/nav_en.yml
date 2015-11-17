@@ -4,16 +4,16 @@
   title: Event Info
 # - href: "/#gues"
 #   title: 招待講演者
-# - href: "/#prog"
-#   title: プログラム
+- href: "/index_en.html#schedule"
+  title: Schedule
 - href: "/index_en.html#tickets"
   title: Tickets
 # - href: "/index_en.html#sp"
 #   title: Sponsors
 - href: "/en/code-of-conduct/"
   title: Code of Conduct
-- href: "/en/candidates/"
-  title: Proposal List
+# - href: "/en/candidates/"
+#   title: Proposal List
 - href: "/en/sponsors/"
   title: Sponsorship
 - href: "/en/travel/"

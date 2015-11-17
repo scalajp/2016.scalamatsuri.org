@@ -363,7 +363,7 @@ input, select {
 }
 
 .progrumTableArea{
-	width:860px;
+	width: 1024px;
 	margin:0 auto 0 auto;
 }
 
@@ -673,10 +673,6 @@ input, select {
 	background:#a41212!important;
 }
 
-.prog2table{
-	display:none;
-}
-
 .space2area{
 	display: none;
 }
@@ -759,6 +755,18 @@ input, select {
 	margin: 0 10px;
 }
 
+span.session_id {
+	font-size: 50%;
+	color: gray;
+	display: none;
+}
+span.session_title {
+	display: block;
+	font-size: 110%;
+	font-weight:bold;
+	color: black;
+}
+
 @media screen and (max-width: 1024px){
 
 	.snsBtnArea{
@@ -809,6 +817,9 @@ input, select {
 		width:100%;
 	}
 
+	.progrumTableArea{
+		width:100%;
+	}
 }
 
 

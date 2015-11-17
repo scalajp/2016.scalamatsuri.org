@@ -48,35 +48,21 @@ layout: null
 				$(".smVerGnav").slideToggle();
 			});
 
-			$(".btn1day").click(function(){
-				$(".prog1table").css("display","block");
-				$(".prog2table").css("display","none");
-				$(".btn2day").removeClass("onNavLink");
-				$(this).addClass("onNavLink");
-			});
-
-			$(".btn2day").click(function(){
-				$(".prog1table").css("display","none");
-				$(".prog2table").css("display","block");
-				$(".btn1day").removeClass("onNavLink");
-				$(this).addClass("onNavLink");
-			});
-
 			$(".btn1space").click(function(){
 				resetTable();
-				$(".space1area").css("display","block");
+				$(".roomA").show();
 				$(this).addClass("onNavLink");
 			});
 
 			$(".btn2space").click(function(){
 				resetTable();
-				$(".space2area").css("display","block");
+				$(".roomB").show();
 				$(this).addClass("onNavLink");
 			});
 
 			$(".btn3space").click(function(){
 				resetTable();
-				$(".space3area").css("display","block");
+				$(".roomC").show();
 				$(this).addClass("onNavLink");
 			});
 
@@ -84,11 +70,30 @@ layout: null
 				$(".btn1space").removeClass("onNavLink");
 				$(".btn2space").removeClass("onNavLink");
 				$(".btn3space").removeClass("onNavLink");
-				$(".space1area").css("display","none");
-				$(".space2area").css("display","none");
-				$(".space3area").css("display","none");
+				$(".roomA").hide();
+				$(".roomB").hide();
+				$(".roomC").hide();
 			}
 
+			function initSchedule(){
+				if ($(document).width() >= 1024) {
+					$('.day1roomswitch').hide();
+					$('.day2roomswitch').hide();
+					$(".roomA").show();
+					$(".roomB").show();
+					$(".roomC").show();
+				} else {
+					resetTable();
+					$('.day1roomswitch').show();
+					$('.day2roomswitch').show();
+					$(".btn1space").addClass("onNavLink");
+					$(".roomA").show();
+				}
+			}
+			$(window).resize(function() {
+				initSchedule();
+			});
+			initSchedule();
 		});
 	</script>
 </head>
@@ -294,8 +299,7 @@ layout: null
 		</section>
 -->
 
-<!--
-		<section class="sectionStyle4" id="prog">
+		<section class="sectionStyle4" id="schedule">
 			<header class="sectionHeadArea">
 				<h2 class="clearfix">
 					<span class="ttlSubLCenter">プログラム</span>
@@ -306,413 +310,331 @@ layout: null
 			</header>
 			<p class="contTxtArea">
 				本カンファレスのセッションについての情報です。<br>
-				9月6日の講演では、A会場B会場それぞれで、スポンサーであるドワンゴ様のご協力によりニコニコ生放送での中継が行われる予定です。
+				1月30日の講演では、国際交流会議場にて、スポンサーであるドワンゴ様のご協力によりニコニコ生放送での中継が行われる予定です。
+				その他の会場につきましては、未定です。
 			</p>
 			<div class="progrumTableArea">
-				<nav class="navLinks navLinksBig">
-				<ul class="clearfix">
-					<li class="onNavLink btn1day"><span>1日目</span></li>
-					<li class="btn2day"><span>2日目</span></li>
-				</ul>
 				</nav>
 				<div class="progrumTableOutSide">
-					<nav class="navLinks">
-						<ul class="clearfix">
-							<li class="btn1space"><span>開場A</span></li>
-							<li class="btn2space"><span>開場B</span></li>
-							<li class="btn3space"><span>開場C</span></li>
-						</ul>
-					</nav>
-
 					<div class="prog1table">
-						<p>1日目 カンファレンス(2パラレルセッション) 8時入場開始 21時終了予定</p>
+						<h3 style="padding: 1em;">1月30日 (土曜日)</h3>
+						<p style="padding-top: 0em;">
+						1日目 カンファレンス形式 (3パラレルセッション) 9時入場開始 20時終了予定。昼食および懇親会での軽食をご用意しています。</p>
+						<nav class="navLinks day1roomswitch" style="display: none;">
+							<ul class="clearfix">
+								<li class="btn1space"><span>国際交流会議場</span></li>
+								<li class="btn2space"><span>メディアホール</span></li>
+								<li class="btn3space"><span>会議室1</span></li>
+							</ul>
+						</nav>
+
 						<table class="progrumTable space1area">
 							<tr>
-								<th style="width:200px;">時間</th>
-								<td style="width:625px;">会場A</td>
+								<th style="width:150px;">時間</th>
+						    <th style="width:350px;" class="roomA">国際交流会議場 (400席; 通訳付き)</td>
+						    <th style="width:350px;" class="roomB">メディアホール (100席; 通訳付き)</td>
+						    <th style="width:350px;" class="roomC">会議室1 (100席)</td>
 							</tr>
 							<tr>
-								<th>9:00 - 9:55</th>
-								<td>開場</td>
+								<th>9:00 - 9:40</th>
+								<td colspan="3">受付開始</td>
 							</tr>
 							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
+								<th>9:40 - 10:00</th>
+								<td class="roomA">オープニング</td>
+								<td class="roomB">&nbsp;</td>
+								<td class="roomC">&nbsp;</td>
+							</tr>
+							<tr>
+								<th>10:00 - 10:40</th>
+								<td class="roomA">
+									<span class="session_id">A-1</span>
+									<span class="session_title">Refactoring in Scala</span>
+									<span class="session_details">中村 学 (がくぞ) J++</span>
+								</td>
+								<td class="roomB">&nbsp;</td>
+								<td class="roomC">&nbsp;</td>
+							</tr>
+							<tr>
+								<th>10:40 - 11:00</th>
+								<td colspan="3">休憩(将軍LT1 10:40-10:45)</td>
+							</tr>
+							<tr>
+								<th>11:00 - 11:40</th>
+								<td class="roomA">
+									<span class="session_id">A-2</span>
+									<span class="session_title">なぜリアクティブは重要か</span>
+									<span class="session_details">岡本 雄太 J++</span>
+								</td>
+								<td class="roomB">
+									<span class="session_id">B-2</span>
+									<span class="session_title">型 vs テスト</span>
+									<span class="session_details">Amanda Laucher E++</span>
+								</td>
+								<td class="roomC">
+									<span class="session_id">C-2</span>
+									<span class="session_title">Scalaで始めるDeep Learning</span>
+									<span class="session_details">麻植泰輔 J+</span>
 								</td>
 							</tr>
 							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
+								<th>11:40 - 12:00</th>
+								<td colspan="3">休憩 (将軍LT2 11:40-11:45)</td>
+							</tr>
+							<tr>
+								<th>12:00 - 12:40</th>
+								<td class="roomA">
+									<span class="session_id">A-3</span>
+									<span class="session_title">リアクティブ・マイクロサービス</span>
+									<span class="session_details">Christopher Hunt E++</span>
+								</td>
+								<td class="roomB">
+									<span class="session_id">B-3</span>
+									<span class="session_title">楽しく役立つ Scala リファクタリング</span>
+									<span class="session_details">Tomer Gabel E++</span>
+								</td>
+								<td class="roomC">
+									<span class="session_id">C-3</span>
+									<span class="session_title">猫という考え方</span>
+									<span class="session_details">Eugene Yokota J++</span>
+							</tr>
+							<tr>
+								<th>12:40 - 13:40</th>
+								<td colspan="3">ランチ</td>
+							</tr>
+							<tr>
+								<th>13:40 - 13:55</th>
+								<td class="roomA">
+									<span class="session_id">S-1</span>
+									<span class="session_title">バッチを Akka Streams で再実装したら100倍速くなった話</span>
+									<span class="session_details">根来 和輝 J++</span>
+								</td>
+								<td class="roomB">
+									<span class="session_id">T-1</span>
+									<span class="session_title">Dockerをベースとしたインフラ上でのPlay frameworkアプリケーション本番運用ノウハウ</span>
+									<span class="session_details">Naoki Ainoya E++</span>
+								</td>
+								<td class="roomC">&nbsp;</td>
+							</tr>
+							<tr>
+								<th>14:05 - 14:20</th>
+								<td class="roomA">
+									<span class="session_id">S-2</span>
+									<span class="session_title">sbt-awsプラグインを使って簡単デプロイ</span>
+									<span class="session_details">かとじゅん J+++</span>
+								</td>
+								<td class="roomB">
+									<span class="session_id">T-2</span>
+									<span class="session_title">アジアから Scala OSS に貢献するということ</span>
+									<span class="session_details">Kazuhiro Sera E++</span>
+								</td>
+								<td class="roomC">&nbsp;</td>
+							</tr>
+							<tr>
+								<th>14:30 - 14:45</th>
+								<td class="roomA">
+									<span class="session_id">S-3</span>
+									<span class="session_title">ScalaコードはJVMでどのように表現されているのか</span>
+									<span class="session_details">阪田 浩一 J+</span>
+								</td>
+								<td class="roomB">
+									<span class="session_id">T-3</span>
+									<span class="session_title">みんなの関数型プログラミング</span>
+									<span class="session_details">Zach McCoy E+</span>
+								</td>
+								<td class="roomC">&nbsp;</td>
+							</tr>
+							<tr>
+								<th>14:45 - 15:00</th>
+								<td colspan="3">休憩(将軍LT3 14:45 - 14:50)</td>
+							</tr>
+							<tr>
+								<th>15:00 - 15:40</th>
+								<td class="roomA">
+									<span class="session_id">A-4</span>
+									<span class="session_title">実用関数型アーキテクチャのパターン</span>
+									<span class="session_details">Raul Raja E++</span>
+								</td>
+								<td class="roomB">
+									<span class="session_id">B-4</span>
+									TBA
+								</td>
+								<td class="roomC">
+									<span class="session_id">C-4</span>
+									<span class="session_title">あなたのScalaを爆速にする７つの方法</span>
+									<span class="session_details">井上 ゆり J+</span>
 								</td>
 							</tr>
 							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
+								<th>15:40 - 16:00</th>
+								<td colspan="3">休憩(将軍LT4 15:40-15:45)</td>
+							</tr>
+							<tr>
+								<th>16:00 - 16:40</th>
+								<td class="roomA">
+									<span class="session_id">A-5</span>
+									<span class="session_title">関数型、代数的なドメイン・モデリングの方法</span>
+									<span class="session_details">Debasish Ghosh E+++</span>
+								</td>
+								<td class="roomB">
+									<span class="session_id">B-5</span>
+									<span class="session_title">The Zen of Akka</span>
+									<span class="session_details">Konrad Malawski E++</span>
+								</td>
+								<td class="roomC">
+									<span class="session_id">C-5</span>
+									<span class="session_title">Playソースコード完全マスターへの道</span>
+									<span class="session_details">高橋俊幸 J++</span>
 								</td>
 							</tr>
 							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
+								<th>16:40 - 17:10</th>
+								<td colspan="3">コーヒーブレイク</td>
+							</tr>
+							<tr>
+								<th>17:10 - 17:50</th>
+								<td class="roomA">
+									<span class="session_id">A-6</span>
+									<span class="session_title">ドワンゴアカウントシステムを支えるScala技術</span>
+									<span class="session_details">結城清太郎 J++</span>
+								</td>
+								<td class="roomB">
+									<span class="session_id">B-6</span>
+									<span class="session_title">実戦Scalaz-Stream: 既存のバッチシステムを置き換える</span>
+									<span class="session_details">Mathias Sulser E++</span>
+								</td>
+								<td class="roomC">
+									<span class="session_id">C-6</span>
+									<span class="session_title">Scalaでドメイン駆動設計に真正面から取り組んだ話</span>
+									<span class="session_details">藤井 善隆 J++</span>
 								</td>
 							</tr>
 							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
+								<th>17:50 - 18:05</th>
+								<td colspan="3">休憩</td>
 							</tr>
 							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
+								<th>18:05 - 20:00</th>
+								<td class="roomA">挨拶 + 懇親会</td>
+								<td class="roomB">&nbsp;</td>
+								<td class="roomC">&nbsp;</td>
 							</tr>
 						</table>
-
-
-						<table class="progrumTable space2area">
-							<tr>
-								<th style="width:200px;">時間</th>
-								<td style="width:625px;">会場B</td>
-							</tr>
-							<tr>
-								<th>9:00 - 9:55</th>
-								<td>開場</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-						</table>
-
-
-						<table class="progrumTable space3area">
-							<tr>
-								<th style="width:200px;">時間</th>
-								<td style="width:625px;">会場C</td>
-							</tr>
-							<tr>
-								<th>9:00 - 9:55</th>
-								<td>開場</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-						</table>
-
-
 					</div>
-
-
-
-
-
 
 					<div class="prog2table">
-						<p>2日目 カンファレンス(2パラレルセッション) 8時入場開始 21時終了予定</p>
+						<h3 style="padding: 1em; margin-top: 2em">1月31日 (日曜日)</h3>
+						<p style="padding-top: 0em;">
+						2日目 アンカンファレンス形式 9時入場開始 18時終了予定。朝食と昼食をご用意しています。</p>
 
-
+						<nav class="navLinks day2roomswitch" style="display: none;">
+							<ul class="clearfix">
+								<li class="btn1space"><span>国際交流会議場</span></li>
+								<li class="btn2space"><span>メディアホール</span></li>
+								<li class="btn3space"><span>会議室1</span></li>
+							</ul>
+						</nav>
 						<table class="progrumTable space1area">
+						   <tr>
+						      <th style="width:150px;">時間</th>
+						      <th style="width:350px;" class="roomA">国際交流会議場 (400席; 通訳付き)</td>
+						      <th style="width:350px;" class="roomB">メディアホール (100席; 通訳付き)</td>
+						      <th style="width:350px;" class="roomC">会議室1 (100席)</td>
+						   </tr>
 							<tr>
-								<th style="width:200px;">時間</th>
-								<td style="width:625px;">会場A</td>
+								<th>9:00 - 10:00</th>
+								<td colspan="3">朝食</td>
 							</tr>
 							<tr>
-								<th>9:00 - 9:55</th>
-								<td>開場</td>
+								<th>10:00 - 11:00</th>
+								<td class="roomA">朝会</td>
+								<td class="roomB">&nbsp;</td>
+								<td class="roomC">&nbsp;</td>
 							</tr>
 							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
+								<th>11:00 - 11:50</th>
+								<td class="roomA">TBD</td>
+								<td class="roomB">TBD</td>
+								<td class="roomC">TBD</td>
+							</tr>
+							<tr>
+								<th>11:50 - 12:00</th>
+								<td colspan="3">休憩</td>
+							</tr>
+							<tr>
+								<th>12:00 - 12:50</th>
+								<td class="roomA">TBD</td>
+								<td class="roomB">
+									<span class="session_id">B-2</span>
+									<span class="session_title">ScalaとSparkによる日本語テキストマイニング</span>
+									<span class="session_details">Eduardo Gonzalez J+</span>
 								</td>
+								<td class="roomC">TBD</td>
 							</tr>
 							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
+								<th>13:20 - 13:50</th>
+								<td class="roomA">昼会（昼食中)</td>
+								<td class="roomB">&nbsp;</td>
+								<td class="roomC">&nbsp;</td>
 							</tr>
 							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
+								<th>14:00 - 14:50</th>
+								<td class="roomA">TBD</td>
+								<td class="roomB">
+									<span class="session_id">B-3</span>
+									<span class="session_title">正常系の末に行き着く異常さ</span>
+									<span class="session_details">Jonas Bonér E++</span>
 								</td>
+								<td class="roomC">TBD</td>
 							</tr>
 							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
+								<th>14:50 - 15:00</th>
+								<td colspan="3">休憩</td>
 							</tr>
 							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
+								<th>15:00 - 15:50</th>
+								<td class="roomA">TBD</td>
+								<td class="roomB">
+									<span class="session_id">B-4</span>
+									<span class="session_title">IntelliJ IDEA で Scala をマスターする</span>
+									<span class="session_details">Alexander Podkhalyuzin E+</span>
 								</td>
+								<td class="roomC">TBD</td>
 							</tr>
 							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
+								<th>15:50 - 16:00</th>
+								<td colspan="3">休憩</td>
 							</tr>
 							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
+								<th>16:00 - 16:50</th>
+								<td class="roomA">TBD</td>
+								<td class="roomB">
+									<span class="session_id">B-5</span>
+									<span class="session_title">Scala.js コンパイル・パイプライン</span>
+									<span class="session_details">Tobias Schlatter E+++</span>
 								</td>
+								<td class="roomC">TBD</td>
+							</tr>
+							<tr>
+								<th>16:50 - 17:00</th>
+								<td colspan="3">休憩</td>
+							</tr>
+							<tr>
+								<th>17:00 - 17:50</th>
+								<td class="roomA">TBD</td>
+								<td class="roomB">TBD</td>
+								<td class="roomC">TBD</td>
 							</tr>
 						</table>
-
-
-
-						<table class="progrumTable space2area">
-							<tr>
-								<th style="width:200px;">時間</th>
-								<td style="width:625px;">会場B</td>
-							</tr>
-							<tr>
-								<th>9:00 - 9:55</th>
-								<td>開場</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-						</table>
-
-
-
-						<table class="progrumTable space3area">
-							<tr>
-								<th style="width:200px;">時間</th>
-								<td style="width:625px;">会場C</td>
-							</tr>
-							<tr>
-								<th>9:00 - 9:55</th>
-								<td>開場</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-							<tr>
-								<th>9:55 - 10:15</th>
-								<td>
-									オープニング<br>
-									ScalaMatsuri 事務局 水島 宏太
-								</td>
-							</tr>
-						</table>
-
 					</div>
 
-					<p class="pdogTop"><a href="#prog">> プログラムトップへ戻る</a></p>
+					<p class="pdogTop"><a href="#schedule">> プログラムトップへ戻る</a></p>
 
 				</div>
 			</div>
 		</section>
--->
 
+<!--
 		<section class="sectionStyle5">
 			<header class="sectionHeadArea">
 				<h2 class="clearfix">
@@ -730,7 +652,7 @@ layout: null
 				</div>
 			</div>
 		</section>
-
+-->
 
 		<section class="sectionStyle5">
 			<header class="sectionHeadArea">

@@ -767,6 +767,10 @@ span.session_title {
 	color: black;
 }
 
+.icon-mini { height: 30px; width: 30px; }
+
+.icon-medium { height: 50px; width: 50px; }
+
 @media screen and (max-width: 1024px){
 
 	.snsBtnArea{

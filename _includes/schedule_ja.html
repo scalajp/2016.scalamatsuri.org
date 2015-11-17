@@ -1,0 +1,17 @@
+{% capture relative_path %}_candidates_ja/{{include.id}}.html{% endcapture %}
+{% for candidate in site.candidates_ja %}
+  {% if candidate.relative_path == relative_path %}
+    <span class="session_title">{{ candidate.title }}</span>
+    <span class="session_name">
+      {% if candidate.icon %}
+        <img src="{{ candidate.icon }}" class="icon-mini">
+      {% endif %}
+      {{ candidate.name }}
+    </span>
+    {% if candidate.twitter %}
+    <a href="https://twitter.com/{{ candidate.twitter }}">@{{ candidate.twitter }}</a>
+    {% endif %}
+    <span class="session_details">{% if candidate.language == "Japanese" %}J{% else %}E{% endif %}{% if candidate.audience == "Beginner" %}+{% elsif candidate.audience == "Intermediate" %}++{% else %}+++{% endif %}
+    </span>
+  {% endif %}
+{% endfor %}

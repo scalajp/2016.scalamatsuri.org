@@ -48,35 +48,21 @@ layout: null
 				$(".smVerGnav").slideToggle();
 			});
 
-			$(".btn1day").click(function(){
-				$(".prog1table").css("display","block");
-				$(".prog2table").css("display","none");
-				$(".btn2day").removeClass("onNavLink");
-				$(this).addClass("onNavLink");
-			});
-
-			$(".btn2day").click(function(){
-				$(".prog1table").css("display","none");
-				$(".prog2table").css("display","block");
-				$(".btn1day").removeClass("onNavLink");
-				$(this).addClass("onNavLink");
-			});
-
 			$(".btn1space").click(function(){
 				resetTable();
-				$(".space1area").css("display","block");
+				$(".roomA").show();
 				$(this).addClass("onNavLink");
 			});
 
 			$(".btn2space").click(function(){
 				resetTable();
-				$(".space2area").css("display","block");
+				$(".roomB").show();
 				$(this).addClass("onNavLink");
 			});
 
 			$(".btn3space").click(function(){
 				resetTable();
-				$(".space3area").css("display","block");
+				$(".roomC").show();
 				$(this).addClass("onNavLink");
 			});
 
@@ -84,11 +70,30 @@ layout: null
 				$(".btn1space").removeClass("onNavLink");
 				$(".btn2space").removeClass("onNavLink");
 				$(".btn3space").removeClass("onNavLink");
-				$(".space1area").css("display","none");
-				$(".space2area").css("display","none");
-				$(".space3area").css("display","none");
+				$(".roomA").hide();
+				$(".roomB").hide();
+				$(".roomC").hide();
 			}
 
+			function initSchedule(){
+				if ($(document).width() >= 1024) {
+					$('.day1roomswitch').hide();
+					$('.day2roomswitch').hide();
+					$(".roomA").show();
+					$(".roomB").show();
+					$(".roomC").show();
+				} else {
+					resetTable();
+					$('.day1roomswitch').show();
+					$('.day2roomswitch').show();
+					$(".btn1space").addClass("onNavLink");
+					$(".roomA").show();
+				}
+			}
+			$(window).resize(function() {
+				initSchedule();
+			});
+			initSchedule();
 		});
 	</script>
 </head>
@@ -310,100 +315,120 @@ layout: null
 						<h3 style="padding: 1em;">Saturday, January 30th</h3>
 						<p style="padding-top: 0em;">
 						Day 1 is in conference format (3 parallel sessions). Doors open at 9:00, scheduled to end at 20:00. Lunch and light refreshment will be served at the party.</p>
-						<nav class="navLinks">
+						<nav class="navLinks day1roomswitch" style="display: none;">
 							<ul class="clearfix">
 								<li class="btn1space"><span>Room A</span></li>
 								<li class="btn2space"><span>Room B</span></li>
 								<li class="btn3space"><span>Room C</span></li>
 							</ul>
 						</nav>
+
 						<table class="progrumTable space1area">
 							<tr>
-								<th style="width:200px;">Time</th>
-								<td style="width:625px;">Room A</td>
+								<th style="width:150px;">Time</th>
+						    <th style="width:350px;" class="roomA">Room A</td>
+						    <th style="width:350px;" class="roomB">Room B</td>
+						    <th style="width:350px;" class="roomC">Room C</td>
 							</tr>
-							<tr><th>9:00 - 9:40</th><td>Registration open</td></tr>
-							<tr><th>9:40 - 10:00</th><td>Opening</td></tr>
-							<tr><th>10:00 - 10:40</th><td>A-1: Refactoring in Scala (Manabu Nakamura) J++</td></tr>
-							<tr><th>10:40 - 11:00</th><td>Break (Shogun LT1 10:40-10:45)</td></tr>
-							<tr><th>11:00 - 11:40</th><td>A-2: Why Reactive Matters (Yuta Okamoto) J++</td></tr>
-							<tr><th>11:40 - 12:00</th><td>Break (Shogun LT2 11:40-11:45)</td></tr>
-							<tr><th>12:00 - 12:40</th><td>A-3: Reactive Microservices (Christopher Hunt) E++</td></tr>
-							<tr><th>12:40 - 13:40</th><td>Lunch</td></tr>
-							<tr><th>13:40 - 13:55</th><td>S-1: 100x speedup by re-implementing batch processing with Akka Streams (Kazuki Negoro) J++</td></tr>
-							<tr><th>13:55 - 14:05</th><td>Break</td></tr>
-							<tr><th>14:05 - 14:20</th><td>S-2: Easy deployment with sbt-aws plugin (Junichi Kato) J+++</td></tr>
-							<tr><th>14:20 - 14:30</th><td>Break</td></tr>
-							<tr><th>14:30 - 14:45</th><td>S-3: How Scala code is expressed in the JVM (Koichi Sakata) J+</td></tr>
-							<tr><th>14:45 - 15:00</th><td>Break (Shogun LT3 14:45 - 14:50)</td></tr>
-							<tr><th>15:00 - 15:40</th><td>A-4: Patterns of a pragmatic functional architecture (Raul Raja) E++</td></tr>
-							<tr><th>15:40 - 16:00</th><td>Break (Shogun LT4 15:40-15:45)</td></tr>
-							<tr><th>16:00 - 16:40</th><td>A-5: A Functional and Algebraic Approach to Domain Modeling (Debasish Ghosh) E+++</td></tr>
-							<tr><th>16:40 - 17:10</th><td>Coffee break</td></tr>
-							<tr><th>17:10 - 17:50</th><td>A-6: Scala technology supporting the Dwango Account system (Seitaro Yuuki) J++</td></tr>
-							<tr><th>17:50 - 18:05</th><td>Recess</td></tr>
-							<tr><th>18:05 - 20:00</th><td>Day 1 closing + party</td></tr>
-						</table>
-
-
-						<table class="progrumTable space2area">
 							<tr>
-								<th style="width:200px;">Time</th>
-								<td style="width:625px;">Room B</td>
+								<th>9:00 - 9:40</th>
+								<td colspan="3">Registration open</td>
 							</tr>
-							<tr><th>9:00 - 9:40</th><td></td></tr>
-							<tr><th>9:40 - 10:00</th><td></td></tr>
-							<tr><th>10:00 - 10:40</th><td></td></tr>
-							<tr><th>10:40 - 11:00</th><td></td></tr>
-							<tr><th>11:00 - 11:40</th><td>B-2: Types vs Tests (Amanda Laucher) E++</td></tr>
-							<tr><th>11:40 - 12:00</th><td></td></tr>
-							<tr><th>12:00 - 12:40</th><td>B-3: Scala Refactoring for Fun and Profit (Tomer Gabel) E++</td></tr>
-							<tr><th>12:40 - 13:40</th><td></td></tr>
-							<tr><th>13:40 - 13:55</th><td>T-1: How to Play Scala production framework on Dockerized Infrastructure (Naoki Ainoya) E++</td></tr>
-							<tr><th>13:55 - 14:05</th><td></td></tr>
-							<tr><th>14:05 - 14:20</th><td>T-2: Contributing to Scala OSS from East Asia (Kazuhiro Sera) E++</td></tr>
-							<tr><th>14:20 - 14:30</th><td></td></tr>
-							<tr><th>14:30 - 14:45</th><td>T-3: Functional Programming for All (Zach McCoy) E+</td></tr>
-							<tr><th>14:45 - 15:00</th><td></td></tr>
-							<tr><th>15:00 - 15:40</th><td>B-4: TBA</td></tr>
-							<tr><th>15:40 - 16:00</th><td></td></tr>
-							<tr><th>16:00 - 16:40</th><td>B-5: The Zen of Akka (Konrad Malawski) E++</td></tr>
-							<tr><th>16:40 - 17:10</th><td></td></tr>
-							<tr><th>17:10 - 17:50</th><td>B-6: Scalaz-Stream in the Wild: Rearchitecting Existing Batch Applications (Mathias Sulser) E++</td></tr>
-							<tr><th>17:50 - 18:05</th><td></td></tr>
-							<tr><th>18:05 - 20:00</th><td></td></tr>
-						</table>
-
-
-						<table class="progrumTable space3area">
 							<tr>
-								<th style="width:200px;">Time</th>
-								<td style="width:625px;">Room C</td>
+								<th>9:40 - 10:00</th>
+								<td class="roomA">Opening</td>
+								<td class="roomB">&nbsp;</td>
+								<td class="roomC">&nbsp;</td>
 							</tr>
-							<tr><th>9:00 - 9:40</th><td></td></tr>
-							<tr><th>9:40 - 10:00</th><td></td></tr>
-							<tr><th>10:00 - 10:40</th><td></td></tr>
-							<tr><th>10:40 - 11:00</th><td></td></tr>
-							<tr><th>11:00 - 11:40</th><td>C-2: Getting started with DeepLearning using Scala (Taisuke Oe) J+</td></tr>
-							<tr><th>11:40 - 12:00</th><td></td></tr>
-							<tr><th>12:00 - 12:40</th><td>C-3: Thinking in Cats (Eugene Yokota) J++</td></tr>
-							<tr><th>12:40 - 13:40</th><td></td></tr>
-							<tr><th>13:40 - 13:55</th><td></td></tr>
-							<tr><th>13:55 - 14:05</th><td></td></tr>
-							<tr><th>14:05 - 14:20</th><td></td></tr>
-							<tr><th>14:20 - 14:30</th><td></td></tr>
-							<tr><th>14:30 - 14:45</th><td></td></tr>
-							<tr><th>14:45 - 15:00</th><td></td></tr>
-							<tr><th>15:00 - 15:40</th><td>C-4: 7 ways to make your Scala red-hot high velocity (iyunoriue(x1)) J+</td></tr>
-							<tr><th>15:40 - 16:00</th><td></td></tr>
-							<tr><th>16:00 - 16:40</th><td>C-5: Steps to master the Play source code (Toshiyuki Takahashi) J++</td></tr>
-							<tr><th>16:40 - 17:10</th><td></td></tr>
-							<tr><th>17:10 - 17:50</th><td>C-6: Heads-on Domain Driven Development in Scala (Yoshitaka Fujii) J++</td></tr>
-							<tr><th>17:50 - 18:05</th><td></td></tr>
-							<tr><th>18:05 - 20:00</th><td></td></tr>
+							<tr>
+								<th>10:00 - 10:40</th>
+								<td class="roomA">A-1: Refactoring in Scala (Manabu Nakamura) J++</td>
+								<td class="roomB">&nbsp;</td>
+								<td class="roomC">&nbsp;</td>
+							</tr>
+							<tr>
+								<th>10:40 - 11:00</th>
+								<td colspan="3">Break (Shogun LT1 10:40-10:45)</td>
+							</tr>
+							<tr>
+								<th>11:00 - 11:40</th>
+								<td class="roomA">A-2: Why Reactive Matters (Yuta Okamoto) J++</td>
+								<td class="roomB">B-2: Types vs Tests (Amanda Laucher) E++</td>
+								<td class="roomC">C-2: Getting started with DeepLearning using Scala (Taisuke Oe) J+</td>
+							</tr>
+							<tr>
+								<th>11:40 - 12:00</th>
+								<td colspan="3">Break (Shogun LT2 11:40-11:45)</td>
+							</tr>
+							<tr>
+								<th>12:00 - 12:40</th>
+								<td class="roomA">A-3: Reactive Microservices (Christopher Hunt) E++</td>
+								<td class="roomB">B-3: Scala Refactoring for Fun and Profit (Tomer Gabel) E++</td>
+								<td class="roomC">C-3: Thinking in Cats (Eugene Yokota) J++</td>
+							</tr>
+							<tr>
+								<th>12:40 - 13:40</th>
+								<td colspan="3">Lunch</td>
+							</tr>
+							<tr>
+								<th>13:40 - 13:55</th>
+								<td class="roomA">S-1: 100x speedup by re-implementing batch processing with Akka Streams (Kazuki Negoro) J++</td>
+								<td class="roomB">T-1: How to Play Scala production framework on Dockerized Infrastructure (Naoki Ainoya) E++</td>
+								<td class="roomC">&nbsp;</td>
+							</tr>
+							<tr>
+								<th>14:05 - 14:20</th>
+								<td class="roomA">S-2: Easy deployment with sbt-aws plugin (Junichi Kato) J+++</td>
+								<td class="roomB">T-2: Contributing to Scala OSS from East Asia (Kazuhiro Sera) E++</td>
+								<td class="roomC">&nbsp;</td>
+							</tr>
+							<tr>
+								<th>14:30 - 14:45</th>
+								<td class="roomA">S-3: How Scala code is expressed in the JVM (Koichi Sakata) J+</td>
+								<td class="roomB">T-3: Functional Programming for All (Zach McCoy) E+</td>
+								<td class="roomC">&nbsp;</td>
+							</tr>
+							<tr>
+								<th>14:45 - 15:00</th>
+								<td colspan="3">Break (Shogun LT3 14:45 - 14:50)</td>
+							</tr>
+							<tr>
+								<th>15:00 - 15:40</th>
+								<td class="roomA">A-4: Patterns of a pragmatic functional architecture (Raul Raja) E++</td>
+								<td class="roomB">B-4: TBA</td>
+								<td class="roomC">C-4: 7 ways to make your Scala red-hot high velocity (iyunoriue(x1)) J+</td>
+							</tr>
+							<tr>
+								<th>15:40 - 16:00</th>
+								<td colspan="3">Break (Shogun LT4 15:40-15:45)</td>
+							</tr>
+							<tr>
+								<th>16:00 - 16:40</th>
+								<td class="roomA">A-5: A Functional and Algebraic Approach to Domain Modeling (Debasish Ghosh) E+++</td>
+								<td class="roomB">B-5: The Zen of Akka (Konrad Malawski) E++</td>
+								<td class="roomC">C-5: Steps to master the Play source code (Toshiyuki Takahashi) J++</td>
+							</tr>
+							<tr>
+								<th>16:40 - 17:10</th>
+								<td colspan="3">Coffee break</td>
+							</tr>
+							<tr>
+								<th>17:10 - 17:50</th>
+								<td class="roomA">A-6: Scala technology supporting the Dwango Account system (Seitaro Yuuki) J++</td>
+								<td class="roomB">B-6: Scalaz-Stream in the Wild: Rearchitecting Existing Batch Applications (Mathias Sulser) E++</td>
+								<td class="roomC">C-6: Heads-on Domain Driven Development in Scala (Yoshitaka Fujii) J++</td>
+							</tr>
+							<tr>
+								<th>17:50 - 18:05</th>
+								<td colspan="3">Break</td>
+							</tr>
+							<tr>
+								<th>18:05 - 20:00</th>
+								<td class="roomA">Day 1 closing + party</td>
+								<td class="roomB">&nbsp;</td>
+								<td class="roomC">&nbsp;</td>
+							</tr>
 						</table>
-
-
 					</div>
 
 					<div class="prog2table">
@@ -411,76 +436,91 @@ layout: null
 						<p style="padding-top: 0em;">
 						Day 2 is in unconference format. Doors open at 9:00, and scheduled to end at 18:00. Breakfast and lunch will be served.</p>
 
-						<nav class="navLinks">
+						<nav class="navLinks day2roomswitch" style="display: none;">
 							<ul class="clearfix">
 								<li class="btn1space"><span>Room A</span></li>
 								<li class="btn2space"><span>Room B</span></li>
 								<li class="btn3space"><span>Room C</span></li>
 							</ul>
 						</nav>
+
 						<table class="progrumTable space1area">
+						   <tr>
+						      <th style="width:150px;">Time</th>
+						      <th style="width:350px;" class="roomA">Room A</td>
+						      <th style="width:350px;" class="roomB">Room B</td>
+						      <th style="width:350px;" class="roomC">Room C</td>
+						   </tr>
 							<tr>
-								<th style="width:200px;">Time</th>
-								<td style="width:625px;">Room A</td>
+								<th>9:00 - 10:00</th>
+								<td colspan="3">Breakfast</td>
 							</tr>
-							<tr><th>9:00 - 10:00</th><td>Breakfast</td></tr>
-							<tr><th>10:00 - 11:00</th><td>Morning assembly</td></tr>
-							<tr><th>11:00 - 11:50</th><td>A-1</td></tr>
-							<tr><th>11:50 - 12:00</th><td>Break</td></tr>
-							<tr><th>12:00 - 12:50</th><td>A-2</td></tr>
-							<tr><th>13:20 - 13:50</th><td>Noon assembly（Lunch）</td></tr>
-							<tr><th>14:00 - 14:50</th><td>A-3</td></tr>
-							<tr><th>14:50 - 15:00</th><td>Break</td></tr>
-							<tr><th>15:00 - 15:50</th><td>A-4</td></tr>
-							<tr><th>15:50 - 16:00</th><td>Break</td></tr>
-							<tr><th>16:00 - 16:50</th><td>A-5</td></tr>
-							<tr><th>16:50 - 17:00</th><td>Break</td></tr>
-							<tr><th>17:00 - 17:50</th><td>A-6</td></tr>
+							<tr>
+								<th>10:00 - 11:00</th>
+								<td class="roomA">Morning assembly</td>
+								<td class="roomB">&nbsp;</td>
+								<td class="roomC">&nbsp;</td>
+							</tr>
+							<tr>
+								<th>11:00 - 11:50</th>
+								<td class="roomA">TBD</td>
+								<td class="roomB">TBD</td>
+								<td class="roomC">TBD</td>
+							</tr>
+							<tr>
+								<th>11:50 - 12:00</th>
+								<td colspan="3">Break</td>
+							</tr>
+							<tr>
+								<th>12:00 - 12:50</th>
+								<td class="roomA">TBD</td>
+								<td class="roomB">B-2: Japanese Text Mining with Scala and Spark (Eduardo Gonzalez) J+</td>
+								<td class="roomC">TBD</td>
+							</tr>
+							<tr>
+								<th>13:20 - 13:50</th>
+								<td class="roomA">Noon assembly（Lunch）</td>
+								<td class="roomB">&nbsp;</td>
+								<td class="roomC">&nbsp;</td>
+							</tr>
+							<tr>
+								<th>14:00 - 14:50</th>
+								<td class="roomA">TBD</td>
+								<td class="roomB">B-3: The Sadness at the End of the Happy Path (Jonas Bonér) E++</td>
+								<td class="roomC">TBD</td>
+							</tr>
+							<tr>
+								<th>14:50 - 15:00</th>
+								<td colspan="3">Break</td>
+							</tr>
+							<tr>
+								<th>15:00 - 15:50</th>
+								<td class="roomA">TBD</td>
+								<td class="roomB">B-4: Mastering Scala with IntelliJ IDEA (Alexander Podkhalyuzin) E+</td>
+								<td class="roomC">TBD</td>
+							</tr>
+							<tr>
+								<th>15:50 - 16:00</th>
+								<td colspan="3">Break</td>
+							</tr>
+							<tr>
+								<th>16:00 - 16:50</th>
+								<td class="roomA">TBD</td>
+								<td class="roomB">B-5: The Scala.js Compilation Pipeline (Tobias Schlatter) E+++</td>
+								<td class="roomC">TBD</td>
+							</tr>
+							<tr>
+								<th>16:50 - 17:00</th>
+								<td colspan="3">Break</td>
+							</tr>
+							<tr>
+								<th>17:00 - 17:50</th>
+								<td class="roomA">TBD</td>
+								<td class="roomB">TBD</td>
+								<td class="roomC">TBD</td>
+							</tr>
 						</table>
 
-
-
-						<table class="progrumTable space2area">
-							<tr>
-								<th style="width:200px;">Time</th>
-								<td style="width:625px;">Room B</td>
-							</tr>
-							<tr><th>9:00 - 10:00</th><td></td></tr>
-							<tr><th>10:00 - 11:00</th><td></td></tr>
-							<tr><th>11:00 - 11:50</th><td>B-1</td></tr>
-							<tr><th>11:50 - 12:00</th><td></td></tr>
-							<tr><th>12:00 - 12:50</th><td>B-2: Japanese Text Mining with Scala and Spark (Eduardo Gonzalez) J+</td></tr>
-							<tr><th>13:20 - 13:50</th><td></td></tr>
-							<tr><th>14:00 - 14:50</th><td>B-3: The Sadness at the End of the Happy Path (Jonas Bonér) E++</td></tr>
-							<tr><th>14:50 - 15:00</th><td></td></tr>
-							<tr><th>15:00 - 15:50</th><td>B-4: Mastering Scala with IntelliJ IDEA (Alexander Podkhalyuzin) E+</td></tr>
-							<tr><th>15:50 - 16:00</th><td></td></tr>
-							<tr><th>16:00 - 16:50</th><td>B-5: The Scala.js Compilation Pipeline (Tobias Schlatter) E+++</td></tr>
-							<tr><th>16:50 - 17:00</th><td></td></tr>
-							<tr><th>17:00 - 17:50</th><td>B-6</td></tr>
-						</table>
-
-
-
-						<table class="progrumTable space3area">
-							<tr>
-								<th style="width:200px;">Time</th>
-								<td style="width:625px;">Room C</td>
-							</tr>
-							<tr><th>9:00 - 10:00</th><td></td></tr>
-							<tr><th>10:00 - 11:00</th><td></td></tr>
-							<tr><th>11:00 - 11:50</th><td>C-1</td></tr>
-							<tr><th>11:50 - 12:00</th><td></td></tr>
-							<tr><th>12:00 - 12:50</th><td>C-2</td></tr>
-							<tr><th>13:20 - 13:50</th><td></td></tr>
-							<tr><th>14:00 - 14:50</th><td>C-3</td></tr>
-							<tr><th>14:50 - 15:00</th><td></td></tr>
-							<tr><th>15:00 - 15:50</th><td>C-4</td></tr>
-							<tr><th>15:50 - 16:00</th><td></td></tr>
-							<tr><th>16:00 - 16:50</th><td>C-5</td></tr>
-							<tr><th>16:50 - 17:00</th><td></td></tr>
-							<tr><th>17:00 - 17:50</th><td>C-6</td></tr>
-						</table>
 					</div>
 					<p class="pdogTop"><a href="#schedule">> Back to Schedule top</a></p>
 				</div>

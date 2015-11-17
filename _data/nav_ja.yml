@@ -4,16 +4,16 @@
   title: 開催概要
 # - href: "/#gues"
 #   title: 招待講演者
-# - href: "/#prog"
-#   title: プログラム
+- href: "/#schedule"
+  title: プログラム
 - href: "/#tickets"
   title: チケット
 - href: "/#sp"
   title: スポンサー
 - href: "/ja/code-of-conduct/"
   title: 行動規範
-- href: "/ja/candidates/"
-  title: 応募セッション一覧
+#- href: "/ja/candidates/"
+#  title: 応募セッション一覧
 - href: "/ja/sponsors/"
   title: スポンサー募集
 - href: "/jobs/"

@@ -755,6 +755,18 @@ input, select {
 	margin: 0 10px;
 }
 
+span.session_id {
+	font-size: 50%;
+	color: gray;
+	display: none;
+}
+span.session_title {
+	display: block;
+	font-size: 110%;
+	font-weight:bold;
+	color: black;
+}
+
 @media screen and (max-width: 1024px){
 
 	.snsBtnArea{

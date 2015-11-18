@@ -6,10 +6,10 @@ layout: null
 <head>
 	<meta charset="UTF-8">
 	<title>ScalaMatsuri 2016 | The largest international Scala conference in Asia</title>
-    <meta name="description" content="The largest international Scala conference in Asia">
-    <meta name="keywords" content="Scala, conference">
+		<meta name="description" content="The largest international Scala conference in Asia">
+		<meta name="keywords" content="Scala, conference">
 
-    <meta property="og:title" content="ScalaMatsuri 2016 | The largest international Scala conference in Asia" />
+		<meta property="og:title" content="ScalaMatsuri 2016 | The largest international Scala conference in Asia" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://scalamatsuri.org/index_en.html" />
 	<meta property="og:image" content="http://scalamatsuri.org/img/common/img_repre2_en.png" />
@@ -17,7 +17,7 @@ layout: null
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:description" content="The largest international Scala conference in Asia" />
 
-    <meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="">
 	<meta name="twitter:creator" content="">
 	<meta name="twitter:url" content="http://scalamatsuri.org/">
@@ -25,87 +25,39 @@ layout: null
 	<meta name="twitter:description" content="The largest international Scala conference in Asia">
 	<meta name="twitter:image" content="http://scalamatsuri.org/img/common/img_repre2_en.png">
 
-    <link href="css/common.css" rel="stylesheet" type="text/css">
+		<link href="css/common.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script src="js/respond.src.js"></script>
 	<script src="js/shuffle.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 
 	<script type="text/javascript">
 	if ((navigator.userAgent.indexOf('iPhone') > 0) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
-	        document.write('<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">');
-	    }else{
-	        document.write('<meta name="viewport" content="width=device-width" />');
-	    }
+					document.write('<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">');
+			}else{
+					document.write('<meta name="viewport" content="width=device-width" />');
+			}
 	</script>
 
 
 	<!--[if lt IE 9]>
 	<script src="js/html5shiv-printshiv.js"></script>
 	<![endif]-->
+	<script type="text/javascript" src="js/scalamatsuri2016.js?0"></script>
 	<script>
-		$(document).ready(function(){
-			$(".gnavSmClick").click(function(){
-				$(".smVerGnav").slideToggle();
-			});
-
-			$(".btn1space").click(function(){
-				resetTable();
-				$(".roomA").show();
-				$(this).addClass("onNavLink");
-			});
-
-			$(".btn2space").click(function(){
-				resetTable();
-				$(".roomB").show();
-				$(this).addClass("onNavLink");
-			});
-
-			$(".btn3space").click(function(){
-				resetTable();
-				$(".roomC").show();
-				$(this).addClass("onNavLink");
-			});
-
-			function resetTable(){
-				$(".btn1space").removeClass("onNavLink");
-				$(".btn2space").removeClass("onNavLink");
-				$(".btn3space").removeClass("onNavLink");
-				$(".roomA").hide();
-				$(".roomB").hide();
-				$(".roomC").hide();
-			}
-
-			function initSchedule(){
-				if ($(document).width() >= 1024) {
-					$('.day1roomswitch').hide();
-					$('.day2roomswitch').hide();
-					$(".roomA").show();
-					$(".roomB").show();
-					$(".roomC").show();
-				} else {
-					resetTable();
-					$('.day1roomswitch').show();
-					$('.day2roomswitch').show();
-					$(".btn1space").addClass("onNavLink");
-					$(".roomA").show();
-				}
-			}
-			$(window).resize(function() {
-				initSchedule();
-			});
-			initSchedule();
-		});
+		var lang = 'en';
 	</script>
 </head>
 <body id="top">
 
 	<div id="fb-root"></div>
 <script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=563078517069914";
-  fjs.parentNode.insertBefore(js, fjs);
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=563078517069914";
+	fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
@@ -231,7 +183,7 @@ layout: null
 					<!--
 					<p>Scala に関する海外からのゲストスピーカーも招いた大規模な有料イベントです。 パラレルに 2 セッションで進行する予定です。一般募集のセッションや LT 大会も行う予定です。 懇親会についても行う予定ですが、現在調整中です。</p>
 					-->
-          <br/>
+					<br/>
 					<p>
 						We announce the news at <a href="https://twitter.com/scala_jp">twitter</a> and <a href="https://www.facebook.com/ScalaMatsuri">facebook</a>.Please follow/like.
 					</p>
@@ -326,9 +278,9 @@ layout: null
 						<table class="progrumTable space1area">
 							<tr>
 								<th style="width:150px;">Time</th>
-						    <th style="width:350px;" class="roomA">International Conference Hall (400 seats; live interpreters)</td>
-						    <th style="width:350px;" class="roomB">Media Hall (100 seats; live interpreters)</td>
-						    <th style="width:350px;" class="roomC">Conference Room 1</td>
+								<th style="width:350px;" class="roomA">International Conference Hall (400 seats; live interpreters)</td>
+								<th style="width:350px;" class="roomB">Media Hall (100 seats; live interpreters)</td>
+								<th style="width:350px;" class="roomC">Conference Room 1</td>
 							</tr>
 							<tr>
 								<th>9:00 - 9:40</th>
@@ -507,12 +459,12 @@ layout: null
 						</nav>
 
 						<table class="progrumTable space1area">
-						   <tr>
-						      <th style="width:150px;">Time</th>
-						      <th style="width:350px;" class="roomA">International Conference Hall (400 seats; live interpreters)</td>
-						      <th style="width:350px;" class="roomB">Media Hall (100 seats; live interpreters)</td>
-						      <th style="width:350px;" class="roomC">Conference Room 1</td>
-						   </tr>
+							 <tr>
+									<th style="width:150px;">Time</th>
+									<th style="width:350px;" class="roomA">International Conference Hall (400 seats; live interpreters)</td>
+									<th style="width:350px;" class="roomB">Media Hall (100 seats; live interpreters)</td>
+									<th style="width:350px;" class="roomC">Conference Room 1</td>
+							 </tr>
 							<tr>
 								<th>9:00 - 10:00</th>
 								<td colspan="3">Breakfast</td>
@@ -602,26 +554,26 @@ layout: null
 		</section>
 
 <!--
-     <section class="sectionStyle5">
-      <header class="sectionHeadArea">
-        <h2 class="clearfix">
-          <span class="ttlSubLCenter">Call for Proposal</span>
-          <span class="ttlSubLLeft"><img src="img/common/ttl_dots_left.png"></span>
-          <span class="ttlSubLRight"><img src="img/common/ttl_dots_right.png"></span>
-        </h2>
-      </header>
-      <div class="sectionStyle1Inner">
-        <div class="txtBlock">
-          <p>&nbsp;</p>
-          <p>Come share your stories at Scala Matsuri 2016!</p>
-          <p>
+		 <section class="sectionStyle5">
+			<header class="sectionHeadArea">
+				<h2 class="clearfix">
+					<span class="ttlSubLCenter">Call for Proposal</span>
+					<span class="ttlSubLLeft"><img src="img/common/ttl_dots_left.png"></span>
+					<span class="ttlSubLRight"><img src="img/common/ttl_dots_right.png"></span>
+				</h2>
+			</header>
+			<div class="sectionStyle1Inner">
+				<div class="txtBlock">
+					<p>&nbsp;</p>
+					<p>Come share your stories at Scala Matsuri 2016!</p>
+					<p>
 We are looking for topics that you think Scala community would be interested. We have two session length: 40 minutes and 15 minutes. Prepare an abstract of your talk (600 characters or less), and submit your proposal. The sessions will be decided by votes by your fellow Matsuri goers. Travel support is also available for highly voted speakers (up to $2,000).
 </p>
-          <p>Please submit your proposal via <a href="/en/cfp/">Application Form</a>.This CFP will close on October 15th 00:00 JST.</p>
-          <p><a href="/en/candidates/">See proposal list so far.</a></p>
-        </div>
-      </div>
-    </section>
+					<p>Please submit your proposal via <a href="/en/cfp/">Application Form</a>.This CFP will close on October 15th 00:00 JST.</p>
+					<p><a href="/en/candidates/">See proposal list so far.</a></p>
+				</div>
+			</div>
+		</section>
 -->
 
 
@@ -633,7 +585,7 @@ We are looking for topics that you think Scala community would be interested. We
 					<span class="ttlSubLRight"><img src="img/common/ttl_dots_right.png"></span>
 				</h2>
 			</header>
-      <br/>
+			<br/>
 			<div>
 				<ul class="snsBtnArea snsBtnAreaMiddle clearfix">
 							<li><div class="fb-like" data-href="http://scalamatsuri.org/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false"></div></li>
@@ -759,5 +711,6 @@ We are looking for topics that you think Scala community would be interested. We
 
 	</div>
 	{% include ga.html %}
+	<div id="dialog_message"></div>
 </body>
 </html>

@@ -108,7 +108,7 @@ ninja:
     img: "/img/logo/zaneli.png"
   - title: MyFleetGirls
     href: "https://myfleet.moe"
-    img: "img/logo/MyFleetGirls_Banner.jpg"
+    img: "/img/logo/MyFleetGirls_Banner.jpg"
   - title: Hayashi Daisuke
     href: "https://twitter.com/hayasshi_"
-    img:  "img/logo/hayashi.png"
+    img:  "/img/logo/hayashi.png"

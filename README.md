@@ -98,6 +98,12 @@ organization: X
   img: "/img/logo/abc.png"
 ```
 
+logoが200x70ではなかった場合は、200x70に長辺を合わせ余白を白で塗りつぶす。Image Magickを使うと以下のコマンドで一発です。(jpgでも可)
+
+```
+convert -resize 200x70 -gravity center -background white -extent 200x70 input.png output.png
+```
+
 ### 求人情報追加方法
 
 `_jobs/` 以下に `(スポンサー名).md` を作り、求人情報を記載します。

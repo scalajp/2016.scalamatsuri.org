@@ -65,7 +65,7 @@ $(document).ready(function(){
   }
   var lastWidth = $(window).width();
   $(window).resize(function() {
-    var w = $(window).window();
+    var w = $(window).width();
     // scrolling causes resize events to occur on smart phones
     if (lastWidth !== w) {
       lastWidth = w;

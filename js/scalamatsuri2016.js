@@ -63,8 +63,14 @@ $(document).ready(function(){
       $(".roomA").show();
     }
   }
+  var lastWidth = $(window).width();
   $(window).resize(function() {
-    initSchedule();
+    var w = $(window).width();
+    // scrolling causes resize events to occur on smart phones
+    if (lastWidth !== w) {
+      lastWidth = w;
+      initSchedule();
+    }
   });
   initSchedule();
 });

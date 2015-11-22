@@ -1,13 +1,27 @@
 var scalamatsuri = scalamatsuri || {};
 
 scalamatsuri.displayDescription = function(id) {
+  var w = $(window).width() - 20;
+  var h = $(window).height() - 20;
+  if (w < 0) {
+    w = 10;
+  }
+  if (h < 0) {
+    h = 10;
+  }
+  if (w > 800) {
+    w = 800;
+  }
+  if (h > 600) {
+    h = 600;
+  }
   $("#dialog_message iframe").remove();
   $("#dialog_message").append(
     $("<iframe />").attr("src", "/" + lang + "/candidates/" + id + "/").addClass("schedule_desc")
   ).dialog({
     modal: true,
-    width: 800,
-    height: 600,
+    width: w,
+    height: h,
     buttons: {
       Ok: function() {
         $(this).dialog("close");

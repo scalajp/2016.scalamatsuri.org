@@ -29,7 +29,7 @@ The ScalaMatsuri staff will provide the translation, unless you speak both langu
 
 ## Submit your slides
 
-Please submit your slide decks by Dec 15. (It's ok to be late a bit)
+Please submit your slide decks by Dec 22 (Tue).
 
 ScalaMatsuri staff will provide the translation, and also check for Code of Conduct compliance.
 Since the translation will be done based on text, if you could submit a text file with all the texts along with your slide deck, it will be appreciated (like a lot)!

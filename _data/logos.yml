@@ -86,6 +86,9 @@ samurai:
   - title: GitBucket
     href: "https://github.com/gitbucket/gitbucket"
     img: "/img/logo/gitbucket.png"
+  - title: LINE
+    href: "http://linecorp.com/ja/"
+    img: "/img/logo/line.png"
 
 ninja:
   - title: daiksy

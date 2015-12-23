@@ -66,6 +66,9 @@ hatamoto:
   - title: nextbeat
     href: "http://www.nextbeat.co.jp/#nextbeat_top"
     img: "/img/logo/nextbeat_200x70_logo.jpg"
+  - title: Rakuten
+    href: "http://corp.rakuten.co.jp/careers/"
+    img: "/img/logo/E_Logo_Rakuten200_70.png"
 
 samurai:
   - title: Applicative

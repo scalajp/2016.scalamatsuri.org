@@ -121,3 +121,6 @@ ninja:
   - title: eiel
     href: "http://eiel.info/"
     img:  "/img/logo/himura.png"
+  - title: okumin
+    href: "https://github.com/okumin"
+    img:  "/img/logo/okumin.png"

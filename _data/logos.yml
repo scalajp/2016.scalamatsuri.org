@@ -69,6 +69,9 @@ hatamoto:
   - title: Rakuten
     href: "http://corp.rakuten.co.jp/careers/"
     img: "/img/logo/E_Logo_Rakuten200_70.png"
+  - title: FuRyu
+    href: "http://www.furyu.jp/"
+    logo: "/img/logo/furyu.jpg"
 
 samurai:
   - title: Applicative
@@ -92,6 +95,9 @@ samurai:
   - title: クラスメソッド株式会社
     href: "http://classmethod.jp/"
     img: "/img/logo/cmlogo_200_y70.jpg"
+  - title: AXELMARK
+    href: "http://www.axelmark.co.jp/"
+    img: "/img/logo/axelmark.png"
 
 ninja:
   - title: daiksy

@@ -71,7 +71,7 @@ hatamoto:
     img: "/img/logo/E_Logo_Rakuten200_70.png"
   - title: FuRyu
     href: "http://www.furyu.jp/"
-    logo: "/img/logo/furyu.jpg"
+    img: "/img/logo/furyu.jpg"
 
 samurai:
   - title: Applicative

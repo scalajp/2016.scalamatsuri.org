@@ -89,6 +89,9 @@ samurai:
   - title: LINE
     href: "http://linecorp.com/ja/"
     img: "/img/logo/line.png"
+  - title: クラスメソッド株式会社
+    href: "http://classmethod.jp/"
+    img: "/img/logo/cmlogo_200_y70.jpg"
 
 ninja:
   - title: daiksy

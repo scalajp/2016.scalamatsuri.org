@@ -1,7 +1,11 @@
 {% capture relative_path %}_candidates_en/{{include.id}}.html{% endcapture %}
 {% for candidate in site.candidates_en %}
   {% if candidate.relative_path == relative_path %}
-    <span class="session_title"><a href="javascript:void(0);" onclick="scalamatsuri.displayDescription('{{include.id}}');">{{ candidate.title }}</a></span>
+    <span class="session_title"><a href="javascript:void(0);" onclick="scalamatsuri.displayDescription('{{include.id}}',
+     (function() {/*
+<h1 class=\'session_title\'>{{ candidate.title }}</h1>
+<p>{{ candidate.content }}</p>
+*/}).toString().match(/(\{\/\*)([^]*)(\*\/\})/)[2].replace(/\n|\r/g, ''));">{{ candidate.title }}</a></span>
     <span class="session_name">
       {% if candidate.icon %}
         <img src="{{ candidate.icon }}" class="icon-mini">

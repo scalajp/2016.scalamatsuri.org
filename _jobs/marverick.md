@@ -1,5 +1,5 @@
 ---
-title: MARVERIK 
+title: MARVERICK 
 logo: "/img/logo/maverick.png"
 plan: shogun
 ---

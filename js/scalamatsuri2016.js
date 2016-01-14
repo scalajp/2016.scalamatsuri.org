@@ -9,11 +9,11 @@ scalamatsuri.displayDescription = function(id, raw) {
   if (h < 0) {
     h = 10;
   }
-  if (w > 800) {
-    w = 800;
+  if (w > 600) {
+    w = 600;
   }
-  if (h > 600) {
-    h = 600;
+  if (h > 400) {
+    h = 400;
   }
   $("#dialog_message #dialog_contents").remove();
   $("#dialog_message").append(

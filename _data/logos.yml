@@ -98,6 +98,9 @@ samurai:
   - title: AXELMARK
     href: "http://www.axelmark.co.jp/"
     img: "/img/logo/axelmark.png"
+  - title: atWare
+    href: "http://www.atware.co.jp"
+    img: "/img/logo/atware_logo_200x70.png"
 
 ninja:
   - title: daiksy

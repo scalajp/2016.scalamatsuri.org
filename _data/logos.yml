@@ -52,6 +52,9 @@ daimyo:
   - title: "nyle"
     href: "http://nyle.co.jp/"
     img: "/img/logo/nyle-logo_200_70.png"
+  - title: "geishatokyo"
+    href: "http://www.geishatokyo.com/"
+    img: "/img/logo/geishatokyo_logo_200x70.png"
 
 hatamoto:
   - title: "BizReach"

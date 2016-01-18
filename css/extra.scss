@@ -51,6 +51,15 @@ body {
 
 .main-container {
   padding-top: 4.5em;
+
+  // header offset for in page link
+  // ref. http://stackoverflow.com/a/28824157/339515
+  :target:before {
+    content:"";
+    display:block;
+    height: 100px; /* fixed header height*/
+    margin: -100px 0 0; /* negative fixed header height */
+  }
 }
 
 .mainFooter {

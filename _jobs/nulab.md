@@ -1,6 +1,6 @@
 ---
 title: "株式会社ヌーラボ"
-logo: "/img/logo/nulab"
+logo: "/img/logo/nulab.png"
 plan: samurai
 link: "https://nulab-inc.com/ja/blog/categories/development/?ref=scalamatsuri2016"
 linkTitle: "採用情報ページ" 

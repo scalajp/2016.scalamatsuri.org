@@ -104,6 +104,9 @@ samurai:
   - title: atWare
     href: "http://www.atware.co.jp"
     img: "/img/logo/atware_logo_200x70.png"
+  - title: nulab
+    href: "https://nulab-inc.com/"
+    img: "/img/logo/nulab.png"
 
 ninja:
   - title: daiksy

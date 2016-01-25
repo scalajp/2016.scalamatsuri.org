@@ -11,6 +11,7 @@
     {% case candidate.length %}
     {% when 15 %} 15分
     {% when 40 %} 40分
+    {% when 50 %} 50分
     {% endcase %}
   </dd>
 
@@ -19,6 +20,7 @@
     {% case candidate.language %}
     {% when 'Japanese' %} 日本語
     {% when 'English' %} 英語
+    {% when 'English/Japanese' %} 英語/日本語
     {% endcase %}
   </dd>
 
@@ -68,7 +70,7 @@
     {% if candidate.twitter %}
     <a href="https://twitter.com/{{ candidate.twitter }}">@{{ candidate.twitter }}</a>
     {% endif %}
-    <span class="session_details">{% if candidate.language == "Japanese" %}J{% else %}E{% endif %}{% if candidate.audience == "Beginner" %}+{% elsif candidate.audience == "Intermediate" %}++{% else %}+++{% endif %}
+    <span class="session_details">{% if candidate.language == "Japanese" %}J{% elsif candidate.language == "English" %}E{% else %}E/J{% endif %}{% if candidate.audience == "Beginner" %}+{% elsif candidate.audience == "Intermediate" %}++{% else %}+++{% endif %}
     </span>
   {% endif %}
 {% endfor %}

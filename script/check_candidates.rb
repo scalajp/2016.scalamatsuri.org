@@ -23,12 +23,12 @@ end
 
 def check_language(fm)
   l = fm['language']
-  "Invalid language: #{l}" unless %w(Japanese English).include?(l)
+  "Invalid language: #{l}" unless %w(Japanese English English/Japanese).include?(l)
 end
 
 def check_length(fm)
   l = fm['length']
-  "Invalid length: #{l}" unless [15, 40].include?(l)
+  "Invalid length: #{l}" unless [15, 40, 50].include?(l)
 end
 
 def check_audience(fm)

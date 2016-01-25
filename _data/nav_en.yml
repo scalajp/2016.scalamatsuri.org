@@ -8,13 +8,13 @@
   title: Schedule
 - href: "/index_en.html#tickets"
   title: Tickets
-# - href: "/index_en.html#sp"
-#   title: Sponsors
+- href: "/index_en.html#sp"
+  title: Sponsors
 - href: "/en/code-of-conduct/"
   title: Code of Conduct
 # - href: "/en/candidates/"
 #   title: Proposal List
-- href: "/en/sponsors/"
-  title: Sponsorship
+# - href: "/en/sponsors/"
+#   title: Sponsorship
 - href: "/en/travel/"
   title: Travel

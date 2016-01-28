@@ -747,6 +747,14 @@ layout: null
 						{% endfor %}
 					</ul>
 				</article>
+				<article class="spBox">
+					<h3 class="ttlspBox1 spLv6">瓦版スポンサー</h3>
+					<ul class="clearfix shuffle">
+						{% for logo in site.data.logos.kawaraban %}
+						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
+						{% endfor %}
+					</ul>
+				</article>
 			</div>
 		</section>
 

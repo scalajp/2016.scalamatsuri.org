@@ -148,3 +148,8 @@ ninja:
   - title: unit MSE
     href: "http://www.unit-mse.co.jp/"
     img:  "/img/logo/unit-mse.png"
+
+kawaraban:
+  - title: Togetter
+    href: "http://togetter.com/"
+    img:  "/img/logo/togetter200x70.png"

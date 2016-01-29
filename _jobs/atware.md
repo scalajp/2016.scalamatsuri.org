@@ -2,7 +2,7 @@
 title: "株式会社アットウェア"
 logo: "/img/logo/atware_logo_200x70.png"
 plan: samurai
-link: http://www.atware.co.jp
+link: https://www.wantedly.com/projects/42458
 ---
 アットウェアは「システムで人々をしあわせにする」を目指している、横浜みなとみらいにある社員40人ほどの小さなSIerです。Javaを利用したメインに小規模の開発から、ユーザ数やトラフィックや開発規模など観点はそれぞれですが、大規模と言われるシステムの案件に携わっています。
 

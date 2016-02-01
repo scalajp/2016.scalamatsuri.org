@@ -31,44 +31,48 @@ scalamatsuri.displayDescription = function(id, raw) {
 }
 
 $(document).ready(function(){
+  var i, maxRoom=6;
+
+  function roomClass(i) {
+    var room = String.fromCharCode("A".charCodeAt(0) + i);
+    return ".room" + room;
+  }
+
+  function btnClass(i) {
+    var btn = i + 1;
+    return ".btn" + btn + "space";
+  }
+
   $(".gnavSmClick").click(function(){
     $(".smVerGnav").slideToggle();
   });
 
-  $(".btn1space").click(function(){
-    resetTable();
-    $(".roomA").show();
-    $(this).addClass("onNavLink");
-  });
-
-  $(".btn2space").click(function(){
-    resetTable();
-    $(".roomB").show();
-    $(this).addClass("onNavLink");
-  });
-
-  $(".btn3space").click(function(){
-    resetTable();
-    $(".roomC").show();
-    $(this).addClass("onNavLink");
-  });
+  for (i = 0; i < maxRoom; i++) {
+    (function(j) {
+      $(btnClass(j)).click(function(){
+        resetTable();
+        $(roomClass(j)).show();
+        $(this).addClass("onNavLink");
+      });
+    })(i);
+  }
 
   function resetTable(){
-    $(".btn1space").removeClass("onNavLink");
-    $(".btn2space").removeClass("onNavLink");
-    $(".btn3space").removeClass("onNavLink");
-    $(".roomA").hide();
-    $(".roomB").hide();
-    $(".roomC").hide();
+    var i;
+    for (i = 0; i < maxRoom; i++) {
+      $(btnClass(i)).removeClass("onNavLink");
+      $(roomClass(i)).hide();
+    }
   }
 
   function initSchedule(){
+    var room;
     if ($(document).width() >= 1024) {
       $('.day1roomswitch').hide();
       $('.day2roomswitch').hide();
-      $(".roomA").show();
-      $(".roomB").show();
-      $(".roomC").show();
+      for (i = 0; i < maxRoom; i++) {
+        $(roomClass(i)).show();
+      }
     } else {
       resetTable();
       $('.day1roomswitch').show();

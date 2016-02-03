@@ -1,0 +1,25 @@
+# メンバー毎に次の内容を埋めます。
+# いずれも optional です。
+#
+# nameJa: 日本語名
+# nameEn: 英語名
+# handle: ハンドルネーム
+# twitter: twitter アカウント名
+# github: github アカウント名
+# gravatar: gravatar メールアドレスのハッシュ。
+#   gravatar 登録後、
+#   https://ja.gravatar.com/site/check/ここにメールアドレス
+#   から確認可能。
+
+# 運営メンバー
+member:
+  - nameJa: 河内 崇
+    nameEn: Takashi Kawachi
+    handle: kawachi
+    twitter: kawachi
+    github: kawachi
+    gravatar: 35ea8f83cd8d191f834c69a5481613e9
+    note: PR担当
+
+# 当日ボランティアスタッフ
+volunteer:

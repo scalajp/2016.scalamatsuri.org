@@ -257,11 +257,6 @@ volunteer:
     note: "タイムキーパー"
     noteEn: "Time keeper"
 
-  - nameJa: 福島 健太
-    nameEn: Kenta Fukushima
-    note: "タイムキーパー"
-    noteEn: "Time keeper"
-
   - nameJa: 河野 文弥
     nameEn: Fumiya Kohno
     note: "タイムキーパー"
@@ -292,14 +287,8 @@ volunteer:
     note: "食事"
     noteEn: "Catering help"
 
-  - nameJa: ほつた
-    nameEn: hotu_ta
+  - handle: ほつた
     twitter: hotu_ta
-    note: "食事"
-    noteEn: "Catering help"
-
-  - nameJa: 澁谷 海渡
-    nameEn: Kaito Shibuya
     note: "食事"
     noteEn: "Catering help"
 
@@ -343,24 +332,26 @@ volunteer:
     note: "受付"
     noteEn: "Reception"
 
-  - nameEn: Yuta Morioka
+  - handle: KeeKun
+    twitter: kee_kun
+    github: keekun
+    gravatar: 849025cc95c630627b5f394a7923f506
+    note: 受付を担当しました
+
+  - nameJa: 川口将司（趙将司）
+    nameEn: Cho Jang Sa
+    handle: gute
     note: "受付"
     noteEn: "Reception"
 
-  - nameEn: Cheung Chifung
+  - nameJa: 渡辺圭哉
+    nameEn: Watanabe Keiya
+    handle: ohgiwk
     note: "受付"
     noteEn: "Reception"
 
-  - nameEn: gute.ist.tot
-    note: "受付"
-    noteEn: "Reception"
+  - nameJa: 市川悠人
+    nameEn: Yuto Ichikawa
+    note: "タイムキーパー"
+    noteEn: "Time keeper"
 
-  - nameJa: 板敷 奈緒
-    nameEn: Nao Itajiki
-    note: "受付"
-    noteEn: "Reception"
-
-  - nameJa: 高橋 佳那
-    nameEn: Kana Takahashi
-    note: "受付"
-    noteEn: "Reception"

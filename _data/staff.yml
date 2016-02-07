@@ -69,7 +69,7 @@ member:
     noteEn: "Ticketing, Reception, Questionnaire"
 
   - nameJa: 青山 直紀
-    nameJa: Naoki Aoyama
+    nameEn: Naoki Aoyama
     handle: aoiroaoino
     twitter: aoiroaoino
     github: aoiroaoino
@@ -127,7 +127,7 @@ member:
     note: "広報"
     noteEn: "PR"
 
-  - nameJa: 鷹雄　健
+  - nameJa: 鷹雄 健
     nameEn: Ken Takao
     handle: aqusee
     twitter: takaoken
@@ -196,7 +196,7 @@ member:
     note: "CfP翻訳、タイムキーパー"
     noteEn: "CFP translations, Time keeper"
 
-  - nameJa: 田中　翔
+  - nameJa: 田中 翔
     nameEn: Sho Tanaka
     handle: tsho
     twitter: tshowis
@@ -315,12 +315,11 @@ volunteer:
     note: "受付"
     noteEn: "Reception"
 
-  - nameJa: tkqubo
-    handle: tkqubo
+  - nameEn: tkqubo
     twitter: tkqubo
     github: tkqubo
     gravatar: d751b9d686282548311d3c61b14292e2
-    note: "受付など"
+    note: "受付"
     noteEn: "Reception"
 
   - nameJa: 渡辺 圭哉

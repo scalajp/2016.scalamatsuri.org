@@ -15,14 +15,352 @@
 
 # 運営メンバー
 member:
+  - nameJa: 麻植 泰輔
+    nameEn: Taisuke Oe
+    twitter: OE_uia
+    github: taisukeoe
+    gravatar: 25fb3e7054e52e524817044853c2d4c3
+    note: "組織運営・広報リーダー"
+    noteEn: "Management lead"
+
+  - nameJa: 竹下 義晃
+    nameEn: Yoshiteru Takeshita
+    handle: takezoux2
+    twitter: takezoux2
+    github: takezoux2
+    gravatar: 5e1313c5d1166060f2e2ca677b4e40da
+    note: "企画チームリーダー"
+    noteEn: "Planning team lead"
+
+  - nameJa: 岡本 雄太
+    nameEn: OKAMOTO Yuta
+    handle: okapies
+    twitter: okapies
+    github: okapies
+    gravatar: ef45a84b10aa3cb5acd2ea0c9846bd3b
+    note: "翻訳チームリーダー"
+    noteEn: "Translations team lead"
+
+  - nameJa: 長阪 卓哉
+    nameEn: Takuya Nagasaka
+    handle: takuya71
+    twitter: takuya71
+    github: takuya71
+    gravatar: f51938c496cc6de4c30037e2ba104939
+    note: "会場チームリーダー"
+    notesEn: "Venue team leader"
+
   - nameJa: 河内 崇
     nameEn: Takashi Kawachi
     handle: kawachi
     twitter: kawachi
     github: tkawachi
     gravatar: 35ea8f83cd8d191f834c69a5481613e9
-    note: PR担当
+    note: "広報"
     noteEn: PR
+
+  - nameJa: 堀内 紀彰
+    nameEn: Noriaki Horiuchi
+    handle: NoriakiHoriuchi
+    twitter: NoriakiHoriuchi
+    github: NoriakiHoriuchi
+    gravatar: d433f997353167f84c13db6829b2220e
+    note: "チケット、受付、アンケート"
+    noteEn: "Ticketing, Reception, Questionnaire"
+
+  - nameJa: 青山 直紀
+    nameJa: Naoki Aoyama
+    handle: aoiroaoino
+    twitter: aoiroaoino
+    github: aoiroaoino
+    note: "ノベルティ、受け付け"
+    noteEn: "Swag items, Reception"
+
+  - nameJa: 中村 学
+    nameEn: Manabu Nakamura
+    handle: gakuzzzz (がくぞ)
+    github: gakuzzzz
+    twitter: gakuzzzz
+    note: "CoC, CFP"
+    noteEn: "CoC, CFP"
+
+  - nameEn: Eugene Yokota
+    handle: eed3si9n
+    twitter: eed3si9n
+    github: eed3si9n
+    gravatar: 8f41595db400be30176f6f04630c2842
+    note: "翻訳, CFP, Tシャツ, CoC など"
+    noteEn: "Translations, CFP, T-shirt, and CoC"
+
+  - nameJa: 岩永 賢明
+    nameEn: Yoshiaki Iwanaga
+    handle: kiris
+    twitter: kiris
+    github: kiris
+    gravatar: 334197d83eb7c22976ca49627be20019
+    note: "プログラム&ConfOps"
+    noteEn: "Programs and Operations"
+
+  - nameJa: 玉置 龍範
+    nameEn: Tatasunori Tamaki
+    handle: Tamanichenko
+    twitter: qtamaki
+    github: qtamaki
+    gravatar: bbe6c1410c58d259115bc271b5694f96
+    note: "カメラマンとゴミ回収と提灯"
+    noteEn: "Camera, Sanitation, and Lantern"
+
+  - nameJa: grimrose
+    nameEn: grimrose
+    handle: grimrose
+    twitter: grimrose
+    github: grimrose
+    gravatar: afef2fcf56cef5e90af94a1640d95fbc
+    note: "広報、スポンサー"
+    noteEn: "PR, Sponsorship"
+
+  - nameJa: 茅野 祥子
+    nameEn: Shoko Kayano
+    handle: kayano-shoko
+    twitter: shokotachocota
+    github: kayano-shoko
+    note: "広報"
+    noteEn: "PR"
+
+  - nameJa: 鷹雄　健
+    nameEn: Ken Takao
+    handle: aqusee
+    twitter: takaoken
+    github: ken-takao
+    gravatar: 713fcfc0950c4051dfd65e70fbae4d3a
+    note: "WiFiのネットワーク"
+    noteEn: "Wifi network"
+
+  - nameJa: 篠原 航
+    nameEn: shinohara wataru
+    handle: wshino
+    github: wshino
+    gravatar: f4a94c818da7c943420763ba0541d0cf
+    note: "食事"
+    noteEn: "Catering planning"
+
+  - nameJa: 国平 清貴
+    nameEn: Kiyotaka Kunihira
+    handle: Kuchitama
+    twitter: kuchitama
+    github: Kuchitama
+    gravatar: 4ce1f421906bcd2fb91d9d567c0ee1fa
+    note: "ホテル手配"
+    noteEn: "Hotel planning"
+
+  - nameJa: 水島 宏太
+    nameEn: Kota Mizushima
+    handle: kmizu
+    twitter: https://twitter.com/kmizu
+    github: https://github.com/kmizu
+    gravatar: 0cd46aa475288438b0b7f214b74321e3
+    note: "ニコ生担当との中継役等"
+    noteEn: "Niconico Live liaison"
+
+  - nameJa: 粕谷 大輔
+    nameEn: Daisuke Kasuya
+    handle: daiksy
+    twitter: daiksy
+    github: daiksy
+    gravatar: f9e11bea0c22333596791dd0696f5d4f
+    note: "A会場司会・プレスリリース配信"
+    noteEn: "MC, Press release"
+
+  - nameJa: 竹井 成和
+    nameEn: Shigekazu Takei
+    handle: takei-shg
+    twitter: taketon_
+    github: takei-shg
+    note: "翻訳、司会"
+    noteEn: "Translations, MC"
+
+  - nameJa: 木村 宗太郎
+    nameEn: Kimura Sotaro
+    handle: kimutansk
+    twitter: kimutansk
+    github: kimutansk
+    gravatar: 5d869b93035410ece41ff0d86d8c5c14
+    note: "翻訳"
+    noteEn: "Translations"
+
+  - nameJa: 田中 豪
+    nameEn: Go Tanaka
+    twitter: tan_go238
+    github: tango238
+    gravatar: 5b166f1b11885f1b0168aa14adda7428
+    note: "CfP翻訳、タイムキーパー"
+    noteEn: "CFP translations, Time keeper"
+
+  - nameJa: 田中　翔
+    nameEn: Sho Tanaka
+    handle: tsho
+    twitter: tshowis
+    github: tsho
+    gravatar: 7c8e0122d7029490dcd9b2171811771d
+    note: "SNS管理、翻訳、司会"
+    noteEn: "SNS management, Translations, MC"
+
+  - nameJa: 前出 祐吾
+    nameEn: Yugo Maede
+    handle: yugolf
+    twitter: yugolf
+    github: yugolf
+    note: "会場"
+    noteEn: "Venue"
+
+  - nameJa: 島田 慶樹
+    nameEn: SHIMADA Keiki
+    handle: shimada
+    twitter: _shimada
+    github: kkismd
+    gravatar: 48aece312d12d4d0047d671128acea0b
+    note: "司会、雑用"
+    noteEn: "MC"
+
+  - nameJa: 竹本 哲郎
+    nameEn: Tetsuro Takemoto
+    twitter: Pikaho
+    github: Tetz
+    note: "コーヒー豆の買い出し。甘酒の配布。"
+    noteEn: "Coffee beans and amazake"
+
+  - nameJa: 大村 伸吾
+    nameEn: Shingo Omura
+    handle: everpeace
+    twitter: everpeace
+    github: everpeace
+
+  - nameJa: 岡田 遥来
+    nameEn: Haruki Okada
+    handle: ocadaruma
+    twitter: ocadaruma
+    github: ocadaruma
 
 # 当日ボランティアスタッフ
 volunteer:
+
+  - nameJa: 山口 泰寛
+    nameEn: Yamaguchi Taikan
+    note: "タイムキーパー"
+    noteEn: "Time keeper"
+
+  - nameEn: Sanshiro Yoshida
+    handle: halcat0x15a
+    twitter: halcat0x15a
+    github: halcat0x15a
+    gravatar: 17a18874fe3965615d2808bf848a9f3f
+    note: "タイムキーパー"
+    noteEn: "Time keeper"
+
+  - nameJa: 福島 健太
+    nameEn: Kenta Fukushima
+    note: "タイムキーパー"
+    noteEn: "Time keeper"
+
+  - nameJa: 河野 文弥
+    nameEn: Fumiya Kohno
+    note: "タイムキーパー"
+    noteEn: "Time keeper"
+
+  - nameJa: 遠藤 太徳
+    nameEn: Endo Futoshi
+    handle: F_endo
+    github: Fendo181
+    note: "タイムキーパー、食事の列整理"
+    noteEn: "Time keeper"
+
+  - nameJa: 市川 悠人
+    nameEn: Yuto Ichikawa
+    twitter: ahneahneahne
+    note: "タイムキーパー"
+    noteEn: "Time keeper"
+
+  - nameJa: 長尾 貴浩
+    nameEn: Takahiro Nagao
+    handle: tnagao7
+    twitter: tnagao7
+    note: "食事"
+    noteEn: "Catering help"
+
+  - nameJa: 川崎 達平
+    nameEn: Tappei Kawasaki
+    note: "食事"
+    noteEn: "Catering help"
+
+  - nameJa: ほつた
+    nameEn: hotu_ta
+    twitter: hotu_ta
+    note: "食事"
+    noteEn: "Catering help"
+
+  - nameJa: 澁谷 海渡
+    nameEn: Kaito Shibuya
+    note: "食事"
+    noteEn: "Catering help"
+
+  - nameJa: とく
+    nameEn: Toku
+    twitter: CS_Toku
+    note: "食事"
+    noteEn: "Catering help"
+
+  - nameJa: 高橋 弘至
+    nameEn: Takahashi Hiroyoshi
+    handle: t-hiroyoshi
+    twitter: t_hiroyoshi
+    github: t-hiroyoshi
+    gravatar: 1b406218d7547166c31e7a9789eb3f46
+    note: "食事"
+    noteEn: "Catering help"
+
+  - nameJa: 福原 絵香
+    nameEn: FUKUHARA Eka
+    handle: メイ
+    twitter: SHEOGUES
+    note: "受付"
+    noteEn: "Reception"
+
+  - nameJa: tkqubo
+    handle: tkqubo
+    twitter: tkqubo
+    github: tkqubo
+    gravatar: d751b9d686282548311d3c61b14292e2
+    note: "受付など"
+    noteEn: "Reception"
+
+  - nameJa: 渡辺 圭哉
+    nameEn: Keiya Watanabe
+    note: "受付"
+    noteEn: "Reception"
+
+  - nameJa: 入澤 賢
+    nameEn: Masaru Irisawa
+    note: "受付"
+    noteEn: "Reception"
+
+  - nameEn: Yuta Morioka
+    note: "受付"
+    noteEn: "Reception"
+
+  - nameEn: Cheung Chifung
+    note: "受付"
+    noteEn: "Reception"
+
+  - nameEn: gute.ist.tot
+    note: "受付"
+    noteEn: "Reception"
+
+  - nameJa: 板敷 奈緒
+    nameEn: Nao Itajiki
+    note: "受付"
+    noteEn: "Reception"
+
+  - nameJa: 高橋 佳那
+    nameEn: Kana Takahashi
+    note: "受付"
+    noteEn: "Reception"

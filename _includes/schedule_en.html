@@ -72,5 +72,10 @@
     {% endif %}
     <span class="session_details">{% if candidate.language == "Japanese" %}J{% elsif candidate.language == "English" %}E{% else %}E/J{% endif %}{% if candidate.audience == "Beginner" %}+{% elsif candidate.audience == "Intermediate" %}++{% else %}+++{% endif %}
     </span>
+    <div>
+      {% if candidate.youtube %}
+      {% include youtube.html url=candidate.youtube %}
+      {% endif %}
+    </div>
   {% endif %}
 {% endfor %}
